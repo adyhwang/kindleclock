@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>Kindleclock</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+    <style>
+        .body {
+            margin: 0;
+            width: 100%;
+        }
+
+        .divider {
+            text-align: center;
+        }
+
+        .container {
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .col {
+            position: relative;
+            min-height: 20px;
+            cursor: pointer;
+        }
+
+        .divider-wrapper {
+            width: 100%;
+            height: 180px;
+            margin-top: 5px;
+        }
+
+        .divleft {
+            margin: 15px 0 0 0;
+            height: 150px;
+            float: left;
+            width: 25%;
+        }
+
+        .divright {
+            margin: 10px 0 0 25px;
+            height: 150px;
+            text-align: left;
+            float: left;
+            width: 62%;
+        }
+
+        .image {
+            height: 100%;
+            max-height: 150px;
+        }
+
+        .div-title {
+            display: block;
+            font-size: 1.3em;
+            margin: 5px 0 5px 0;
+            font-weight: bold;
+        }
+
+        .divider-info {
+            font-size: 0.5rem;
+        }
+
+        .u {
+            text-decoration: underline
+        }
+    </style>
+</head>
+
+<body class="body" id="body">
+    <div class="divider">
+        <div class="container" id="container">
+
+        </div>
+    </div>
+</body>
+
+<!-- <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/lrsjng.jquery-qrcode/0.17.0/jquery-qrcode.min.js"></script> -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-qrcode-0.17.0.min.js"></script>
+<script>
+    const mlist = [
+        { mid: 1, CharCode: 'q', title: '泡面助手', html: 'countdown.html?rotate=0', background: '#65DBDA', image: 'template3.png', info: '就是个倒计时，提醒你吃泡面' },
+
+        { mid: 2, CharCode: 'w', title: '豆瓣电影时钟', html: 'doubantop250.html?rotate=0', background: '#7CD4F2', image: 'template.png', info: '数据爬自豆瓣电影TOP250，非实时榜单<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 图片 ”或者按键“ r ”-->更新Top250上一名电影<br />点击“ 片名 ”或者按键“ i ”-->输入并跳转电影排名<br />点击“ 电影简介 ”或者按键“ s ”-->显示“完整信息”<br />点击或扫描“ 二维码 ”-->跳转豆瓣电影' },
+        { mid: 3, CharCode: 'e', title: '豆瓣电影日历2022', html: 'doubancalendar.html?id=DoubanAlbum2022&rotate=0', background: '#7CD4F2', image: 'template2.png', info: '仿豆瓣电影日历。<br />根据当前日期调用“豆瓣电影历2022”的电影信息。<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 电影信息 ”或者按键“ s ”-->显示“完整信息”<br />点击或扫描“ 二维码 ”-->跳转豆瓣电影' },
+        { mid: 4, CharCode: 't', title: '豆瓣电影日历2021', html: 'doubancalendar.html?id=DoubanAlbum2021&rotate=0', background: '#7CD4F2', image: 'template2.png', info: '仿豆瓣电影日历。<br />根据当前日期调用“豆瓣电影历2021”的电影信息。<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 电影信息 ”或者按键“ s ”-->显示“完整信息”<br />点击或扫描“ 二维码 ”-->跳转豆瓣电影' },
+        { mid: 5, CharCode: 'y', title: '豆瓣电影日历2020', html: 'doubancalendar.html?id=DoubanAlbum2020&rotate=0', background: '#7CD4F2', image: 'template2.png', info: '仿豆瓣电影日历。<br />根据当前日期调用“豆瓣电影历2020”的电影信息。<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 电影信息 ”或者按键“ s ”-->显示“完整信息”<br />点击或扫描“ 二维码 ”-->跳转豆瓣电影' },
+
+
+        { mid: 6, CharCode: 'u', title: '历史上的今天', html: 'today.html?rotate=0', background: '#21ECED', image: 'template2.png', info: 'bing今日壁纸和历史上的今天<br />来自Kate·Api和百度百科api<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 历史上的今天 ”或者按键“ s ”-->显示“完整信息”' },
+        { mid: 7, CharCode: 'i', title: '美食时钟', html: 'food.html?rotate=0', background: '#F2CF6F', image: 'template.png', info: '数据爬自豆瓣<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 图片 ”或者按键“ r ”-->更新上一道美食<br />点击“ 电影信息 ”或者按键“ s ”-->显示“完整信息”<br />点击或扫描“ 二维码 ”-->跳转当前美食固定url' },
+        { mid: 8, CharCode: 'o', title: '金山词霸每日一句', html: 'iciba.html?rotate=0', background: '#88F296', image: 'template2.png', info: '金山词霸每日一句<br />来自Kate·Api<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”' },
+
+    ];
+    
+    var divtemple = "<div class='col'><div class='divider-wrapper' onclick=\"window.open('@html@','_self')\" style='background: @background@;border-style: solid' ><div class='divleft'><img id='image' class='image' alt='Loading...' mode='aspectFill' src='@image@'></div><div class='divright'><div class='div-title'>@title@(<u>@CharCode@</u>)</div><div class='divider-info'>@info@</div></div></div></div>"
+    var rotate = 0
+    containerreplace()
+
+    $(document).keypress(function (e) {
+        // console.info(e.keyCode + "-" + String.fromCharCode(e.keyCode))
+
+        for (var i = 0; i < mlist.length; i++) {
+            if (String.fromCharCode(e.keyCode) == mlist[i].CharCode) {
+                window.open(mlist[i].html, '_self')
+            }
+
+        }
+        switch (e.keyCode) {
+            case 120: //x
+            case 122: //z
+                rotatefunction()
+                break;
+            default:
+                break;
+        }
+
+    })
+
+    function containerreplace() {
+
+        var containerdiv = ""
+        for (var i = 0; i < mlist.length; i++) {
+
+            // for (const key in mlist[i]) {            
+            //     var a = "@" + key + "@"
+            //     temp = temp.replace(a,mlist[i][key])
+            // }
+
+            var temp = divtemple.replace("@CharCode@", mlist[i].CharCode).replace("@title@", mlist[i].title).replace("@html@", mlist[i].html).replace("@background@", mlist[i].background).replace("@image@", mlist[i].image).replace("@info@", mlist[i].info)
+
+            containerdiv = containerdiv + temp
+        }
+        $(container).html(containerdiv);
+    }
+
+    function rotatefunction() {
+        if (rotate) {
+            $('#body').css('transform', '');
+            $('#body').css('-webkit-transform', '');
+            $('#body').css('-moz-transform', '');
+            $('#body').css('-o-transform', '');
+            $('#body').css('-ms-transform', '');
+            rotate = 0
+            for (var i = 0; i < mlist.length; i++) {
+                var temp = mlist[i]
+                temp.html = temp.html.replace("rotate=1", "rotate=0")
+                mlist.splice(i, temp);
+            }
+        }
+        else {
+            $('#body').css('transform', 'rotate(180deg)');
+            $('#body').css('-webkit-transform', 'rotate(180deg)');
+            $('#body').css('-moz-transform', 'rotate(180deg)');
+            $('#body').css('-o-transform', 'rotate(180deg)');
+            $('#body').css('-ms-transform', 'rotate(180deg)');
+            rotate = 1
+            for (var i = 0; i < mlist.length; i++) {
+                var temp = mlist[i]
+                temp.html = temp.html.replace("rotate=0", "rotate=1")
+                mlist.splice(i, temp);
+            }
+        }
+        containerreplace()
+    }
+
+
+</script>
+
+</html>

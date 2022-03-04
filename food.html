@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <title>Kindleclock</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="shortcut icon" href="favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+  <style>
+    @font-face {
+      font-family: 'LED';
+      src: url('js/DS-Digital.TTF');
+    }
+
+    .body {
+      /* position: fixed; */
+      margin: 0px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .col-top-left {
+      font-size: 0.8rem;
+      float: left;
+      position: relative;
+      min-height: 1px;
+      padding-right: 1px;
+      padding-left: 1px;
+    }
+
+    .col-top-right {
+      font-size: 0.8rem;
+      float: right;
+      position: relative;
+      min-height: 1px;
+      padding-right: 1px;
+      padding-left: 1px;
+    }
+
+
+    .day {
+      font-family: LED;
+      /* height: 100%;
+      width: 100%; */
+      text-align: center;
+      font-size: 10rem;
+      /* font-weight: 700; */
+    }
+
+    .divbottom {
+      width: 100%;
+      background-color: white;
+      z-index: 999;
+      /* position: absolute; */
+      bottom: 0;
+      margin: 0px 1px 0px 1px;
+      text-align: center;
+    }
+
+    .bottomleft {
+      width: 45%;
+      height: 100%;
+      float: left;
+
+    }
+
+    .bottomright {
+      height: 100%;
+      float: right;
+    }
+
+    .title {
+      text-align: left;
+      font-weight: 600;
+      font-size: 1.5rem;
+      margin: 0.3rem;
+    }
+
+    .content {
+      text-align: left;
+      margin: 0.1rem;
+      font-size: 0.8rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+
+    .mobile_qr {
+
+      text-align: center
+    }
+
+    .image {
+      width: 100%;
+      max-width: 300px;
+    }
+  </style>
+</head>
+
+<body id="body" class="body">
+  <div id="divtop" class="divtop">
+    <div class="col-top-left ">
+      <div id="yearmonthday" class="text-left"></div>
+    </div>
+    <div class="col-top-right ">
+      <div id="lunar" class="text-right"></div>
+    </div>
+    <div id="day" class="day"></div>
+  </div>
+
+  <div id="divbottom" class="divbottom">
+    <div id="bottomleft" class="bottomleft">
+      <img id="image" class="image" alt="无图片或无法载入图片..." mode="aspectFill" src="" referrerPolicy="no-referrer">
+    </div>
+
+    <div id="bottomright" class="bottomright">
+      <div id="title" class="title"></div>
+
+      <div id="content" class="content"></div>
+
+      <div id="mobile_qr" class="mobile_qr"></div>
+
+    </div>
+  </div>
+
+</body>
+<!-- <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/lrsjng.jquery-qrcode/0.17.0/jquery-qrcode.min.js"></script> -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-qrcode-0.17.0.min.js"></script>
+<script src="js/ConvertCalendar.js"></script>
+
+
+<script>
+
+  (function ($) {
+    $.getUrlParam = function (name) {
+      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+      var r = window.location.search.substr(1).match(reg);
+      if (r != null) return unescape(r[2]); return null;
+    }
+  })(jQuery);
+
+  $(document).ready(function () {
+    $(document).mousemove(function () {
+      $('#body').css({ cursor: 'default' });
+    });
+  });
+
+  var showtime = true
+  var showmore = false
+  var idlength = 459
+  var random = $.getUrlParam('id')
+  var rotate = parseInt($.getUrlParam('rotate'))
+
+  rotatefunction()
+
+  $("#bottomright").css("width", "53%")
+  $("#content").css("-webkit-line-clamp", "10")
+  $("#body").css("position", "fixed")
+  $("#divbottom").css("position", "absolute")
+
+
+  update()
+  setInterval("update()", 1 * 60 * 1000)
+
+  function update() {
+    $('#body').css({ cursor: 'none' });
+
+    var date = new Date()
+    var utc8DiffMinutes = date.getTimezoneOffset() + 480
+    date.setMinutes(date.getMinutes() + utc8DiffMinutes)
+
+
+    var hour = date.getHours()
+    hour = hour < 10 ? '0' + hour : hour
+    var Minutes = date.getMinutes()
+    Minutes = Minutes < 10 ? '0' + Minutes : Minutes
+    var timeString = hour + ':' + Minutes
+    var yearString = date.getFullYear()
+    var monthString = date.getMonth() + 1
+    var dayString = date.getDate()
+
+    var _todaylunarjson = calendar.solar2lunar(yearString, monthString, dayString);
+
+    //公历
+    var _today = "　" + yearString + "年" + monthString + "月" + dayString + "日" + " " + _todaylunarjson.ncWeek + " " + _todaylunarjson.astro
+    //农历
+    var _todaylunar = "农历" + _todaylunarjson.gzYear + _todaylunarjson.Animal + "年 " + _todaylunarjson.IMonthCn + _todaylunarjson.IDayCn + "　"
+
+    if (showtime) {
+      $("#day").html(timeString)
+    } else {
+      $("#day").html(dayString)
+    }
+
+    if ($("#yearmonthday").html().indexOf(_today) != 0) {
+      $("#yearmonthday").html(_today)
+      $("#lunar").html(_todaylunar)
+      switch (random) {
+        case null:
+          random = Math.ceil(Math.random() * idlength)
+          get_data(random)
+          break
+        case -1:
+          previousid()
+          break;
+        default:
+          get_data(random)
+          break
+      }
+
+    }
+  }
+
+  function get_data(random) {
+
+
+    $.getScript("js/Food.js")
+      .done(function () {
+        var json = jsonstr.list
+        
+        idlength = json.length
+        var title = json[random].title //标题
+
+        var reg = new RegExp("\r\n", "g");//g,表示全部替换
+        var content = json[random].content.replace(reg, "<br/>") //内容
+
+
+        var image = "https://images.weserv.nl/?url=" + json[random].imageurl //海报       384x528
+        //var image = json[random].photo //海报       384x528
+        //var image = "/images/food/" + json[random].title + ".jpg" //海报       384x528
+
+        $("#image").attr("src", '')
+        $("#title").html(title)
+
+        $("#content").html(content)
+
+        $("#image").attr("src", image)
+
+        var thisurl = window.location.href
+        if (thisurl.indexOf("?") > -1) {
+          thisurl = thisurl.substring(0, thisurl.indexOf("?"))
+        }
+        thisurl = thisurl + "?id=" + random
+        $("#mobile_qr").html("")
+        $("#mobile_qr").qrcode({   //二维码
+          render: "canvas",
+          width: 50,
+          height: 50,
+          text: thisurl
+        });
+        $("#mobile_qr").children("canvas").css("width", "100px");
+        $('#mobile_qr').unbind("click"); //移除click
+        $('#mobile_qr').click(function () {
+          window.open(thisurl, "_blank");
+        });
+
+        
+      })
+      .fail(function () {
+        
+      });
+
+  }
+
+  function previousid() {
+    random = parseInt(random)
+    if (random > 0) {
+      random = random - 1
+    }
+    else {
+      random = idlength - 1
+    }
+    get_data(random)
+  }
+
+  function showtimefunction() {
+    if (showtime) {
+      showtime = false;
+    }
+    else {
+      showtime = true;
+    }
+
+    update()
+  }
+
+  function showmorefunction() {
+    if (showmore) {
+      $("#bottomleft").show()
+      $("#bottomright").css("width", "53%")
+      $("#content").css({ "-webkit-line-clamp": "10", "margin-left": "0.2rem" })
+      showmore = false;
+    }
+    else {
+      $("#bottomleft").hide()
+      $("#bottomright").css("width", "")
+      $("#content").css("-webkit-line-clamp", "")
+      showmore = true;
+    }
+
+  }
+  function rotatefunction() {
+    if (rotate) {
+      $('#body').css('transform', 'rotate(180deg)');
+      $('#body').css('-webkit-transform', 'rotate(180deg)');
+      $('#body').css('-moz-transform', 'rotate(180deg)');
+      $('#body').css('-o-transform', 'rotate(180deg)');
+      $('#body').css('-ms-transform', 'rotate(180deg)');
+      rotate = 0
+
+    }
+    else {
+      $('#body').css('transform', '');
+      $('#body').css('-webkit-transform', '');
+      $('#body').css('-moz-transform', '');
+      $('#body').css('-o-transform', '');
+      $('#body').css('-ms-transform', '');
+      rotate = 1
+    }
+  }
+  ///////
+  $('#divtop').click(function () {
+    rotatefunction()
+  });
+  $('#bottomright').click(function () {
+    showmorefunction()
+  });
+  $('#day').click(function () {
+    showtimefunction()
+  });
+  $('#image').click(function () {
+    previousid()
+  });
+
+  ///////  
+
+  $(document).keypress(function (e) {
+    switch (e.keyCode) {
+      case 100: //d
+        showtimefunction()
+        break;
+      case 114: //r
+        previousid()
+        break;
+      case 115: //s
+        showmorefunction()
+        break;
+      case 120: //x
+      case 122: //z
+        rotatefunction()
+        break;
+      default:
+        break;
+    }
+
+  })
+
+</script>
+
+</html>
