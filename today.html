@@ -199,7 +199,7 @@
     var monthString = date.getMonth() + 1
     var monthsString = monthString < 10 ? '0' + monthString : monthString
     var dayString = date.getDate()
-    var daysString = dayString.length == 1  ? '0' + dayString : dayString
+    var daysString = dayString < 10  ? '0' + dayString : dayString
 
     var _todaylunarjson = calendar.solar2lunar(yearString, monthString, dayString);
 
