@@ -99,19 +99,20 @@
       width: 45%;
       height: 100%;
       float: left;
-      vertical-align: bottom;
+      vertical-align: center;
 
     }
 
     .bottomright {
       /* width: 55%; */
+      margin-top: 10px;
       flex-direction: column-reverse;
       justify-content: flex-start;
       align-items: flex-end;
       height: 100%;
       float: right;
-      margin-bottom: 2px;
-      vertical-align: bottom;
+      /* margin-bottom: 2px; */
+      vertical-align: center;
 
     }
 
@@ -140,32 +141,32 @@
   </style>
 </head>
 
-  <body id="body" class="body">
-    <!-- <div id="divtop" class="divtop">
+<body id="body" class="body">
+  <!-- <div id="divtop" class="divtop">
     <img id="image" class="image" alt="Loading..." mode="aspectFill" src="img.png" referrerPolicy="no-referrer">
     <div id="quote" class="quote"></div>
   </div> -->
-    <div id="divbottom" class="divbottom">
-      <div id="bottomleft" class="bottomleft">
-        <div id=daytime>
-          <div id="day" class="day">19</div>
-          <div id="time" class="time"></div>
-        </div>
-        <div id="monthday" class="text-left">12月11日</div>
-        <div id="lunar" class="text-left"></div>
+  <div id="divbottom" class="divbottom">
+    <div id="bottomleft" class="bottomleft">
+      <div id=daytime>
+        <div id="day" class="day">19</div>
+        <div id="time" class="time"></div>
       </div>
-      <div id="bottomright" class="bottomright">
-        <div id="title" class="title"></div>
-        <div id="rating" class="content"></div>
-        <div id="year" class="content"></div>
-        <div id="director" class="content"></div>
-        <div id="star" class="content"></div>
-        <div id="summary" class="content"></div>
-      </div>
-      <div id="mobile_qr" class="mobile_qr"></div>
+      <div id="monthday" class="text-left">12月11日</div>
+      <div id="lunar" class="text-left"></div>
     </div>
+    <div id="bottomright" class="bottomright">
+      <div id="title" class="title"></div>
+      <div id="rating" class="content"></div>
+      <div id="year" class="content"></div>
+      <div id="director" class="content"></div>
+      <div id="star" class="content"></div>
+      <div id="summary" class="content"></div>
+    </div>
+    <div id="mobile_qr" class="mobile_qr"></div>
+  </div>
 
-  </body>
+</body>
 <!-- <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script> -->
 <script src="js/jquery.min.js"></script>
@@ -202,6 +203,7 @@
   // $("#quote").css("-webkit-line-clamp", "4")
 
   $("#summary").hide()
+  $("#mobile_qr").hide()
   $("#bottomright").css("width", "55%")
   $("#body").css("position", "fixed")
   $("#divbottom").css("position", "absolute")
@@ -341,6 +343,7 @@
       $("#quote").css("-webkit-line-clamp", "4")
       $("#summary").hide()
       $("#star").hide()
+      $("#mobile_qr").hide()
       showmore = false;
     }
     else {
@@ -349,6 +352,7 @@
       $("#quote").css("-webkit-line-clamp", "")
       $("#summary").show()
       $("#star").show()
+      $("#mobile_qr").show()
       showmore = true;
     }
   }
