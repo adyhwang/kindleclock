@@ -15,25 +15,26 @@
       src: url('js/DS-Digital.TTF');
     }
 
+    .main {
+      background-color: rgba(0, 0, 0, 0.404);
+    }
+
     .body {
       font-size: 100%;
-      /* position: fixed; */
       margin: 0px;
       width: 100%;
       height: 100%;
-      margin: 0px;
 
 
+      background-color: rgba(0, 0, 0, 0.404);
       /* 背景图垂直、水平均居中 */
-      background-position: center center;
+      background-position: center top;
       /* 背景图不平铺 */
       background-repeat: no-repeat;
       /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
       background-attachment: fixed;
       /* 让背景图基于容器大小伸缩 */
       background-size: cover;
-      /* 设置背景颜色，背景图加载过程中会显示背景色 */
-      background-color: #464646;
     }
 
     .divtop {
@@ -85,12 +86,11 @@
 
     .divbottom {
       width: 100%;
-      color:rgba(255, 255, 255, 0.623);
+      color: rgba(255, 255, 255, 0.623);
       background-color: rgba(0, 0, 0, 0.404);
-      z-index: 999;
-      /* position: absolute; */
-      bottom: 8px;
-
+      /* z-index: 999; */
+      position: absolute;
+      bottom: 0px;
       text-align: center;
 
     }
@@ -140,32 +140,32 @@
   </style>
 </head>
 
-<body id="body" class="body">
-  <div id="divtop" class="divtop">
-    <!-- <img id="image" class="image" alt="Loading..." mode="aspectFill" src="img.png" referrerPolicy="no-referrer"> -->
-    <!-- <div id="quote" class="quote"></div> -->
-  </div>
-  <div id="divbottom" class="divbottom">
-    <div id="bottomleft" class="bottomleft">
-      <div id=daytime>
-        <div id="day" class="day">19</div>
-        <div id="time" class="time"></div>
+  <body id="body" class="body">
+    <!-- <div id="divtop" class="divtop">
+    <img id="image" class="image" alt="Loading..." mode="aspectFill" src="img.png" referrerPolicy="no-referrer">
+    <div id="quote" class="quote"></div>
+  </div> -->
+    <div id="divbottom" class="divbottom">
+      <div id="bottomleft" class="bottomleft">
+        <div id=daytime>
+          <div id="day" class="day">19</div>
+          <div id="time" class="time"></div>
+        </div>
+        <div id="monthday" class="text-left">12月11日</div>
+        <div id="lunar" class="text-left"></div>
       </div>
-      <div id="monthday" class="text-left">12月11日</div>
-      <div id="lunar" class="text-left"></div>
+      <div id="bottomright" class="bottomright">
+        <div id="title" class="title"></div>
+        <div id="rating" class="content"></div>
+        <div id="year" class="content"></div>
+        <div id="director" class="content"></div>
+        <div id="star" class="content"></div>
+        <div id="summary" class="content"></div>
+      </div>
+      <div id="mobile_qr" class="mobile_qr"></div>
     </div>
-    <div id="bottomright" class="bottomright">
-      <div id="title" class="title"></div>
-      <div id="rating" class="content"></div>
-      <div id="year" class="content"></div>
-      <div id="director" class="content"></div>
-      <div id="star" class="content"></div>
-      <div id="summary" class="content"></div>
-    </div>
-    <div id="mobile_qr" class="mobile_qr"></div>
-  </div>
 
-</body>
+  </body>
 <!-- <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script> -->
 <script src="js/jquery.min.js"></script>
