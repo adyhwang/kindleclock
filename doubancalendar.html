@@ -21,6 +21,19 @@
       margin: 0px;
       width: 100%;
       height: 100%;
+      margin: 0px;
+
+
+      /* 背景图垂直、水平均居中 */
+      background-position: center center;
+      /* 背景图不平铺 */
+      background-repeat: no-repeat;
+      /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+      background-attachment: fixed;
+      /* 让背景图基于容器大小伸缩 */
+      background-size: cover;
+      /* 设置背景颜色，背景图加载过程中会显示背景色 */
+      background-color: #464646;
     }
 
     .divtop {
@@ -72,7 +85,8 @@
 
     .divbottom {
       width: 100%;
-      background-color: white;
+      color:rgba(255, 255, 255, 0.623);
+      background-color: rgba(0, 0, 0, 0.404);
       z-index: 999;
       /* position: absolute; */
       bottom: 8px;
@@ -128,8 +142,8 @@
 
 <body id="body" class="body">
   <div id="divtop" class="divtop">
-    <img id="image" class="image" alt="Loading..." mode="aspectFill" src="img.png" referrerPolicy="no-referrer">
-    <div id="quote" class="quote"></div>
+    <!-- <img id="image" class="image" alt="Loading..." mode="aspectFill" src="img.png" referrerPolicy="no-referrer"> -->
+    <!-- <div id="quote" class="quote"></div> -->
   </div>
   <div id="divbottom" class="divbottom">
     <div id="bottomleft" class="bottomleft">
@@ -152,8 +166,8 @@
   </div>
 
 </body>
-<!-- <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-<script src="https://cdn.bootcss.com/lrsjng.jquery-qrcode/0.17.0/jquery-qrcode.min.js"></script> -->
+<!-- <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script> -->
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery-qrcode-0.17.0.min.js"></script>
 <script src="js/ConvertCalendar.js"></script>
@@ -213,7 +227,7 @@
     monthString = monthString < 10 ? '0' + monthString : monthString
     var dayString = date.getDate()
     dayString = dayString < 10 ? '0' + dayString : dayString
-    var daysString = dayString.length == 1  ? '0' + dayString : dayString
+    var daysString = dayString.length == 1 ? '0' + dayString : dayString
 
     var _todaylunarjson = calendar.solar2lunar(yearString, monthString, dayString);
 
@@ -268,7 +282,7 @@
 
             var image = "https://images.weserv.nl/?url=" + json[key].calendarimageurl //豆瓣日历剧照 
             //var image = json[key].calendarimageurl //豆瓣日历剧照
-            
+
             //https://img1.doubanio.com/view/photo/l/public/p2813158239.jpg
             //var image = "images/" + jsonfilename + "/" + today + ".jpg" //豆瓣日历剧照    
 
@@ -282,7 +296,8 @@
 
             $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
 
-            $("#image").attr("src", image)
+            // $("#image").attr("src", image)
+            $("#body").attr("background", image)
 
             $("#mobile_qr").html("")
             $("#mobile_qr").qrcode({   //二维码
