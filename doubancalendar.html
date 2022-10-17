@@ -34,7 +34,6 @@
     .divtop {
       /* margin-top: 10px; */
       text-align: center
-      
     }
 
     .image {
@@ -100,15 +99,14 @@
     }
 
     .bottomright {
-      /* width: 55%; */
-      margin-top: 10px;
-      flex-direction: column-reverse;
+      /* flex-direction: column-reverse;
       justify-content: flex-start;
-      align-items: flex-end;
+      align-items: flex-end; */
+      margin-top: 10px;
       height: 100%;
       float: right;
-      /* margin-bottom: 2px; */
-      vertical-align: center;
+      vertical-align: bottom;
+
 
     }
 
@@ -121,7 +119,7 @@
 
     .content {
       text-align: left;
-      margin-top: 0.4rem;
+      /* margin-top: 0.2rem; */
       font-size: 0.8rem;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -152,11 +150,13 @@
     </div>
     <div id="bottomright" class="bottomright">
       <div id="title" class="title"></div>
-      <div id="rating" class="content"></div>
-      <div id="year" class="content"></div>
-      <div id="director" class="content"></div>
-      <div id="star" class="content"></div>
-      <div id="summary" class="content"></div>
+      <div class="content">
+        <div id="rating"></div>
+        <div id="year"></div>
+        <div id="director"></div>
+        <div id="star"></div>
+        <div id="summary"></div>
+      </div>
     </div>
     <div id="mobile_qr" class="mobile_qr"></div>
   </div>
