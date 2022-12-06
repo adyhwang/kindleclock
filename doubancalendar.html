@@ -263,6 +263,7 @@
         for (var key in json) {
           if (json[key].doubandate.indexOf(today) > -1) {
             var title = json[key].title //片名
+
             var rating = json[key].douban_rating //评分
             var rank = json[key].douban_rank //排名
             var director = json[key].director//导演
@@ -277,7 +278,11 @@
 
             var summary = json[key].summary //简介
 
-            var image = "https://images.weserv.nl/?url=" + json[key].calendarimageurl //豆瓣日历剧照 
+            if (json[key].calendarimageurl != '') {
+              var image = "https://images.weserv.nl/?url=" + json[key].calendarimageurl //豆瓣日历剧照 
+            } else {
+              var image = "https://images.weserv.nl/?url=" + json[key].photo //豆瓣电影海报 
+            }
             //var image = json[key].calendarimageurl //豆瓣日历剧照
 
             //https://img1.doubanio.com/view/photo/l/public/p2813158239.jpg
