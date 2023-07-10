@@ -228,15 +228,15 @@
   }
 
   function get_data(today) {
-    var bingapiurl = "https://api.sumt.cn/api/bing.php?format=json"
+    var bingapiurl = "https://api.sumt.cn/api/bing.php?token=Gsp95Spd00HQvS9vv0UsXSpP&format=json"
     $.ajax({
       type: "get",
       url: bingapiurl,
       dataType: "json",
       success: function (data) {
-        var json = data
+        var json = data.data
         var quote = json.title
-        var image = json.img_url
+        var image = json.img
 
         $("#quote").html("\"" + quote + "\"")
         $("#image").attr("src", image)
