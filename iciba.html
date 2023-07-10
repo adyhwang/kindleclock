@@ -192,10 +192,11 @@
     var _todaylunarjson = calendar.solar2lunar(yearString, monthString, dayString);
 
     //公历
-    var _today = allWeek[parseInt(weekString)] + "," + allmonths[parseInt(monthString - 1)] + " " + dayString + "," + yearString
-    //today = monthString + "月" + daysString + "日"
+     var _today = allWeek[parseInt(weekString)] + "," + allmonths[parseInt(monthString - 1)] + " " + dayString + "," + yearString
+    //var _today = "　" + yearString + "年" + monthString + "月" + dayString + "日" + " " + _todaylunarjson.ncWeek// + " " + _todaylunarjson.astro
+    //var today = yearString + "-" + (monthString < 10 ? "0" + monthString : monthString) + "-" + (dayString < 10 ? "0" + dayString : dayString)
     //农历
-    var _todaylunar = "农历" + _todaylunarjson.IMonthCn + _todaylunarjson.IDayCn
+    var _todaylunar = "农历 " + _todaylunarjson.IMonthCn + _todaylunarjson.IDayCn
 
     if (showtime) {
       $("#time").show()
@@ -216,39 +217,20 @@
   }
 
   function get_data() {
-    var apiurl = "https://api.sumt.cn/api/iciba.php?format=json"
+    var apiurl = "https://open.iciba.com/dsapi/"
     $.ajax({
-      type: "get",
       url: apiurl,
-      dataType: "json",
-      success: function (data) {
-        var json = data
-        var content_en = json.content
-        var content_zh = json.note
-        var image = json.img_url
-
+      method: 'get',
+      dataType: 'jsonp', //=> 执行jsonp请求
+      success: (res) => {
+        var content_en = res.content
+        var content_zh = res.note
+        var image = res.picture
         $("#image").attr("src", image)
         $("#content_en").html(content_en)
         $("#content_zh").html(content_zh)
-
-        var thisurl = window.location.href
-        $("#mobile_qr").html("")
-        $("#mobile_qr").qrcode({   //二维码
-          render: "canvas",
-          width: 50,
-          height: 50,
-          text: thisurl
-        });
-        $("#mobile_qr").children("canvas").css("width", "100px");
-        $('#mobile_qr').unbind("click"); //移除click
-        $('#mobile_qr').click(function () {
-          window.open(thisurl, "_blank");
-        });
-
-      },
-
+      }
     });
-
   }
 
   function showtimefunction() {
