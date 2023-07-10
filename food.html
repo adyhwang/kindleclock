@@ -230,9 +230,9 @@
         var content = json[random].content.replace(reg, "<br/>") //内容
 
 
-        var image = "https://images.weserv.nl/?url=" + json[random].imageurl //海报       384x528
+        //var image = "https://images.weserv.nl/?url=" + json[random].imageurl //海报       384x528
         //var image = json[random].photo //海报       384x528
-        //var image = "/images/food/" + json[random].title + ".jpg" //海报       384x528
+        var image = "/images/food/" + json[random].title + ".jpg" //海报       384x528
 
         $("#image").attr("src", '')
         $("#title").html(title)
