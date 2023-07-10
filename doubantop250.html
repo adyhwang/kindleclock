@@ -262,9 +262,9 @@
 
         var summary = json[top_id].summary //简介
 
-        var image = "https://images.weserv.nl/?url=" + json[top_id].photo //海报       384x528
+        //var image = "https://images.weserv.nl/?url=" + json[top_id].photo //海报       384x528
         //var image = json[top_id].photo //海报       384x528var 
-        //image = "images/DoubanTop250/" + json[top_id].douban_id + ".jpg" //豆瓣日历剧照    
+        image = "images/DoubanTop250/" + json[top_id].douban_id + ".jpg" //豆瓣日历剧照    
 
         $("#title").html(title)
         $("#rating").html("豆瓣评分：" + rating + "　排名：" + rank)
