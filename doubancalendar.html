@@ -183,7 +183,6 @@
   var jsonfilename = $.getUrlParam('id')
   var rotate = parseInt($.getUrlParam('rotate'))
 
-  rotatefunction()
 
    
    $("#director").css("-webkit-line-clamp", "4")
@@ -350,30 +349,6 @@
     }
   }
 
-
-  function rotatefunction() {
-    if (rotate) {
-      $('#body').css('transform', 'rotate(180deg)');
-      $('#body').css('-webkit-transform', 'rotate(180deg)');
-      $('#body').css('-moz-transform', 'rotate(180deg)');
-      $('#body').css('-o-transform', 'rotate(180deg)');
-      $('#body').css('-ms-transform', 'rotate(180deg)');
-      rotate = 0
-
-    }
-    else {
-      $('#body').css('transform', '');
-      $('#body').css('-webkit-transform', '');
-      $('#body').css('-moz-transform', '');
-      $('#body').css('-o-transform', '');
-      $('#body').css('-ms-transform', '');
-      rotate = 1
-    }
-  }
-  ///////
-  $('#divtop').click(function () {
-    rotatefunction()
-  });
 
   $('#content').click(function () {
     showmorefunction()
