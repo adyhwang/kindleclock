@@ -34,9 +34,9 @@
 
 
     .image {
-      /* width: 100%; */
-      max-width: 600px;
-      max-height: 300px;
+      width: 90%;
+      /* max-width: 600px;
+      max-height: 300px; */
     }
 
 
@@ -59,7 +59,8 @@
       /* height: 100%; */
       width: 100%;
       text-align: center;
-      font-size: 10rem;
+      /* font-size: 10rem; */
+      font-size: calc(100vw * 600 / 1920);
       font-weight: 700;
     }
 
@@ -68,7 +69,7 @@
       /* height: 100%; */
       width: 100%;
       text-align: center;
-      font-size: 6rem;
+      font-size: calc(100vw * 500 / 1920);
       font-weight: 700;
     }
 
@@ -129,7 +130,7 @@
 <body id="body" class="body">
   <div id="divmain" class="divmain">
     <div id="divleft" class="divleft">
-      <img id="image" class="image" alt="Loading..." mode="aspectFill" src="img.png" referrerPolicy="no-referrer">
+      <img id="image" class="image" alt="Loading..." mode="aspectFill"  referrerPolicy="no-referrer">
 
     </div>
     <div id="divright" class="divright">
@@ -322,7 +323,8 @@
       $("#divleft").show()
       $("#daytime").show()
        $("#quote").css("-webkit-line-clamp", "4")
-       $("#summary").hide()       
+       $("#summary").hide()      
+      $("#star").hide() 
        $("#mobile_qr").hide()
       showmore = false;
     }
