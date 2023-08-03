@@ -31,10 +31,7 @@
       background-size: cover;
     }
 
-    .divtop {
-      /* margin-top: 10px; */
-      text-align: center
-    }
+
 
     .image {
       /* width: 100%; */
@@ -43,11 +40,7 @@
     }
 
 
-    .topright {
-      width: 100%;
-      height: 100%;
-      float: right;
-    }
+
 
     .quote {
       /* width: 100%; */
@@ -66,7 +59,7 @@
       /* height: 100%; */
       width: 100%;
       text-align: center;
-      font-size: 9rem;
+      font-size: 10rem;
       font-weight: 700;
     }
 
@@ -75,39 +68,38 @@
       /* height: 100%; */
       width: 100%;
       text-align: center;
-      font-size: 4.4rem;
+      font-size: 6rem;
       font-weight: 700;
     }
 
-    .divbottom {
+    .divmain {
       width: 100%;
+      height: 100%;
       color: rgb(255, 255, 255);
       background-color: rgba(0, 0, 0, 0.404);
       z-index: 999;
       position: absolute;
       bottom: 0px;
       text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
     }
 
-    .bottomleft {
-      width: 45%;
+    .divleft {
+      width: 50%;
       height: 100%;
       float: left;
       vertical-align: center;
-
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
-    .bottomright {
-      /* flex-direction: column-reverse;
-      justify-content: flex-start;
-      align-items: flex-end; */
-      margin-top: 10px;
-      height: 100%;
-      float: right;
-      vertical-align: bottom;
-
-
+    .divright {
+      /* height: 100%; */
+      width: 80%;
     }
 
     .title {
@@ -135,30 +127,29 @@
 </head>
 
 <body id="body" class="body">
-  <!-- <div id="divtop" class="divtop">
-    <img id="image" class="image" alt="Loading..." mode="aspectFill" src="img.png" referrerPolicy="no-referrer">
-    <div id="quote" class="quote"></div>
-  </div> -->
-  <div id="divbottom" class="divbottom">
-    <div id="bottomleft" class="bottomleft">
+  <div id="divmain" class="divmain">
+    <div id="divleft" class="divleft">
+      <img id="image" class="image" alt="Loading..." mode="aspectFill" src="img.png" referrerPolicy="no-referrer">
+
+    </div>
+    <div id="divright" class="divright">
       <div id=daytime>
         <div id="day" class="day">19</div>
         <div id="time" class="time"></div>
+        <div id="monthday" class="text-left">12月11日</div>
+        <div id="lunar" class="text-left"></div>
       </div>
-      <div id="monthday" class="text-left">12月11日</div>
-      <div id="lunar" class="text-left"></div>
-    </div>
-    <div id="bottomright" class="bottomright">
-      <div id="title" class="title"></div>
-      <div class="content">
+
+      <div id="content" class="content">
+        <div id="title" class="title"></div>
         <div id="rating"></div>
         <div id="year"></div>
         <div id="director"></div>
         <div id="star"></div>
         <div id="summary"></div>
+        <div id="mobile_qr" class="mobile_qr"></div>
       </div>
     </div>
-    <div id="mobile_qr" class="mobile_qr"></div>
   </div>
 
 </body>
@@ -193,15 +184,12 @@
 
   rotatefunction()
 
-  $("#star").hide()
-  $("#time").hide()
-  // $("#quote").css("-webkit-line-clamp", "4")
-
-  $("#summary").hide()
-  $("#mobile_qr").hide()
-  $("#bottomright").css("width", "55%")
-  // $("#body").css("position", "fixed")
-  $("#divbottom").css("position", "absolute")
+   
+   $("#director").css("-webkit-line-clamp", "4")
+   $("#star").hide()
+   $("#summary").hide()
+   $("#mobile_qr").hide()
+  $("#divmain").css("position", "absolute")
 
   update()
   setInterval("update()", 1 * 60 * 1000)
@@ -278,15 +266,7 @@
 
             var summary = json[key].summary //简介
 
-            // if (json[key].calendarimageurl != '') {
-            //   var image = "https://images.weserv.nl/?url=" + json[key].calendarimageurl //豆瓣日历剧照 
-            // } else {
-            //   var image = "https://images.weserv.nl/?url=" + json[key].photo //豆瓣电影海报 
-            // }
 
-            //var image = json[key].calendarimageurl //豆瓣日历剧照
-
-            //https://img1.doubanio.com/view/photo/l/public/p2813158239.jpg
             var image = "images/" + jsonfilename + "/" + today + ".jpg" //豆瓣日历剧照    
 
             $("#title").html("《" + title + "》")
@@ -299,8 +279,8 @@
 
             $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
 
-            // $("#image").attr("src", image)
-            $("#body").attr("background", image)
+            $("#image").attr("src", image)
+            //$("#body").attr("background", image)
 
             $("#mobile_qr").html("")
             $("#mobile_qr").qrcode({   //二维码
@@ -339,20 +319,20 @@
 
   function showmorefunction() {
     if (showmore) {
-      $("#bottomleft").show()
-      $("#bottomright").css("width", "53%")
-      $("#quote").css("-webkit-line-clamp", "4")
-      $("#summary").hide()
-      $("#star").hide()
-      $("#mobile_qr").hide()
+      $("#divleft").show()
+      $("#daytime").show()
+       $("#quote").css("-webkit-line-clamp", "4")
+       $("#summary").hide()       
+       $("#mobile_qr").hide()
       showmore = false;
     }
     else {
-      $("#bottomleft").hide()
-      $("#bottomright").css("width", "")
+      $("#divleft").hide()
+      $("#daytime").hide()
+       $("#content").show()
       $("#quote").css("-webkit-line-clamp", "")
-      $("#summary").show()
       $("#star").show()
+       $("#summary").show()
       $("#mobile_qr").show()
       showmore = true;
     }
@@ -393,7 +373,7 @@
     rotatefunction()
   });
 
-  $('#bottomright').click(function () {
+  $('#content').click(function () {
     showmorefunction()
   });
 
