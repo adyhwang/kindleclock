@@ -197,7 +197,13 @@
     default:
       break;
   }
+  function orientationChange() {
+    if (screen.width < screen.height) {
+      window.location.href = "doubancalendar2.html?id=" + jsonfilename;
+    }
+  }
 
+  window.addEventListener("orientationchange", orientationChange);
 
 
 
@@ -368,6 +374,7 @@
   function modefunction() {
     window.location.href = "doubancalendar2.html?id=" + jsonfilename + "&mode=portrait";
   }
+
 
 
   $('#content').click(function () {
