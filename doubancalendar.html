@@ -130,7 +130,7 @@
 <body id="body" class="body">
   <div id="divmain" class="divmain">
     <div id="divleft" class="divleft">
-      <img id="image" class="image" alt="Loading..." mode="aspectFill"  referrerPolicy="no-referrer">
+      <img id="image" class="image" alt="Loading..." mode="aspectFill" referrerPolicy="no-referrer">
 
     </div>
     <div id="divright" class="divright">
@@ -181,14 +181,30 @@
   var showmore = false
   var today = "07-09";
   var jsonfilename = $.getUrlParam('id')
-  var rotate = parseInt($.getUrlParam('rotate'))
+  var mode = $.getUrlParam('mode') //portrait or landscape
+
+  switch (mode) {
+    case "portrait":
+      window.location.href = "doubancalendar2.html?id=" + jsonfilename + "&mode=portrait";
+      break;
+    case "landscape":
+      break;
+    case null:
+      if (screen.width < screen.height) {
+        window.location.href = "doubancalendar2.html?id=" + jsonfilename;
+      }
+      break;
+    default:
+      break;
+  }
 
 
-   
-   $("#director").css("-webkit-line-clamp", "4")
-   $("#star").hide()
-   $("#summary").hide()
-   $("#mobile_qr").hide()
+
+
+  $("#director").css("-webkit-line-clamp", "4")
+  $("#star").hide()
+  $("#summary").hide()
+  $("#mobile_qr").hide()
   $("#divmain").css("position", "absolute")
 
   update()
@@ -237,7 +253,7 @@
       $("#lunar").html(_todaylunar)
 
       if (jsonfilename == null || jsonfilename == "") {
-        jsonfilename = "DoubanAlbum2022"
+        jsonfilename = "DoubanAlbum2023"
       }
       get_data(today)
     }
@@ -321,19 +337,19 @@
     if (showmore) {
       $("#divleft").show()
       $("#daytime").show()
-       $("#quote").css("-webkit-line-clamp", "4")
-       $("#summary").hide()      
-      $("#star").hide() 
-       $("#mobile_qr").hide()
+      $("#quote").css("-webkit-line-clamp", "4")
+      $("#summary").hide()
+      $("#star").hide()
+      $("#mobile_qr").hide()
       showmore = false;
     }
     else {
       $("#divleft").hide()
       $("#daytime").hide()
-       $("#content").show()
+      $("#content").show()
       $("#quote").css("-webkit-line-clamp", "")
       $("#star").show()
-       $("#summary").show()
+      $("#summary").show()
       $("#mobile_qr").show()
       showmore = true;
     }
@@ -347,6 +363,10 @@
     } else {
       alert('日期格式错误！请输入日期，如0215')
     }
+  }
+
+  function modefunction() {
+    window.location.href = "doubancalendar2.html?id=" + jsonfilename + "&mode=portrait";
   }
 
 
@@ -371,6 +391,10 @@
         break;
       case 115: //s
         showmorefunction()
+        break;
+      case 120: //x
+      case 122: //z
+        modefunction()
         break;
       default:
         break;
