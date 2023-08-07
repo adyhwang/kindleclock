@@ -206,7 +206,13 @@
       break;
   }
 
+  function orientationChange() {
+    if (screen.width > screen.height) {
+      window.location.href = "doubancalendar.html?id=" + jsonfilename;
+    }
+  };
 
+  window.addEventListener("orientationchange", orientationChange);
   $("#star").hide()
   $("#time").hide()
   // $("#quote").css("-webkit-line-clamp", "4")
