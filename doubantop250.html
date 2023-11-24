@@ -12,7 +12,7 @@
   <style>
     @font-face {
       font-family: 'LED';
-      src: url('js/DS-Digital.TTF');
+      src: url('https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/DS-Digital.TTF');
     }
 
     .body {
@@ -127,7 +127,7 @@
 
   <div id="divbottom" class="divbottom">
     <div id="bottomleft" class="bottomleft">
-      <img id="image" class="image" alt="Loading..." mode="aspectFill" src="img.png" referrerPolicy="no-referrer">
+      <img id="image" class="image" alt="Loading..." mode="aspectFill" src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/img.png" referrerPolicy="no-referrer">
     </div>
 
     <div id="bottomright" class="bottomright">
@@ -151,11 +151,13 @@
   </div>
 
 </body>
-<!-- <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-<script src="https://cdn.bootcss.com/lrsjng.jquery-qrcode/0.17.0/jquery-qrcode.min.js"></script> -->
-<script src="js/jquery.min.js"></script>
+<!-- <script src="js/jquery.min.js"></script>
 <script src="js/jquery-qrcode-0.17.0.min.js"></script>
-<script src="js/ConvertCalendar.js"></script>
+<script src="js/ConvertCalendar.js"></script> -->
+
+<script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/ConvertCalendar.js"></script>
 
 
 <script>
@@ -244,7 +246,7 @@
   function get_data(top_id) {
 
 
-    $.getScript("js/DoubanTop250.js")
+    $.getScript("https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
       .done(function () {
         var json = jsonstr.list        
         var title = json[top_id].title //片名
@@ -264,7 +266,7 @@
 
         //var image = "https://images.weserv.nl/?url=" + json[top_id].photo //海报       384x528
         //var image = json[top_id].photo //海报       384x528var 
-        image = "images/DoubanTop250/" + json[top_id].douban_id + ".jpg" //豆瓣日历剧照    
+        image = "https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/images/DoubanTop250/" + json[top_id].douban_id + ".jpg" //豆瓣日历剧照    
 
         $("#title").html(title)
         $("#rating").html("豆瓣评分：" + rating + "　排名：" + rank)
