@@ -11,7 +11,7 @@
   <style>
     @font-face {
       font-family: 'LED';
-      src: url('https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/DS-Digital.TTF');
+      src: url('js/DS-Digital.TTF');
     }
 
     .main {
@@ -154,13 +154,12 @@
   </div>
 
 </body>
-
-<!-- <script src="js/jquery.min.js"></script>
+<!-- <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script> -->
+<script src="js/jquery.min.js"></script>
 <script src="js/jquery-qrcode-0.17.0.min.js"></script>
-<script src="js/ConvertCalendar.js"></script> -->
-<script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/ConvertCalendar.js"></script>
+<script src="js/ConvertCalendar.js"></script>
+
 
 <script>
 
@@ -268,7 +267,7 @@
 
   function get_data(today) {
 
-    $.getScript("https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/" + jsonfilename + ".js")
+    $.getScript("js/" + jsonfilename + ".js")
       .done(function () {
         var json = jsonstr.list
         for (var key in json) {
@@ -290,7 +289,7 @@
             var summary = json[key].summary //简介
 
 
-            var image = "https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/images/" + jsonfilename + "/" + today + ".jpg" //豆瓣日历剧照    
+            var image = "images/" + jsonfilename + "/" + today + ".jpg" //豆瓣日历剧照    
 
             $("#title").html("《" + title + "》")
             $("#rating").html("豆瓣评分：" + rating)
