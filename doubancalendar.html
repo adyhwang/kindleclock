@@ -11,7 +11,7 @@
   <style>
     @font-face {
       font-family: 'LED';
-      src: url('js/DS-Digital.TTF');
+      src: url('https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/DS-Digital.TTF');
     }
 
     .main {
@@ -158,7 +158,6 @@
 <!-- <script src="js/jquery.min.js"></script>
 <script src="js/jquery-qrcode-0.17.0.min.js"></script>
 <script src="js/ConvertCalendar.js"></script> -->
-<!-- https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/ -->
 <script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/ConvertCalendar.js"></script>
@@ -291,7 +290,7 @@
             var summary = json[key].summary //简介
 
 
-            var image = "images/" + jsonfilename + "/" + today + ".jpg" //豆瓣日历剧照    
+            var image = "https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/images/" + jsonfilename + "/" + today + ".jpg" //豆瓣日历剧照    
 
             $("#title").html("《" + title + "》")
             $("#rating").html("豆瓣评分：" + rating)
