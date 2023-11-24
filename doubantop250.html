@@ -5,8 +5,7 @@
   <title>Kindleclock</title>
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport"
-    content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+  <meta name="viewport" content="width=device-width">
 
   <link rel="shortcut icon" href="favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
   <style>
@@ -89,19 +88,6 @@
       -webkit-box-orient: vertical;
     }
 
-    .quote {
-      text-align: left;
-      margin: 0.3rem;
-      margin-left: 1rem;
-      margin-right: 1rem;
-      font-size: 1.2rem;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
-      font-style: italic;
-    }
-
     .mobile_qr {
 
       text-align: center
@@ -127,25 +113,15 @@
 
   <div id="divbottom" class="divbottom">
     <div id="bottomleft" class="bottomleft">
-      <img id="image" class="image" alt="Loading..." mode="aspectFill" src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/img.png" referrerPolicy="no-referrer">
+      <img id="image" class="image" alt="无图片或无法载入图片..." mode="aspectFill" src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/img.png" referrerPolicy="no-referrer">
     </div>
 
     <div id="bottomright" class="bottomright">
       <div id="title" class="title"></div>
 
-      <div id="director" class="content"></div>
-      <div id="star" class="content"></div>
-      <div id="year" class="content"></div>
+      <div id="content" class="content"></div>
 
-      <div id="rating" class="content"></div>
-      <div id="rank" class="content"></div>
-
-
-      <div id="quote" class="quote"></div>
-
-      <div id="summary" class="content"></div>
       <div id="mobile_qr" class="mobile_qr"></div>
-
 
     </div>
   </div>
@@ -178,23 +154,17 @@
 
   var showtime = true
   var showmore = false
-  var idlength = 250
-  var top_id = getQueryVariable("id")
-  var rotate =  parseInt($.getUrlParam('rotate'))
-  
+  var idlength = 459
+  var random = $.getUrlParam('id')
+  var rotate = parseInt($.getUrlParam('rotate'))
+
   rotatefunction()
 
-  if (top_id == '') {
-    top_id = Math.ceil(Math.random() * idlength);
-  }
-
-  $("#star").css("-webkit-line-clamp", "4")
-  $("#quote").css("-webkit-line-clamp", "4")
-  $("#mobile_qr").hide()
-  $("#summary").hide()
   $("#bottomright").css("width", "53%")
+  $("#content").css("-webkit-line-clamp", "10")
   $("#body").css("position", "fixed")
   $("#divbottom").css("position", "absolute")
+
 
   update()
   setInterval("update()", 1 * 60 * 1000)
@@ -232,74 +202,82 @@
     if ($("#yearmonthday").html().indexOf(_today) != 0) {
       $("#yearmonthday").html(_today)
       $("#lunar").html(_todaylunar)
+      switch (random) {
+        case null:
+          random = Math.ceil(Math.random() * idlength)
+          get_data(random)
+          break
+        case -1:
+          previousid()
+          break;
+        default:
+          get_data(random)
+          break
+      }
 
-      if (top_id > 0) {
-        top_id = top_id - 1
-      }
-      else {
-        top_id = 249
-      }
-      get_data(top_id)
     }
   }
 
-  function get_data(top_id) {
+  function get_data(random) {
 
 
-    $.getScript("https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
+    $.getScript("https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/Food.js")
       .done(function () {
-        var json = jsonstr.list        
-        var title = json[top_id].title //片名
-        var rating = json[top_id].douban_rating //评分
-        var rank = json[top_id].douban_rank //排名
-        var director = json[top_id].director//导演
-        var star = json[top_id].star //主演
+        var json = jsonstr.list
+        
+        idlength = json.length
+        var title = json[random].title //标题
 
-        var year = json[top_id].year//年份
-        var country = json[top_id].country//国家地区 
-        var genre = json[top_id].genre//类型
+        var reg = new RegExp("\r\n", "g");//g,表示全部替换
+        var content = json[random].content.replace(reg, "<br/>") //内容
 
-        var douban_link = "https://movie.douban.com/subject/" + json[top_id].douban_id //豆瓣链接
-        var quote = json[top_id].quote //短评
 
-        var summary = json[top_id].summary //简介
+        //var image = "https://images.weserv.nl/?url=" + json[random].imageurl //海报       384x528
+        //var image = json[random].photo //海报       384x528
+        var image = "https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/images/food/" + json[random].title + ".jpg" //海报       384x528
 
-        //var image = "https://images.weserv.nl/?url=" + json[top_id].photo //海报       384x528
-        //var image = json[top_id].photo //海报       384x528var 
-        image = "https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/images/DoubanTop250/" + json[top_id].douban_id + ".jpg" //豆瓣日历剧照    
-
+        $("#image").attr("src", '')
         $("#title").html(title)
-        $("#rating").html("豆瓣评分：" + rating + "　排名：" + rank)
-        $("#director").html("导演：" + director)
-        $("#star").html("主演：" + star)
-        $("#year").html(year + " / " + country + " / " + genre)
 
-
-        $("#quote").html("\"" + quote + "\"")
-
-        $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
+        $("#content").html(content)
 
         $("#image").attr("src", image)
 
+        var thisurl = window.location.href
+        if (thisurl.indexOf("?") > -1) {
+          thisurl = thisurl.substring(0, thisurl.indexOf("?"))
+        }
+        thisurl = thisurl + "?id=" + random
         $("#mobile_qr").html("")
         $("#mobile_qr").qrcode({   //二维码
           render: "canvas",
           width: 50,
           height: 50,
-          text: douban_link
+          text: thisurl
         });
         $("#mobile_qr").children("canvas").css("width", "100px");
         $('#mobile_qr').unbind("click"); //移除click
         $('#mobile_qr').click(function () {
-          window.open(douban_link, "_blank");
+          window.open(thisurl, "_blank");
         });
 
-
+        
       })
       .fail(function () {
         
-      });   
+      });
 
+  }
+
+  function previousid() {
+    random = parseInt(random)
+    if (random > 0) {
+      random = random - 1
+    }
+    else {
+      random = idlength - 1
+    }
+    get_data(random)
   }
 
   function showtimefunction() {
@@ -317,43 +295,17 @@
     if (showmore) {
       $("#bottomleft").show()
       $("#bottomright").css("width", "53%")
-      $("#content").css("-webkit-line-clamp", "10")
-      $("#quote").show()
-      $("#summary").hide()
-      $("#mobile_qr").hide()
+      $("#content").css({ "-webkit-line-clamp": "10", "margin-left": "0.2rem" })
       showmore = false;
     }
     else {
       $("#bottomleft").hide()
       $("#bottomright").css("width", "")
       $("#content").css("-webkit-line-clamp", "")
-      $("#quote").show()
-      $("#summary").show()
-      $("#mobile_qr").show()
       showmore = true;
     }
 
   }
-
-  function previousid() {
-    top_id = parseInt(top_id)
-    if (top_id > 0) {
-      top_id = top_id - 1
-    }
-    else {
-      top_id = idlength - 1
-    }
-    get_data(top_id)
-  }
-
-  function alertinput() {
-    top_id = prompt("请输入影片排名(1-250)：")
-
-    top_id = parseInt(top_id)
-    top_id = top_id - 1
-    get_data(top_id)
-  }
-
   function rotatefunction() {
     if (rotate) {
       $('#body').css('transform', 'rotate(180deg)');
@@ -374,17 +326,10 @@
     }
   }
   ///////
-  $('#lunar').click(function () {
+  $('#divtop').click(function () {
     rotatefunction()
   });
-
-  $('#title').click(function () {
-    alertinput()
-  });
-  $('#quote').click(function () {
-    showmorefunction()
-  });
-  $('#summary').click(function () {
+  $('#bottomright').click(function () {
     showmorefunction()
   });
   $('#day').click(function () {
@@ -401,9 +346,6 @@
       case 100: //d
         showtimefunction()
         break;
-      case 105: //i
-        alertinput()
-        break;
       case 114: //r
         previousid()
         break;
@@ -417,17 +359,9 @@
       default:
         break;
     }
+
   })
 
-  function getQueryVariable(variable) {
-    var query = window.location.search.substring(1);
-    var vars = query.split("&");
-    for (var i = 0; i < vars.length; i++) {
-      var pair = vars[i].split("=");
-      if (pair[0] == variable) { return pair[1]; }
-    }
-    return (false);
-  }
 </script>
 
 </html>
