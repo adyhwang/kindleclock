@@ -11,7 +11,7 @@
   <style>
     @font-face {
       font-family: 'LED';
-      src: url('js/DS-Digital.TTF');
+      src: url('https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/DS-Digital.TTF');
     }
 
     .body {
@@ -113,7 +113,7 @@
 
   <div id="divbottom" class="divbottom">
     <div id="bottomleft" class="bottomleft">
-      <img id="image" class="image" alt="无图片或无法载入图片..." mode="aspectFill" src="" referrerPolicy="no-referrer">
+      <img id="image" class="image" alt="无图片或无法载入图片..." mode="aspectFill" src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/img.png" referrerPolicy="no-referrer">
     </div>
 
     <div id="bottomright" class="bottomright">
@@ -127,11 +127,13 @@
   </div>
 
 </body>
-<!-- <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-<script src="https://cdn.bootcss.com/lrsjng.jquery-qrcode/0.17.0/jquery-qrcode.min.js"></script> -->
-<script src="js/jquery.min.js"></script>
+<!-- <script src="js/jquery.min.js"></script>
 <script src="js/jquery-qrcode-0.17.0.min.js"></script>
-<script src="js/ConvertCalendar.js"></script>
+<script src="js/ConvertCalendar.js"></script> -->
+
+<script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/ConvertCalendar.js"></script>
 
 
 <script>
@@ -219,7 +221,7 @@
   function get_data(random) {
 
 
-    $.getScript("js/Food.js")
+    $.getScript("https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/Food.js")
       .done(function () {
         var json = jsonstr.list
         
@@ -232,7 +234,7 @@
 
         //var image = "https://images.weserv.nl/?url=" + json[random].imageurl //海报       384x528
         //var image = json[random].photo //海报       384x528
-        var image = "images/food/" + json[random].title + ".jpg" //海报       384x528
+        var image = "https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/images/food/" + json[random].title + ".jpg" //海报       384x528
 
         $("#image").attr("src", '')
         $("#title").html(title)
