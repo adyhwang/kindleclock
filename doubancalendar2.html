@@ -155,6 +155,7 @@
         <div id="year"></div>
         <div id="director"></div>
         <div id="star"></div>
+        <div id="quote"></div>
         <div id="summary"></div>
       </div>
     </div>
@@ -215,7 +216,7 @@
   window.addEventListener("orientationchange", orientationChange);
   $("#star").hide()
   $("#time").hide()
-  // $("#quote").css("-webkit-line-clamp", "4")
+  $("#quote").hide()
 
   $("#summary").hide()
   $("#mobile_qr").hide()
@@ -315,7 +316,7 @@
             $("#star").html("主演：" + star)
             $("#year").html(year + " / " + country + " / " + genre)
 
-            $("#quote").html("\"" + quote + "\"")
+            $("#quote").html("quote · · · · · ·</br>　　" + quote )
 
             $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
 
@@ -361,7 +362,7 @@
     if (showmore) {
       $("#bottomleft").show()
       $("#bottomright").css("width", "53%")
-      $("#quote").css("-webkit-line-clamp", "4")
+      $("#quote").hide()
       $("#summary").hide()
       $("#star").hide()
       $("#mobile_qr").hide()
@@ -370,7 +371,7 @@
     else {
       $("#bottomleft").hide()
       $("#bottomright").css("width", "")
-      $("#quote").css("-webkit-line-clamp", "")
+      $("#quote").show()
       $("#summary").show()
       $("#star").show()
       $("#mobile_qr").show()
