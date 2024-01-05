@@ -43,11 +43,12 @@
 
 
     .quote {
-      /* width: 100%; */
-      color: rgba(255, 255, 255, 0.623);
       text-align: left;
-      margin-left: 6rem;
-      font-size: 0.9rem;
+      margin: 0.3rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      font-size: 1.2rem;
+      overflow: hidden;
       text-overflow: ellipsis;
       display: -webkit-box;
       -webkit-box-orient: vertical;
@@ -147,7 +148,7 @@
         <div id="year"></div>
         <div id="director"></div>
         <div id="star"></div>
-        <div id="quote"></div>
+        <div id="quote" class="quote"></div>
         <div id="summary"></div>
         <div id="mobile_qr" class="mobile_qr"></div>
       </div>
@@ -261,7 +262,7 @@
       $("#lunar").html(_todaylunar)
 
       if (jsonfilename == null || jsonfilename == "") {
-        jsonfilename = "DoubanAlbum2024"
+        jsonfilename = "DoubanAlbum2023"
       }
       get_data(today)
     }
@@ -300,7 +301,7 @@
             $("#star").html("主演：" + star)
             $("#year").html(year + " / " + country + " / " + genre)
 
-            $("#quote").html("quote · · · · · ·</br>　　" + quote )
+            $("#quote").html("\"" + quote +"\"" )
 
             $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
 
