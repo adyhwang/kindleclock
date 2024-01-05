@@ -2,415 +2,178 @@
 <html lang="zh-CN">
 
 <head>
-  <title>Kindleclock</title>
+    <title>Kindleclock</title>
 
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport"
-    content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-  <link rel="shortcut icon" href="favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
-  <style>
-    @font-face {
-      font-family: 'LED';
-      src: url('js/DS-Digital.TTF');
-    }
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+    <style>
+        .body {
+            margin: 0;
+            width: 100%;
+        }
 
-    .main {
-      background-color: rgba(0, 0, 0, 0.404);
-    }
+        .divider {
+            text-align: center;
+        }
 
-    .body {
-      font-size: 100%;
-      margin: 0px;
-      width: 100%;
-      height: auto;
+        .container {
+            margin-right: 0;
+            margin-left: 0;
+        }
 
-      background-color: rgba(0, 0, 0, 0.404);
-      background-position: center top;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-    }
+        .col {
+            position: relative;
+            min-height: 20px;
+            cursor: pointer;
+        }
 
+        .divider-wrapper {
+            width: 100%;
+            height: 180px;
+            margin-top: 5px;
+        }
 
+        .divleft {
+            margin: 15px 0 0 0;
+            height: 150px;
+            float: left;
+            width: 25%;
+        }
 
-    .image {
-      width: 90%;
-      /* max-width: 600px;
-      max-height: 300px; */
-    }
+        .divright {
+            margin: 10px 0 0 25px;
+            height: 150px;
+            text-align: left;
+            float: left;
+            width: 62%;
+        }
 
+        .image {
+            height: 100%;
+            max-height: 150px;
+        }
 
+        .div-title {
+            display: block;
+            font-size: 1.3em;
+            margin: 5px 0 5px 0;
+            font-weight: bold;
+        }
 
+        .divider-info {
+            font-size: 0.5rem;
+        }
 
-    .quote {
-      /* width: 100%; */
-      color: rgba(255, 255, 255, 0.623);
-      text-align: left;
-      margin-left: 6rem;
-      font-size: 0.9rem;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
-      font-style: italic;
-    }
-
-    .day {
-      font-family: LED;
-      /* height: 100%; */
-      width: 100%;
-      text-align: center;
-      /* font-size: 10rem; */
-      font-size: calc(100vw * 600 / 1920);
-      font-weight: 700;
-    }
-
-    .time {
-      font-family: LED;
-      /* height: 100%; */
-      width: 100%;
-      text-align: center;
-      font-size: calc(100vw * 500 / 1920);
-      font-weight: 700;
-    }
-
-    .divmain {
-      width: 100%;
-      height: 100%;
-      color: rgb(255, 255, 255);
-      background-color: rgba(0, 0, 0, 0.404);
-      z-index: 999;
-      position: absolute;
-      bottom: 0px;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-    }
-
-    .divleft {
-      width: 50%;
-      height: 100%;
-      float: left;
-      vertical-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .divright {
-      /* height: 100%; */
-      width: 80%;
-    }
-
-    .title {
-      text-align: left;
-      font-weight: 600;
-      font-size: 1.5rem;
-      margin: 0.3rrem;
-    }
-
-    .content {
-      text-align: left;
-      /* margin-top: 0.2rem; */
-      font-size: 0.8rem;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
-    }
-
-
-    .mobile_qr {
-      text-align: center
-    }
-  </style>
+        .u {
+            text-decoration: underline
+        }
+    </style>
 </head>
 
-<body id="body" class="body">
-  <div id="divmain" class="divmain">
-    <div id="divleft" class="divleft">
-      <img id="image" class="image" alt="Loading..." mode="aspectFill" referrerPolicy="no-referrer">
+<body class="body" id="body">
+    <div class="divider">
+        <div class="container" id="container">
 
+        </div>
     </div>
-    <div id="divright" class="divright">
-      <div id=daytime>
-        <div id="day" class="day">19</div>
-        <div id="time" class="time"></div>
-        <div id="monthday" class="text-left">12月11日</div>
-        <div id="lunar" class="text-left"></div>
-      </div>
-
-      <div id="content" class="content">
-        <div id="title" class="title"></div>
-        <div id="rating"></div>
-        <div id="year"></div>
-        <div id="director"></div>
-        <div id="star"></div>
-        <div id="quote"></div>
-        <div id="summary"></div>
-        <div id="mobile_qr" class="mobile_qr"></div>
-      </div>
-    </div>
-  </div>
-
 </body>
-<!-- <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script> -->
+
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery-qrcode-0.17.0.min.js"></script>
-<script src="js/ConvertCalendar.js"></script>
 
+<!-- <script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js"></script> -->
 
 <script>
+    const mlist = [
+        { CharCode: '4', title: '豆瓣电影日历2024', html: 'doubancalendar.html?id=DoubanAlbum2024', background: '#7CD4F2', image: 'template2.png', info: '仿豆瓣电影日历。<br />根据当前日期调用“豆瓣电影历2024”的电影信息。<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 电影信息 ”或者按键“ s ”-->显示“完整信息”<br />点击或扫描“ 二维码 ”-->跳转豆瓣电影' },
+        { CharCode: '3', title: '豆瓣电影日历2023', html: 'doubancalendar.html?id=DoubanAlbum2023', background: '#7CD4F2', image: 'template2.png', info: '仿豆瓣电影日历。<br />根据当前日期调用“豆瓣电影历2023”的电影信息。<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 电影信息 ”或者按键“ s ”-->显示“完整信息”<br />点击或扫描“ 二维码 ”-->跳转豆瓣电影' },
+        { CharCode: '2', title: '豆瓣电影日历2022', html: 'doubancalendar.html?id=DoubanAlbum2022', background: '#7CD4F2', image: 'template2.png', info: '仿豆瓣电影日历。<br />根据当前日期调用“豆瓣电影历2022”的电影信息。<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 电影信息 ”或者按键“ s ”-->显示“完整信息”<br />点击或扫描“ 二维码 ”-->跳转豆瓣电影' },
+        { CharCode: '1', title: '豆瓣电影日历2021', html: 'doubancalendar.html?id=DoubanAlbum2021', background: '#7CD4F2', image: 'template2.png', info: '仿豆瓣电影日历。<br />根据当前日期调用“豆瓣电影历2021”的电影信息。<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 电影信息 ”或者按键“ s ”-->显示“完整信息”<br />点击或扫描“ 二维码 ”-->跳转豆瓣电影' },
+        { CharCode: '0', title: '豆瓣电影日历2020', html: 'doubancalendar.html?id=DoubanAlbum2020', background: '#7CD4F2', image: 'template2.png', info: '仿豆瓣电影日历。<br />根据当前日期调用“豆瓣电影历2020”的电影信息。<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 电影信息 ”或者按键“ s ”-->显示“完整信息”<br />点击或扫描“ 二维码 ”-->跳转豆瓣电影' },
+        { CharCode: '6', title: '豆瓣电影日历2019', html: 'doubancalendar.html?id=DoubanAlbum2019', background: '#7CD4F2', image: 'template2.png', info: '仿豆瓣电影日历。<br />根据当前日期调用“豆瓣电影历2020”的电影信息。<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 电影信息 ”或者按键“ s ”-->显示“完整信息”<br />点击或扫描“ 二维码 ”-->跳转豆瓣电影' },
 
-  (function ($) {
-    $.getUrlParam = function (name) {
-      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-      var r = window.location.search.substr(1).match(reg);
-      if (r != null) return unescape(r[2]); return null;
-    }
-  })(jQuery);
+        { CharCode: 'w', title: '豆瓣电影时钟', html: 'doubantop250.html', background: '#7CD4F2', image: 'template.png', info: '数据爬自豆瓣电影TOP250，非实时榜单<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 图片 ”或者按键“ r ”-->更新Top250上一名电影<br />点击“ 片名 ”或者按键“ i ”-->输入并跳转电影排名<br />点击“ 电影简介 ”或者按键“ s ”-->显示“完整信息”<br />点击或扫描“ 二维码 ”-->跳转豆瓣电影' },
+        { CharCode: 'q', title: '泡面助手', html: 'countdown.html', background: '#65DBDA', image: 'template3.png', info: '就是个倒计时，提醒你吃泡面' },
+        { CharCode: 'e', title: '历史上的今天', html: 'today.html', background: '#21ECED', image: 'template2.png', info: 'bing今日壁纸和历史上的今天<br />来自api.sumt.cn和百度百科api<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 历史上的今天 ”或者按键“ s ”-->显示“完整信息”' },
+        { CharCode: 'r', title: '美食时钟', html: 'food.html', background: '#F2CF6F', image: 'template.png', info: '数据爬自豆瓣<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”<br />点击“ 图片 ”或者按键“ r ”-->更新上一道美食<br />点击“ 电影信息 ”或者按键“ s ”-->显示“完整信息”<br />点击或扫描“ 二维码 ”-->跳转当前美食固定url' },
+        { CharCode: 't', title: '金山词霸每日一句', html: 'iciba.html', background: '#88F296', image: 'template2.png', info: '金山词霸每日一句<br />来自金山词霸开放平台https://open.iciba.com/index.php?c=wiki<br />点击“ 时间 ”或者按键“ d ”-->切换“日期”' },
 
-  $(document).ready(function () {
-    $(document).mousemove(function () {
-      $('#body').css({ cursor: 'default' });
-    });
-  });
+    ];
 
-  var showtime = false
-  var showmore = false
-  var today = "07-09";
-  var jsonfilename = $.getUrlParam('id')
-  var mode = $.getUrlParam('mode') //portrait or landscape
+    var divtemple = "<div class='col'><div class='divider-wrapper' onclick=\"window.open('@html@','_self')\" style='background: @background@;border-style: solid' ><div class='divleft'><img id='image' class='image' alt='Loading...' mode='aspectFill' src='@image@'></div><div class='divright'><div class='div-title'>@title@(<u>@CharCode@</u>)</div><div class='divider-info'>@info@</div></div></div></div>"
+    var rotate = 0
+    containerreplace()
 
-  switch (mode) {
-    case "portrait":
-      window.location.href = "doubancalendar2.html?id=" + jsonfilename + "&mode=portrait";
-      break;
-    case "landscape":
-      break;
-    case null:
-      if (screen.width < screen.height) {
-        window.location.href = "doubancalendar2.html?id=" + jsonfilename;
-      }
-      break;
-    default:
-      break;
-  }
-  function orientationChange() {
-    if (screen.width < screen.height) {
-      window.location.href = "doubancalendar2.html?id=" + jsonfilename;
-    }
-  }
+    $(document).keypress(function (e) {
+        // console.info(e.keyCode + "-" + String.fromCharCode(e.keyCode))
 
-  window.addEventListener("orientationchange", orientationChange);
-
-
-
-  $("#director").css("-webkit-line-clamp", "4")
-  $("#star").hide()
-  $("#summary").hide()
-  $("#mobile_qr").hide()
-  $("#quote").hide()
-  $("#divmain").css("position", "absolute")
-
-  update()
-  setInterval("update()", 1 * 60 * 1000)
-
-  function update() {
-    $('#body').css({ cursor: 'none' });
-
-    var date = new Date()
-    var utc8DiffMinutes = date.getTimezoneOffset() + 480
-    date.setMinutes(date.getMinutes() + utc8DiffMinutes)
-
-
-    var hour = date.getHours()
-    hour = hour < 10 ? '0' + hour : hour
-    var Minutes = date.getMinutes()
-    Minutes = Minutes < 10 ? '0' + Minutes : Minutes
-    var timeString = hour + ':' + Minutes
-    var yearString = date.getFullYear()
-    var monthString = date.getMonth() + 1
-    monthString = monthString < 10 ? '0' + monthString : monthString
-    var dayString = date.getDate()
-    dayString = dayString < 10 ? '0' + dayString : dayString
-    var daysString = dayString.length == 1 ? '0' + dayString : dayString
-
-    var _todaylunarjson = calendar.solar2lunar(yearString, monthString, dayString);
-
-    //公历
-    var _today = monthString + "月" + dayString + "日" + " " + _todaylunarjson.ncWeek
-    today = monthString + "-" + daysString
-    //农历
-    var _todaylunar = "农历" + _todaylunarjson.IMonthCn + _todaylunarjson.IDayCn
-
-    if (showtime) {
-      $("#time").show()
-      $("#day").hide()
-      $("#time").html(timeString)
-    } else {
-      $("#time").hide()
-      $("#day").show()
-      $("#day").html(dayString)
-    }
-
-    if ($("#monthday").html().indexOf(_today) != 0) {
-      $("#monthday").html(_today)
-      $("#lunar").html(_todaylunar)
-
-      if (jsonfilename == null || jsonfilename == "") {
-        jsonfilename = "DoubanAlbum2023"
-      }
-      get_data(today)
-    }
-  }
-
-  function get_data(today) {
-
-    $.getScript("js/" + jsonfilename + ".js")
-      .done(function () {
-        var json = jsonstr.list
-        for (var key in json) {
-          if (json[key].doubandate.indexOf(today) > -1) {
-            var title = json[key].title //片名
-
-            var rating = json[key].douban_rating //评分
-            var rank = json[key].douban_rank //排名
-            var director = json[key].director//导演
-            var star = json[key].star //主演
-
-            var year = json[key].year//年份
-            var country = json[key].country//国家地区 
-            var genre = json[key].genre//类型
-
-            var douban_link = "https://movie.douban.com/subject/" + json[key].douban_id //豆瓣链接
-            var quote = json[key].quote //短评
-
-            var summary = json[key].summary //简介
-
-
-            var image = "images/" + jsonfilename + "/" + today + ".jpg" //豆瓣日历剧照    
-            //var image = json[key].photo //豆瓣日历剧照 
-
-            $("#title").html("《" + title + "》")
-            $("#rating").html("豆瓣评分：" + rating)
-            $("#director").html("导演：" + director)
-            $("#star").html("主演：" + star)
-            $("#year").html(year + " / " + country + " / " + genre)
-
-            $("#quote").html("quote · · · · · ·</br>　　" + quote )
-
-            $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
-
-            $("#image").attr("src", image)
-            //$("#body").attr("background", image)
-
-            $("#mobile_qr").html("")
-            $("#mobile_qr").qrcode({   //二维码
-              render: "canvas",
-              width: 50,
-              height: 50,
-              text: douban_link
-            });
-            $("#mobile_qr").children("canvas").css("width", "100px");
-            $('#mobile_qr').unbind("click"); //移除click
-            $('#mobile_qr').click(function () {
-              window.open(douban_link, "_blank");
-            });
-            break;
-          }
+        for (var i = 0; i < mlist.length; i++) {
+            if (String.fromCharCode(e.keyCode) == mlist[i].CharCode) {
+                window.open(mlist[i].html, '_self')
+            }
 
         }
-      })
-      .fail(function () {
+        switch (e.keyCode) {
+            case 120: //x
+            case 122: //z
+                rotatefunction()
+                break;
+            default:
+                break;
+        }
 
-      });
+    })
 
+    function containerreplace() {
 
-  }
+        var containerdiv = ""
+        for (var i = 0; i < mlist.length; i++) {
 
-  function showtimefunction() {
-    if (showtime) {
-      showtime = false;
-    }
-    else {
-      showtime = true;
-    }
+            // for (const key in mlist[i]) {            
+            //     var a = "@" + key + "@"
+            //     temp = temp.replace(a,mlist[i][key])
+            // }
 
-    update()
-  }
+            var temp = divtemple.replace("@CharCode@", mlist[i].CharCode).replace("@title@", mlist[i].title).replace("@html@", mlist[i].html).replace("@background@", mlist[i].background).replace("@image@", mlist[i].image).replace("@info@", mlist[i].info)
 
-  function showmorefunction() {
-    if (showmore) {
-      $("#divleft").show()
-      $("#daytime").show()
-      $("#quote").hide()
-      $("#summary").hide()
-      $("#star").hide()
-      $("#mobile_qr").hide()
-      showmore = false;
-    }
-    else {
-      $("#divleft").hide()
-      $("#daytime").hide()
-      $("#content").show()
-      $("#quote").show()
-      $("#star").show()
-      $("#summary").show()
-      $("#mobile_qr").show()
-      showmore = true;
-    }
-  }
-
-  function alertinput() {
-    today = prompt("请输入日期MMdd，如：2月15日输入0215")
-    if (today.length == 4) {
-      today = today.slice(0, 2) + '-' + today.slice(2);
-      get_data(today)
-    } else {
-      alert('日期格式错误！请输入日期，如0215')
-    }
-  }
-
-  function modefunction() {
-    window.location.href = "doubancalendar2.html?id=" + jsonfilename + "&mode=portrait";
-  }
-
-
-
-  $('#content').click(function () {
-    showmorefunction()
-  });
-
-  $('#daytime').click(function () {
-    showtimefunction()
-  });
-
-  $('#monthday').click(function () {
-    alertinput()
-  });
-  ///////  
-
-  $(document).keypress(function (e) {
-
-    switch (e.keyCode) {
-      case 100: //d
-        showtimefunction()
-        break;
-      case 115: //s
-        showmorefunction()
-        break;
-      case 120: //x
-      case 122: //z
-        modefunction()
-        break;
-      default:
-        break;
+            containerdiv = containerdiv + temp
+        }
+        $(container).html(containerdiv);
     }
 
-  })
+    function rotatefunction() {
+        if (rotate) {
+            $('#body').css('transform', '');
+            $('#body').css('-webkit-transform', '');
+            $('#body').css('-moz-transform', '');
+            $('#body').css('-o-transform', '');
+            $('#body').css('-ms-transform', '');
+            rotate = 0
+            for (var i = 0; i < mlist.length; i++) {
+                var temp = mlist[i]
+                temp.html = temp.html.replace("rotate=1", "rotate=0")
+                mlist.splice(i, temp);
+            }
+        }
+        else {
+            $('#body').css('transform', 'rotate(180deg)');
+            $('#body').css('-webkit-transform', 'rotate(180deg)');
+            $('#body').css('-moz-transform', 'rotate(180deg)');
+            $('#body').css('-o-transform', 'rotate(180deg)');
+            $('#body').css('-ms-transform', 'rotate(180deg)');
+            rotate = 1
+            for (var i = 0; i < mlist.length; i++) {
+                var temp = mlist[i]
+                temp.html = temp.html.replace("rotate=0", "rotate=1")
+                mlist.splice(i, temp);
+            }
+        }
+        containerreplace()
+    }
+
 
 </script>
 
