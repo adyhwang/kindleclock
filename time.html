@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+  <title>Time</title>
+  <style>
+    @font-face {
+      font-family: 'LED';
+      src: url('js/DS-Digital.TTF');
+    }
+
+    .body {
+      height: 100vh;
+      width: 100%;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .main {
+      white-space: nowrap;
+
+    }
+
+    .date {
+      white-space: nowrap;
+      font-size: 2rem;
+    }
+
+    .time {
+      font-family: LED;
+      white-space: nowrap;
+      font-size: 7rem;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <div class="main">
+    <div class="date"></div>
+    <div class="time"></div>
+  </div>
+</body>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-qrcode-0.17.0.min.js"></script>
+<script src="js/ConvertCalendar.js"></script>
+
+<script>
+  // $(document).ready(function () {
+  //   $(document).mousemove(function () {
+  //     $('.body').css({ cursor: 'default' });
+  //   });
+  // });
+
+  update()
+  setInterval("update()", 1 * 30 * 1000)
+  function update() {
+    // $('.body').css({ cursor: 'none' });
+
+    var date = new Date()
+    var utc8DiffMinutes = date.getTimezoneOffset() + 480
+    date.setMinutes(date.getMinutes() + utc8DiffMinutes)
+
+
+    var hour = date.getHours()
+    hour = hour < 10 ? '0' + hour : hour
+    var Minutes = date.getMinutes()
+    Minutes = Minutes < 10 ? '0' + Minutes : Minutes
+    var timeString = hour + ':' + Minutes
+    var yearString = date.getFullYear()
+    var monthString = date.getMonth() + 1
+    var dayString = date.getDate()
+
+    var _todaylunarjson = calendar.solar2lunar(yearString, monthString, dayString);
+
+    //公历
+    var _today = yearString + "年" + monthString + "月" + dayString + "日" + " " + _todaylunarjson.ncWeek + " " + _todaylunarjson.astro
+    //农历
+    var _todaylunar = _todaylunarjson.gzYear + _todaylunarjson.Animal + "年 " + _todaylunarjson.IMonthCn + _todaylunarjson.IDayCn
+
+    $(".date").html(_today + "</br>" + _todaylunar)
+    $(".time").html(timeString)
+
+
+    var l = jQuery('.body').height();
+    var level = l / 2;
+    var bt = jQuery('.main').height() / 2;
+    var val = level - bt - parseInt(jQuery('.main').css('padding-top'));
+    jQuery('.main').css("margin-top", val);
+  }
+
+
+</script>
+
+</html>
