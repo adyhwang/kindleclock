@@ -35,12 +35,7 @@
 
     .image {
       width: 90%;
-      /* max-width: 600px;
-      max-height: 300px; */
     }
-
-
-
 
     .quote {
       text-align: left;
@@ -130,10 +125,12 @@
 
 <body id="body" class="body">
   <div id="divmain" class="divmain">
+
     <div id="divleft" class="divleft">
       <img id="image" class="image" alt="Loading..." mode="aspectFill" referrerPolicy="no-referrer">
-
+      <span id="imagename" style="position: absolute;right:20px;top: 20px;color: red;">01-01</span>
     </div>
+
     <div id="divright" class="divright">
       <div id=daytime>
         <div id="day" class="day">19</div>
@@ -152,6 +149,7 @@
         <div id="summary"></div>
         <div id="mobile_qr" class="mobile_qr"></div>
       </div>
+
     </div>
   </div>
 
@@ -208,7 +206,7 @@
   window.addEventListener("orientationchange", orientationChange);
 
 
-
+  $("#imagename").hide()
   $("#director").css("-webkit-line-clamp", "4")
   $("#star").hide()
   $("#summary").hide()
@@ -248,13 +246,13 @@
     var _todaylunar = "农历" + _todaylunarjson.IMonthCn + _todaylunarjson.IDayCn
 
     if (showtime) {
-      $("#time").show()
-      $("#day").hide()
-      $("#time").html(timeString)
-    } else {
       $("#time").hide()
       $("#day").show()
       $("#day").html(dayString)
+    } else {
+      $("#time").show()
+      $("#day").hide()
+      $("#time").html(timeString)
     }
 
     if ($("#monthday").html().indexOf(_today) != 0) {
@@ -262,7 +260,7 @@
       $("#lunar").html(_todaylunar)
 
       if (jsonfilename == null || jsonfilename == "") {
-        jsonfilename = "DoubanAlbum2023"
+        jsonfilename = "DoubanAlbum2024"
       }
       get_data(today)
     }
@@ -301,7 +299,7 @@
             $("#star").html("主演：" + star)
             $("#year").html(year + " / " + country + " / " + genre)
 
-            $("#quote").html("\"" + quote +"\"" )
+            $("#quote").html("\"" + quote + "\"")
 
             $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
 
@@ -320,13 +318,14 @@
             $('#mobile_qr').click(function () {
               window.open(douban_link, "_blank");
             });
+            $("#imagename").html(jsonfilename + "-" + today)
             break;
           }
 
         }
       })
       .fail(function () {
-
+        $("#imagename").show()
       });
 
 
