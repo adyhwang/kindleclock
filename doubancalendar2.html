@@ -136,13 +136,15 @@
 </head>
 
 <body id="body" class="body">
+  <span id="imagename" style="position: absolute;right:20px;top: 20px;color: red;">01-01</span>
+
   <div id="divbottom" class="divbottom">
     <div id="bottomleft" class="bottomleft">
       <div id=daytime>
         <div id="day" class="day">19</div>
         <div id="time" class="time"></div>
       </div>
-      <div id="monthday" class="text-left">12月11日</div>
+      <div id="monthday" class="text-left">01月01日</div>
       <div id="lunar" class="text-left"></div>
     </div>
     <div id="bottomright" class="bottomright">
@@ -211,6 +213,8 @@
   };
 
   window.addEventListener("orientationchange", orientationChange);
+
+  $("#imagename").hide()
   $("#star").hide()
   $("#time").hide()
   $("#quote").hide()
@@ -253,13 +257,13 @@
     var _todaylunar = "农历" + _todaylunarjson.IMonthCn + _todaylunarjson.IDayCn
 
     if (showtime) {
-      $("#time").show()
-      $("#day").hide()
-      $("#time").html(timeString)
-    } else {
       $("#time").hide()
       $("#day").show()
       $("#day").html(dayString)
+    } else {
+      $("#time").show()
+      $("#day").hide()
+      $("#time").html(timeString)
     }
 
     if ($("#monthday").html().indexOf(_today) != 0) {
@@ -267,7 +271,7 @@
       $("#lunar").html(_todaylunar)
 
       if (jsonfilename == null || jsonfilename == "") {
-        jsonfilename = "DoubanAlbum2022"
+        jsonfilename = "DoubanAlbum2024"
       }
       get_data(today)
     }
@@ -307,6 +311,10 @@
             //https://img1.doubanio.com/view/photo/l/public/p2813158239.jpg
             var image = "images/" + jsonfilename + "/" + today + ".jpg" //豆瓣日历剧照    
 
+            $('.image').each(function() { // 遍历所有带有 "image" 类名的 img 元素
+                var filename = this.src; // 获取图片路径作为文件名
+                $('#filenameContainer').append('<p>' + filename + '</p>'); // 将文件名显示在指定的容器内
+            });
             $("#title").html("《" + title + "》")
             $("#rating").html("豆瓣评分：" + rating)
             $("#director").html("导演：" + director)
@@ -332,13 +340,14 @@
             $('#mobile_qr').click(function () {
               window.open(douban_link, "_blank");
             });
+            $("#imagename").html(jsonfilename + "-" + today)
             break;
           }
 
         }
       })
       .fail(function () {
-
+        $("#imagename").show()
       });
 
 
