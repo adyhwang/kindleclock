@@ -50,16 +50,30 @@
 <script src="js/ConvertCalendar.js"></script>
 
 <script>
-  // $(document).ready(function () {
-  //   $(document).mousemove(function () {
-  //     $('.body').css({ cursor: 'default' });
-  //   });
-  // });
+  var fontcolor = 1
+  $('.body').click(function () {
+    switch (fontcolor) {
+      case 1:
+        jQuery('.body').css("background-color", "black");
+        jQuery('.main').css("color", "white");
+        fontcolor++
+        break;
+      case 2:
+        jQuery('.body').css("background-color", "white");
+        jQuery('.main').css("color", "black");
+        fontcolor++
+        break;
+      default:
+        jQuery('.body').css("background-color", "rgba(0, 0, 0, 0.404)");
+        jQuery('.main').css("color", "white");
+        fontcolor = 1
+        break;
+    }
 
+  });
   update()
   setInterval("update()", 1 * 30 * 1000)
   function update() {
-    // $('.body').css({ cursor: 'none' });
 
     var date = new Date()
     var utc8DiffMinutes = date.getTimezoneOffset() + 480
