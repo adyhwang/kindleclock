@@ -162,11 +162,14 @@
   </div>
 
 </body>
-<!-- <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script> -->
-<script src="js/jquery.min.js"></script>
+
+<!-- <script src="js/jquery.min.js"></script>
 <script src="js/jquery-qrcode-0.17.0.min.js"></script>
-<script src="js/ConvertCalendar.js"></script>
+<script src="js/ConvertCalendar.js"></script> -->
+
+<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/ConvertCalendar.js"></script>
 
 
 <script>
@@ -226,7 +229,7 @@
   $("#divbottom").css("position", "absolute")
 
   update()
-  setInterval("update()", 1 * 60 * 1000)
+  setInterval("update()", 1 * 30 * 1000)
 
   function update() {
     $('#body').css({ cursor: 'none' });
@@ -279,7 +282,7 @@
 
   function get_data(today) {
 
-    $.getScript("js/" + jsonfilename + ".js")
+    $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/" + jsonfilename + ".js")
       .done(function () {
         var json = jsonstr.list
         for (var key in json) {
