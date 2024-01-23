@@ -80,11 +80,11 @@
     </div>
 </body>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery-qrcode-0.17.0.min.js"></script>
+<!-- <script src="js/jquery.min.js"></script>
+<script src="js/jquery-qrcode-0.17.0.min.js"></script> -->
 
-<!-- <script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js"></script> -->
+<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js"></script>
 
 <script>
     const mlist = [
@@ -132,14 +132,7 @@
 
         var containerdiv = ""
         for (var i = 0; i < mlist.length; i++) {
-
-            // for (const key in mlist[i]) {            
-            //     var a = "@" + key + "@"
-            //     temp = temp.replace(a,mlist[i][key])
-            // }
-
-            var temp = divtemple.replace("@CharCode@", mlist[i].CharCode).replace("@title@", mlist[i].title).replace("@html@", mlist[i].html).replace("@background@", mlist[i].background).replace("@image@", mlist[i].image).replace("@info@", mlist[i].info)
-
+            var temp = divtemple.replace("@CharCode@", mlist[i].CharCode).replace("@title@", mlist[i].title).replace("@html@", mlist[i].html).replace("@background@", mlist[i].background).replace("@image@", mlist[i].image).replace("@info@", mlist[i].info)            
             containerdiv = containerdiv + temp
         }
         $(container).html(containerdiv);
