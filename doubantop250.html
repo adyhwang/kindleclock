@@ -151,11 +151,14 @@
   </div>
 
 </body>
-<!-- <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-<script src="https://cdn.bootcss.com/lrsjng.jquery-qrcode/0.17.0/jquery-qrcode.min.js"></script> -->
-<script src="js/jquery.min.js"></script>
+
+<!-- <script src="js/jquery.min.js"></script>
 <script src="js/jquery-qrcode-0.17.0.min.js"></script>
-<script src="js/ConvertCalendar.js"></script>
+<script src="js/ConvertCalendar.js"></script> -->
+
+<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/ConvertCalendar.js"></script>
 
 
 <script>
@@ -244,7 +247,7 @@
   function get_data(top_id) {
 
 
-    $.getScript("js/DoubanTop250.js")
+    $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
       .done(function () {
         var json = jsonstr.list        
         var title = json[top_id].title //片名
