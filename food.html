@@ -215,7 +215,6 @@
           get_data(random)
           break
       }
-
     }
   }
 
@@ -225,25 +224,51 @@
     $.getScript("js/Food.js")
       .done(function () {
         var json = jsonstr.list
+      })
+      .fail(function () {
         
+      });
+
+      var json = ""
+      if (typeof (Storage) !== "undefined") {
+        // 针对 localStorage/sessionStorage 的代码
+        json = localStorage.getItem("Food")
+        if (json !== "" && json !== null) {
+
+          set_data(JSON.parse(json))
+        } else {
+          $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/Food.js")
+            .done(function () {
+              localStorage.setItem("Food", JSON.stringify(jsonstr.list));
+              set_data(jsonstr.list)
+            })
+            .fail(function () {
+              $("#imagename").show()
+            });
+        }
+      } else {
+        // 抱歉！不支持 Web Storage ..
+        $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/Food.js")
+          .done(function () {
+            set_data(jsonstr.list)
+          })
+          .fail(function () {
+            $("#imagename").show()
+          });
+      }
+  }
+  function set_data(json) {
         idlength = json.length
         var title = json[random].title //标题
-
         var reg = new RegExp("\r\n", "g");//g,表示全部替换
         var content = json[random].content.replace(reg, "<br/>") //内容
-
-
         //var image = "https://images.weserv.nl/?url=" + json[random].imageurl //海报       384x528
         //var image = json[random].photo //海报       384x528
         var image = "images/food/" + json[random].title + ".jpg" //海报       384x528
-
         $("#image").attr("src", '')
         $("#title").html(title)
-
         $("#content").html(content)
-
         $("#image").attr("src", image)
-
         var thisurl = window.location.href
         if (thisurl.indexOf("?") > -1) {
           thisurl = thisurl.substring(0, thisurl.indexOf("?"))
@@ -261,15 +286,7 @@
         $('#mobile_qr').click(function () {
           window.open(thisurl, "_blank");
         });
-
-        
-      })
-      .fail(function () {
-        
-      });
-
   }
-
   function previousid() {
     random = parseInt(random)
     if (random > 0) {
