@@ -282,80 +282,100 @@
 
   function get_data(today) {
 
-    $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/" + jsonfilename + ".js")
-      .done(function () {
-        var json = jsonstr.list
-        for (var key in json) {
-          if (json[key].doubandate.indexOf(today) > -1) {
-            var title = json[key].title //片名
+    var json = ""
+    if (typeof (Storage) !== "undefined") {
+      // 针对 localStorage/sessionStorage 的代码
+      json = localStorage.getItem(jsonfilename)
+      if (json !== "" && json !== null) {
 
-            var rating = json[key].douban_rating //评分
-            var rank = json[key].douban_rank //排名
-            var director = json[key].director//导演
-            var star = json[key].star //主演
+        set_data(JSON.parse(json))
+      } else {
+        $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/" + jsonfilename + ".js")
+          .done(function () {
+            localStorage.setItem(jsonfilename, JSON.stringify(jsonstr.list));
+            set_data(jsonstr.list)
+          })
+          .fail(function () {
+            $("#imagename").show()
+          });
+      }
+    } else {
+      // 抱歉！不支持 Web Storage ..
+      $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/" + jsonfilename + ".js")
+        .done(function () {
+          set_data(jsonstr.list)
+        })
+        .fail(function () {
+          $("#imagename").show()
+        });
+    }
+  }
+  function set_data(json) {
+    for (var key in json) {
+      if (json[key].doubandate.indexOf(today) > -1) {
+        var title = json[key].title //片名
 
-            var year = json[key].year//年份
-            var country = json[key].country//国家地区 
-            var genre = json[key].genre//类型
+        var rating = json[key].douban_rating //评分
+        var rank = json[key].douban_rank //排名
+        var director = json[key].director//导演
+        var star = json[key].star //主演
 
-            var douban_link = "https://movie.douban.com/subject/" + json[key].douban_id //豆瓣链接
-            var quote = json[key].quote //短评
+        var year = json[key].year//年份
+        var country = json[key].country//国家地区 
+        var genre = json[key].genre//类型
 
-            var summary = json[key].summary //简介
+        var douban_link = "https://movie.douban.com/subject/" + json[key].douban_id //豆瓣链接
+        var quote = json[key].quote //短评
 
-            // if (json[key].calendarimageurl != '') {
-            //   var image = "https://images.weserv.nl/?url=" + json[key].calendarimageurl //豆瓣日历剧照 
-            // } else {
-            //   var image = "https://images.weserv.nl/?url=" + json[key].photo //豆瓣电影海报 
-            // }
+        var summary = json[key].summary //简介
 
-            //var image = json[key].calendarimageurl //豆瓣日历剧照
+        // if (json[key].calendarimageurl != '') {
+        //   var image = "https://images.weserv.nl/?url=" + json[key].calendarimageurl //豆瓣日历剧照 
+        // } else {
+        //   var image = "https://images.weserv.nl/?url=" + json[key].photo //豆瓣电影海报 
+        // }
 
-            //https://img1.doubanio.com/view/photo/l/public/p2813158239.jpg
-            var image = "images/" + jsonfilename + "/" + today + ".jpg" //豆瓣日历剧照    
+        //var image = json[key].calendarimageurl //豆瓣日历剧照
 
-            $('.image').each(function() { // 遍历所有带有 "image" 类名的 img 元素
-                var filename = this.src; // 获取图片路径作为文件名
-                $('#filenameContainer').append('<p>' + filename + '</p>'); // 将文件名显示在指定的容器内
-            });
-            $("#title").html("《" + title + "》")
-            $("#rating").html("豆瓣评分：" + rating)
-            $("#director").html("导演：" + director)
-            $("#star").html("主演：" + star)
-            $("#year").html(year + " / " + country + " / " + genre)
+        //https://img1.doubanio.com/view/photo/l/public/p2813158239.jpg
+        var image = "images/" + jsonfilename + "/" + today + ".jpg" //豆瓣日历剧照    
 
-            $("#quote").html("\"" + quote +"\"" )
+        $('.image').each(function () { // 遍历所有带有 "image" 类名的 img 元素
+          var filename = this.src; // 获取图片路径作为文件名
+          $('#filenameContainer').append('<p>' + filename + '</p>'); // 将文件名显示在指定的容器内
+        });
+        $("#title").html("《" + title + "》")
+        $("#rating").html("豆瓣评分：" + rating)
+        $("#director").html("导演：" + director)
+        $("#star").html("主演：" + star)
+        $("#year").html(year + " / " + country + " / " + genre)
 
-            $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
+        $("#quote").html("\"" + quote + "\"")
 
-            // $("#image").attr("src", image)
-            $("#body").attr("background", image)
+        $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
 
-            $("#mobile_qr").html("")
-            $("#mobile_qr").qrcode({   //二维码
-              render: "canvas",
-              width: 50,
-              height: 50,
-              text: douban_link
-            });
-            $("#mobile_qr").children("canvas").css("width", "100px");
-            $('#mobile_qr').unbind("click"); //移除click
-            $('#mobile_qr').click(function () {
-              window.open(douban_link, "_blank");
-            });
-            $("#imagename").html(jsonfilename + "-" + today)
-            break;
-          }
+        // $("#image").attr("src", image)
+        $("#body").attr("background", image)
 
-        }
-      })
-      .fail(function () {
-        $("#imagename").show()
-      });
+        $("#mobile_qr").html("")
+        $("#mobile_qr").qrcode({   //二维码
+          render: "canvas",
+          width: 50,
+          height: 50,
+          text: douban_link
+        });
+        $("#mobile_qr").children("canvas").css("width", "100px");
+        $('#mobile_qr').unbind("click"); //移除click
+        $('#mobile_qr').click(function () {
+          window.open(douban_link, "_blank");
+        });
+        $("#imagename").html(jsonfilename + "-" + today)
+        break;
+      }
 
+    }
 
   }
-
   function showtimefunction() {
     if (showtime) {
       showtime = false;
