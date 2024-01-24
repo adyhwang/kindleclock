@@ -244,13 +244,39 @@
     }
   }
 
-  function get_data(top_id) {
+    function get_data(top_id) {
 
+      var json = ""
+      if (typeof (Storage) !== "undefined") {
+        // 针对 localStorage/sessionStorage 的代码
+        json = localStorage.getItem("DoubanTop250")
+        if (json !== "" && json !== null) {
 
-    $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
-      .done(function () {
-        var json = jsonstr.list        
-        var title = json[top_id].title //片名
+          set_data(JSON.parse(json))
+        } else {
+          $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
+            .done(function () {
+              localStorage.setItem("DoubanTop250", JSON.stringify(jsonstr.list));
+              set_data(jsonstr.list)
+            })
+            .fail(function () {
+              $("#imagename").show()
+            });
+        }
+      } else {
+        // 抱歉！不支持 Web Storage ..
+        $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
+          .done(function () {
+            set_data(jsonstr.list)
+          })
+          .fail(function () {
+            $("#imagename").show()
+          });
+      }
+
+    }
+  function set_data(json) {
+    var title = json[top_id].title //片名
         var rating = json[top_id].douban_rating //评分
         var rank = json[top_id].douban_rank //排名
         var director = json[top_id].director//导演
@@ -294,15 +320,7 @@
         $('#mobile_qr').click(function () {
           window.open(douban_link, "_blank");
         });
-
-
-      })
-      .fail(function () {
-        
-      });   
-
   }
-
   function showtimefunction() {
     if (showtime) {
       showtime = false;
