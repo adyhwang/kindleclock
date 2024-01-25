@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 
 <head>
-  <title>Kindleclock</title>
+  <title>Kindleclock_portrait</title>
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport"
@@ -179,7 +179,7 @@
 
   var showtime = true
   var showmore = false
-  var idlength = 250
+  var idlength = 249
   var top_id = getQueryVariable("id")
   var rotate =  parseInt($.getUrlParam('rotate'))
   
@@ -188,6 +188,31 @@
   if (top_id == '') {
     top_id = Math.ceil(Math.random() * idlength);
   }
+
+  var mode = $.getUrlParam('mode') //portrait or landscape
+
+  switch (mode) {
+    case "portrait":
+      break;
+    case "landscape":
+      window.location.href = "doubantop250.html?id=" + top_id + "&mode=landscape";
+      break;
+    case null:
+      if (screen.width > screen.height) {
+        window.location.href = "doubantop250.html?id=" + top_id;
+      }
+      break;
+    default:
+      break;
+  }
+
+  function orientationChange() {
+    if (screen.width > screen.height) {
+      window.location.href = "doubantop250.html?id=" + top_id;
+    }
+  };
+
+  window.addEventListener("orientationchange", orientationChange);
 
   $("#star").css("-webkit-line-clamp", "4")
   $("#quote").css("-webkit-line-clamp", "4")
@@ -244,7 +269,7 @@
     }
   }
 
-    function get_data(top_id) {
+    function get_data() {
 
       var json = ""
       if (typeof (Storage) !== "undefined") {
@@ -372,7 +397,9 @@
     top_id = top_id - 1
     get_data(top_id)
   }
-
+  function modefunction() {
+    window.location.href = "doubantop250.html?id=" + top_id + "&mode=landscape";
+  }
   function rotatefunction() {
     if (rotate) {
       $('#body').css('transform', 'rotate(180deg)');
@@ -393,6 +420,10 @@
     }
   }
   ///////
+  $('#day').click(function () {
+    showtimefunction()
+  });
+  
   $('#lunar').click(function () {
     rotatefunction()
   });
@@ -400,15 +431,22 @@
   $('#title').click(function () {
     alertinput()
   });
-  $('#quote').click(function () {
+  $("#rating").click(function () {
     showmorefunction()
   });
-  $('#summary').click(function () {
+  $("#year").click(function () {
     showmorefunction()
   });
-  $('#day').click(function () {
-    showtimefunction()
+  $("#star").click(function () {
+    showmorefunction()
   });
+  $("#quote").click(function () {
+    showmorefunction()
+  });
+  $("#summary").click(function () {
+    showmorefunction()
+  });
+
   $('#image').click(function () {
     previousid()
   });
@@ -422,6 +460,9 @@
         break;
       case 105: //i
         alertinput()
+        break;
+      case 109: //m
+        modefunction()
         break;
       case 114: //r
         previousid()
