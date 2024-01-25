@@ -184,6 +184,9 @@
   var today = "01-01";
   var jsonfilename = $.getUrlParam("id")  
 
+  var rotate = parseInt($.getUrlParam("rotate"))
+  rotatefunction()
+
   var mode = $.getUrlParam("mode") //portrait or landscape
 
   switch (mode) {
@@ -403,6 +406,26 @@
     window.location.href = "doubancalendar-portrait.html?id=" + jsonfilename + "&mode=portrait";
   }
 
+  function rotatefunction() {
+    if (rotate) {
+      $("#divmain").css("transform", "rotate(180deg)");
+      $("#divmain").css("-webkit-transform", "rotate(180deg)");
+      $("#divmain").css("-moz-transform", "rotate(180deg)");
+      $("#divmain").css("-o-transform", "rotate(180deg)");
+      $("#divmain").css("-ms-transform", "rotate(180deg)");
+      rotate = 0
+
+    }
+    else {
+      $("#divmain").css("transform", "");
+      $("#divmain").css("-webkit-transform", "");
+      $("#divmain").css("-moz-transform", "");
+      $("#divmain").css("-o-transform", "");
+      $("#divmain").css("-ms-transform", "");
+      rotate = 1
+    }
+  }
+
   $("#content").click(function () {
     showmorefunction()
   });
@@ -430,6 +453,8 @@
         break;
       case 120: //x
       case 122: //z
+        rotatefunction()
+        break;
       default:
         break;
     }
