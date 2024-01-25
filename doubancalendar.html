@@ -10,8 +10,8 @@
   <link rel="shortcut icon" href="favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
   <style>
     @font-face {
-      font-family: 'LED';
-      src: url('js/DS-Digital.TTF');
+      font-family: "LED";
+      src: url("js/DS-Digital.TTF");
     }
 
     .main {
@@ -175,25 +175,26 @@
 
   $(document).ready(function () {
     $(document).mousemove(function () {
-      $('#body').css({ cursor: 'default' });
+      $("#body").css({ cursor: "default" });
     });
   });
 
   var showtime = false
   var showmore = false
   var today = "01-01";
-  var jsonfilename = $.getUrlParam('id')
-  var mode = $.getUrlParam('mode') //portrait or landscape
+  var jsonfilename = $.getUrlParam("id")  
+
+  var mode = $.getUrlParam("mode") //portrait or landscape
 
   switch (mode) {
     case "portrait":
-      window.location.href = "doubancalendar2.html?id=" + jsonfilename + "&mode=portrait";
+      window.location.href = "doubancalendar-portrait.html?id=" + jsonfilename + "&mode=portrait";
       break;
     case "landscape":
       break;
     case null:
       if (screen.width < screen.height) {
-        window.location.href = "doubancalendar2.html?id=" + jsonfilename;
+        window.location.href = "doubancalendar-portrait.html?id=" + jsonfilename;
       }
       break;
     default:
@@ -201,7 +202,7 @@
   }
   function orientationChange() {
     if (screen.width < screen.height) {
-      window.location.href = "doubancalendar2.html?id=" + jsonfilename;
+      window.location.href = "doubancalendar-portrait.html?id=" + jsonfilename;
     }
   }
 
@@ -220,7 +221,7 @@
   setInterval("update()", 1 * 30 * 1000)
 
   function update() {
-    $('#body').css({ cursor: 'none' });
+    $("#body").css({ cursor: "none" });
 
     var date = new Date()
     var utc8DiffMinutes = date.getTimezoneOffset() + 480
@@ -228,16 +229,16 @@
 
 
     var hour = date.getHours()
-    hour = hour < 10 ? '0' + hour : hour
+    hour = hour < 10 ? "0" + hour : hour
     var Minutes = date.getMinutes()
-    Minutes = Minutes < 10 ? '0' + Minutes : Minutes
-    var timeString = hour + ':' + Minutes
+    Minutes = Minutes < 10 ? "0" + Minutes : Minutes
+    var timeString = hour + ":" + Minutes
     var yearString = date.getFullYear()
     var monthString = date.getMonth() + 1
-    monthString = monthString < 10 ? '0' + monthString : monthString
+    monthString = monthString < 10 ? "0" + monthString : monthString
     var dayString = date.getDate()
-    dayString = dayString < 10 ? '0' + dayString : dayString
-    var daysString = dayString.length == 1 ? '0' + dayString : dayString
+    dayString = dayString < 10 ? "0" + dayString : dayString
+    var daysString = dayString.length == 1 ? "0" + dayString : dayString
 
     var _todaylunarjson = calendar.solar2lunar(yearString, monthString, dayString);
 
@@ -343,8 +344,8 @@
           text: douban_link
         });
         $("#mobile_qr").children("canvas").css("width", "100px");
-        $('#mobile_qr').unbind("click"); //移除click
-        $('#mobile_qr').click(function () {
+        $("#mobile_qr").unbind("click"); //移除click
+        $("#mobile_qr").click(function () {
           window.open(douban_link, "_blank");
         });
         $("#imagename").html(jsonfilename + "-" + today)
@@ -391,28 +392,26 @@
   function alertinput() {
     today = prompt("请输入日期MMdd，如：2月15日输入0215")
     if (today.length == 4) {
-      today = today.slice(0, 2) + '-' + today.slice(2);
+      today = today.slice(0, 2) + "-" + today.slice(2);
       get_data(today)
     } else {
-      alert('日期格式错误！请输入日期，如0215')
+      alert("日期格式错误！请输入日期，如0215")
     }
   }
 
   function modefunction() {
-    window.location.href = "doubancalendar2.html?id=" + jsonfilename + "&mode=portrait";
+    window.location.href = "doubancalendar-portrait.html?id=" + jsonfilename + "&mode=portrait";
   }
 
-
-
-  $('#content').click(function () {
+  $("#content").click(function () {
     showmorefunction()
   });
 
-  $('#daytime').click(function () {
+  $("#daytime").click(function () {
     showtimefunction()
   });
 
-  $('#monthday').click(function () {
+  $("#monthday").click(function () {
     alertinput()
   });
   ///////  
@@ -423,13 +422,14 @@
       case 100: //d
         showtimefunction()
         break;
+        case 109: //m
+        modefunction()
+        break;
       case 115: //s
         showmorefunction()
         break;
       case 120: //x
       case 122: //z
-        modefunction()
-        break;
       default:
         break;
     }
