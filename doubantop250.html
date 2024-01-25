@@ -2,91 +2,39 @@
 <html lang="zh-CN">
 
 <head>
-  <title>Kindleclock_portrait</title>
+  <title>Kindleclock</title>
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport"
     content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-
   <link rel="shortcut icon" href="favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
   <style>
     @font-face {
-      font-family: 'LED';
-      src: url('js/DS-Digital.TTF');
+      font-family: "LED";
+      src: url("js/DS-Digital.TTF");
+    }
+
+    .main {
+      background-color: rgba(0, 0, 0, 0.404);
     }
 
     .body {
-      /* position: fixed; */
+      font-size: 100%;
       margin: 0px;
       width: 100%;
-      height: 100%;
-    }
+      height: auto;
 
-    .col-top-left {
-      font-size: 0.8rem;
-      float: left;
-      position: relative;
-      min-height: 1px;
-      padding-right: 1px;
-      padding-left: 1px;
-    }
-
-    .col-top-right {
-      font-size: 0.8rem;
-      float: right;
-      position: relative;
-      min-height: 1px;
-      padding-right: 1px;
-      padding-left: 1px;
+      background-color: rgba(0, 0, 0, 0.404);
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
     }
 
 
-    .day {
-      font-family: LED;
-      /* height: 100%;
-      width: 100%; */
-      text-align: center;
-      font-size: 10rem;
-      /* font-weight: 700; */
-    }
 
-    .divbottom {
-      width: 100%;
-      background-color: white;
-      z-index: 999;
-      /* position: absolute; */
-      bottom: 0;
-      margin: 0px 1px 0px 1px;
-      text-align: center;
-    }
-
-    .bottomleft {
-      width: 45%;
-      height: 100%;
-      float: left;
-
-    }
-
-    .bottomright {
-      height: 100%;
-      float: right;
-    }
-
-    .title {
-      text-align: left;
-      font-weight: 600;
-      font-size: 1.5rem;
-      margin: 0.3rem;
-    }
-
-    .content {
-      text-align: left;
-      margin: 0.1rem;
-      font-size: 0.8rem;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
+    .image {
+      width: 90%;
     }
 
     .quote {
@@ -102,50 +50,105 @@
       font-style: italic;
     }
 
-    .mobile_qr {
+    .day {
+      font-family: LED;
+      /* height: 100%; */
+      width: 100%;
+      text-align: center;
+      /* font-size: 10rem; */
+      font-size: calc(100vw * 600 / 1920);
+      font-weight: 700;
+    }
 
+    .time {
+      font-family: LED;
+      /* height: 100%; */
+      width: 100%;
+      text-align: center;
+      font-size: calc(100vw * 500 / 1920);
+      font-weight: 700;
+    }
+
+    .divmain {
+      width: 100%;
+      height: 100%;
+      color: rgb(255, 255, 255);
+      background-color: rgba(0, 0, 0, 0.404);
+      z-index: 999;
+      position: absolute;
+      bottom: 0px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .divleft {
+      width: 50%;
+      height: 100%;
+      float: left;
+      vertical-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .divright {
+      /* height: 100%; */
+      width: 80%;
+    }
+
+    .title {
+      text-align: left;
+      font-weight: 600;
+      font-size: 1.5rem;
+      margin: 0.3rrem;
+    }
+
+    .content {
+      text-align: left;
+      /* margin-top: 0.2rem; */
+      font-size: 0.8rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+
+
+    .mobile_qr {
       text-align: center
     }
-
-    .image {
-      width: 100%;
-      max-width: 300px;
-    }
+  </style>
   </style>
 </head>
 
 <body id="body" class="body">
-  <div id="divtop" class="divtop">
-    <div class="col-top-left ">
-      <div id="yearmonthday" class="text-left"></div>
-    </div>
-    <div class="col-top-right ">
-      <div id="lunar" class="text-right"></div>
-    </div>
-    <div id="day" class="day"></div>
-  </div>
+  <div id="divmain" class="divmain">
 
-  <div id="divbottom" class="divbottom">
-    <div id="bottomleft" class="bottomleft">
-      <img id="image" class="image" alt="Loading..." mode="aspectFill" src="img.png" referrerPolicy="no-referrer">
+    <div id="divleft" class="divleft">
+      <img id="image" class="image" alt="Loading..." mode="aspectFill" referrerPolicy="no-referrer">
     </div>
 
-    <div id="bottomright" class="bottomright">
-      <div id="title" class="title"></div>
+    <div id="divright" class="divright">
+      <div id=daytime>
+        <div id="day" class="day">01</div>
+        <div id="time" class="time">00:00</div>
+        <div id="monthday" class="text-left">01月01日</div>
+        <div id="lunar" class="text-left">农历癸卯兔年 腊月十五</div>
+      </div>
 
-      <div id="director" class="content"></div>
-      <div id="star" class="content"></div>
-      <div id="year" class="content"></div>
-
-      <div id="rating" class="content"></div>
-      <div id="rank" class="content"></div>
-
-
-      <div id="quote" class="quote"></div>
-
-      <div id="summary" class="content"></div>
-      <div id="mobile_qr" class="mobile_qr"></div>
-
+      <div id="content" class="content">
+        <div id="title" class="title"></div>
+        <div id="rating"></div>
+        <div id="year"></div>
+        <div id="director"></div>
+        <div id="star"></div>
+        <div id="quote" class="quote"></div>
+        <div id="summary"></div>
+        <div id="mobile_qr" class="mobile_qr"></div>
+      </div>
 
     </div>
   </div>
@@ -173,60 +176,60 @@
 
   $(document).ready(function () {
     $(document).mousemove(function () {
-      $('#body').css({ cursor: 'default' });
+      $("#body").css({ cursor: "default" });
     });
   });
 
   var showtime = true
   var showmore = false
-  var idlength = 249
+  var idlength = 250
   var top_id = getQueryVariable("id")
-  var rotate =  parseInt($.getUrlParam('rotate'))
-  
+  var rotate = parseInt($.getUrlParam("rotate"))
+
   rotatefunction()
 
-  if (top_id == '') {
+  if (top_id == "") {
     top_id = Math.ceil(Math.random() * idlength);
   }
 
-  var mode = $.getUrlParam('mode') //portrait or landscape
+  var mode = $.getUrlParam("mode") //portrait or landscape
 
   switch (mode) {
     case "portrait":
+      window.location.href = "doubantop250-portrait.html?id=" + top_id + "&mode=portrait";
       break;
     case "landscape":
-      window.location.href = "doubantop250.html?id=" + top_id + "&mode=landscape";
       break;
     case null:
-      if (screen.width > screen.height) {
-        window.location.href = "doubantop250.html?id=" + top_id;
+      if (screen.width < screen.height) {
+        window.location.href = "doubantop250-portrait.html?id=" + top_id;
       }
       break;
     default:
       break;
   }
-
   function orientationChange() {
-    if (screen.width > screen.height) {
-      window.location.href = "doubantop250.html?id=" + top_id;
+    if (screen.width < screen.height) {
+      window.location.href = "doubantop250-portrait.html?id=" + top_id;
     }
-  };
+  }
 
   window.addEventListener("orientationchange", orientationChange);
 
-  $("#star").css("-webkit-line-clamp", "4")
-  $("#quote").css("-webkit-line-clamp", "4")
-  $("#mobile_qr").hide()
+
+
+  $("#director").css("-webkit-line-clamp", "4")
+  $("#star").hide()
   $("#summary").hide()
-  $("#bottomright").css("width", "53%")
-  $("#body").css("position", "fixed")
-  $("#divbottom").css("position", "absolute")
+  $("#mobile_qr").hide()
+  // $("#quote").hide()
+  $("#divmain").css("position", "absolute")
 
   update()
   setInterval("update()", 1 * 60 * 1000)
 
   function update() {
-    $('#body').css({ cursor: 'none' });
+    $("#body").css({ cursor: "none" });
 
     var date = new Date()
     var utc8DiffMinutes = date.getTimezoneOffset() + 480
@@ -234,10 +237,10 @@
 
 
     var hour = date.getHours()
-    hour = hour < 10 ? '0' + hour : hour
+    hour = hour < 10 ? "0" + hour : hour
     var Minutes = date.getMinutes()
-    Minutes = Minutes < 10 ? '0' + Minutes : Minutes
-    var timeString = hour + ':' + Minutes
+    Minutes = Minutes < 10 ? "0" + Minutes : Minutes
+    var timeString = hour + ":" + Minutes
     var yearString = date.getFullYear()
     var monthString = date.getMonth() + 1
     var dayString = date.getDate()
@@ -245,18 +248,22 @@
     var _todaylunarjson = calendar.solar2lunar(yearString, monthString, dayString);
 
     //公历
-    var _today = "　" + yearString + "年" + monthString + "月" + dayString + "日" + " " + _todaylunarjson.ncWeek + " " + _todaylunarjson.astro
+    var _today = yearString + "年" + monthString + "月" + dayString + "日" + " " + _todaylunarjson.ncWeek + " " + _todaylunarjson.astro
     //农历
-    var _todaylunar = "农历" + _todaylunarjson.gzYear + _todaylunarjson.Animal + "年 " + _todaylunarjson.IMonthCn + _todaylunarjson.IDayCn + "　"
+    var _todaylunar = "农历" + _todaylunarjson.gzYear + _todaylunarjson.Animal + "年 " + _todaylunarjson.IMonthCn + _todaylunarjson.IDayCn
 
     if (showtime) {
-      $("#day").html(timeString)
+      $("#time").show()
+      $("#day").hide()
+      $("#time").html(timeString)
     } else {
+      $("#time").hide()
+      $("#day").show()
       $("#day").html(dayString)
     }
 
-    if ($("#yearmonthday").html().indexOf(_today) != 0) {
-      $("#yearmonthday").html(_today)
+    if ($("#monthday").html().indexOf(_today) != 0) {
+      $("#monthday").html(_today)
       $("#lunar").html(_todaylunar)
 
       if (top_id > 0) {
@@ -269,109 +276,105 @@
     }
   }
 
-    function get_data() {
+  function get_data(top_id) {
 
-      var json = ""
-      if (typeof (Storage) !== "undefined") {
-        // 针对 localStorage/sessionStorage 的代码
-        json = localStorage.getItem("DoubanTop250")
-        if (json !== "" && json !== null) {
+    var json = ""
+    if (typeof (Storage) !== "undefined") {
+      // 针对 localStorage/sessionStorage 的代码
+      json = localStorage.getItem("DoubanTop250")
+      if (json !== "" && json !== null) {
 
-          set_data(JSON.parse(json))
-        } else {
-          $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
-            .done(function () {
-              localStorage.setItem("DoubanTop250", JSON.stringify(jsonstr.list));
-              set_data(jsonstr.list)
-            })
-            .fail(function () {
-              $("#imagename").show()
-            });
-        }
+        set_data(JSON.parse(json))
       } else {
-        // 抱歉！不支持 Web Storage ..
         $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
           .done(function () {
+            localStorage.setItem("DoubanTop250", JSON.stringify(jsonstr.list));
             set_data(jsonstr.list)
           })
           .fail(function () {
-            $("#imagename").show()
+
           });
       }
+    } else {
+      // 抱歉！不支持 Web Storage ..
+      $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
+        .done(function () {
+          set_data(jsonstr.list)
+        })
+        .fail(function () {
 
+        });
     }
+
+  }
   function set_data(json) {
     var title = json[top_id].title //片名
-        var rating = json[top_id].douban_rating //评分
-        var rank = json[top_id].douban_rank //排名
-        var director = json[top_id].director//导演
-        var star = json[top_id].star //主演
+    var rating = json[top_id].douban_rating //评分
+    var rank = json[top_id].douban_rank //排名
+    var director = json[top_id].director//导演
+    var star = json[top_id].star //主演
 
-        var year = json[top_id].year//年份
-        var country = json[top_id].country//国家地区 
-        var genre = json[top_id].genre//类型
+    var year = json[top_id].year//年份
+    var country = json[top_id].country//国家地区 
+    var genre = json[top_id].genre//类型
 
-        var douban_link = "https://movie.douban.com/subject/" + json[top_id].douban_id //豆瓣链接
-        var quote = json[top_id].quote //短评
+    var douban_link = "https://movie.douban.com/subject/" + json[top_id].douban_id //豆瓣链接
+    var quote = json[top_id].quote //短评
 
-        var summary = json[top_id].summary //简介
+    var summary = json[top_id].summary //简介
 
-        //var image = "https://images.weserv.nl/?url=" + json[top_id].photo //海报       384x528
-        //var image = json[top_id].photo //海报       384x528var 
-        image = "images/DoubanTop250/" + json[top_id].douban_id + ".jpg" //豆瓣日历剧照    
+    //var image = "https://images.weserv.nl/?url=" + json[top_id].photo //海报       384x528
+    //var image = json[top_id].photo //海报       384x528var 
+    image = "images/DoubanTop250/" + json[top_id].douban_id + ".jpg" //豆瓣日历剧照    
 
-        $("#title").html(title)
-        $("#rating").html("豆瓣评分：" + rating + "　排名：" + rank)
-        $("#director").html("导演：" + director)
-        $("#star").html("主演：" + star)
-        $("#year").html(year + " / " + country + " / " + genre)
+    $("#title").html(title)
+    $("#rating").html("豆瓣评分：" + rating + "　排名：" + rank)
+    $("#director").html("导演：" + director)
+    $("#star").html("主演：" + star)
+    $("#year").html(year + " / " + country + " / " + genre)
 
 
-        $("#quote").html("\"" + quote + "\"")
+    $("#quote").html("\"" + quote + "\"")
 
-        $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
+    $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
 
-        $("#image").attr("src", image)
+    $("#image").attr("src", image)
 
-        $("#mobile_qr").html("")
-        $("#mobile_qr").qrcode({   //二维码
-          render: "canvas",
-          width: 50,
-          height: 50,
-          text: douban_link
-        });
-        $("#mobile_qr").children("canvas").css("width", "100px");
-        $('#mobile_qr').unbind("click"); //移除click
-        $('#mobile_qr').click(function () {
-          window.open(douban_link, "_blank");
-        });
+    $("#mobile_qr").html("")
+    $("#mobile_qr").qrcode({   //二维码
+      render: "canvas",
+      width: 50,
+      height: 50,
+      text: douban_link
+    });
+    $("#mobile_qr").children("canvas").css("width", "100px");
+    $("#mobile_qr").unbind("click"); //移除click
+    $("#mobile_qr").click(function () {
+      window.open(douban_link, "_blank");
+    });
+
   }
   function showtimefunction() {
-    if (showtime) {
-      showtime = false;
-    }
-    else {
-      showtime = true;
-    }
-
+    showtime = showtime != true
     update()
   }
 
   function showmorefunction() {
     if (showmore) {
-      $("#bottomleft").show()
-      $("#bottomright").css("width", "53%")
-      $("#content").css("-webkit-line-clamp", "10")
-      $("#quote").show()
+      $("#divleft").show()
+      $("#daytime").show()
+      // $("#quote").hide()
       $("#summary").hide()
+      $("#star").hide()
       $("#mobile_qr").hide()
       showmore = false;
     }
     else {
-      $("#bottomleft").hide()
-      $("#bottomright").css("width", "")
-      $("#content").css("-webkit-line-clamp", "")
-      $("#quote").show()
+      $("#divleft").hide()
+      $("#daytime").hide()
+      $("#content").show()
+      // $("#quote").show()
+      $("#star").show()
       $("#summary").show()
       $("#mobile_qr").show()
       showmore = true;
@@ -397,38 +400,37 @@
     top_id = top_id - 1
     get_data(top_id)
   }
+
   function modefunction() {
-    window.location.href = "doubantop250.html?id=" + top_id + "&mode=landscape";
+    window.location.href = "doubantop250-portrait.html?id=" + top_id + "&mode=portrait";
   }
+
   function rotatefunction() {
     if (rotate) {
-      $('#body').css('transform', 'rotate(180deg)');
-      $('#body').css('-webkit-transform', 'rotate(180deg)');
-      $('#body').css('-moz-transform', 'rotate(180deg)');
-      $('#body').css('-o-transform', 'rotate(180deg)');
-      $('#body').css('-ms-transform', 'rotate(180deg)');
+      $("#body").css("transform", "rotate(180deg)");
+      $("#body").css("-webkit-transform", "rotate(180deg)");
+      $("#body").css("-moz-transform", "rotate(180deg)");
+      $("#body").css("-o-transform", "rotate(180deg)");
+      $("#body").css("-ms-transform", "rotate(180deg)");
       rotate = 0
 
     }
     else {
-      $('#body').css('transform', '');
-      $('#body').css('-webkit-transform', '');
-      $('#body').css('-moz-transform', '');
-      $('#body').css('-o-transform', '');
-      $('#body').css('-ms-transform', '');
+      $("#body").css("transform", "");
+      $("#body").css("-webkit-transform", "");
+      $("#body").css("-moz-transform", "");
+      $("#body").css("-o-transform", "");
+      $("#body").css("-ms-transform", "");
       rotate = 1
     }
   }
   ///////
-  $('#day').click(function () {
+  $("#daytime").click(function () {
     showtimefunction()
   });
-  
-  $('#lunar').click(function () {
-    rotatefunction()
-  });
 
-  $('#title').click(function () {
+
+  $("#title").click(function () {
     alertinput()
   });
   $("#rating").click(function () {
@@ -447,7 +449,8 @@
     showmorefunction()
   });
 
-  $('#image').click(function () {
+
+  $("#image").click(function () {
     previousid()
   });
 
