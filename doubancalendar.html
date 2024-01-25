@@ -182,7 +182,7 @@
   var showtime = false
   var showmore = false
   var today = "01-01";
-  var jsonfilename = $.getUrlParam("id")  
+  var jsonfilename = $.getUrlParam("id")
 
   var rotate = parseInt($.getUrlParam("rotate"))
   rotatefunction()
@@ -270,6 +270,18 @@
       }
       get_data(today)
     }
+    setTimeout(function () {
+      isImgLoad()
+    }, 5000);
+  }
+  // 判断图片加载的函数
+  function isImgLoad(callback) {
+    $("#image").each(function () {
+      if (this.height < 50) {        
+        $("#image").attr("src", $("#image").attr("src"))
+        return false;
+      }
+    });
   }
 
   function get_data(today) {
@@ -277,7 +289,7 @@
     if (typeof (Storage) !== "undefined") {
       // 针对 localStorage/sessionStorage 的代码
       json = localStorage.getItem(jsonfilename)
-      if (json !== ""&&json !== null) {
+      if (json !== "" && json !== null) {
 
         set_data(JSON.parse(json))
       } else {
@@ -331,14 +343,10 @@
         $("#director").html("导演：" + director)
         $("#star").html("主演：" + star)
         $("#year").html(year + " / " + country + " / " + genre)
-
         $("#quote").html("\"" + quote + "\"")
-
         $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
 
         $("#image").attr("src", image)
-        //$("#body").attr("background", image)
-
         $("#mobile_qr").html("")
         $("#mobile_qr").qrcode({   //二维码
           render: "canvas",
@@ -357,6 +365,7 @@
 
     }
   }
+
 
 
   function showtimefunction() {
@@ -445,7 +454,7 @@
       case 100: //d
         showtimefunction()
         break;
-        case 109: //m
+      case 109: //m
         modefunction()
         break;
       case 115: //s
