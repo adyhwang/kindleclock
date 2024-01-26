@@ -220,15 +220,6 @@
 
   function get_data(random) {
 
-
-    $.getScript("js/Food.js")
-      .done(function () {
-        var json = jsonstr.list
-      })
-      .fail(function () {
-
-      });
-
     var json = ""
     if (typeof (Storage) !== "undefined") {
       // 针对 localStorage/sessionStorage 的代码
@@ -338,7 +329,7 @@
     }
     else {
       $("#bottomleft").hide()
-      $("#bottomright").css("width", "")
+      $("#bottomright").css("width", "100%")
       $("#content").css("-webkit-line-clamp", "")
       showmore = true;
     }
