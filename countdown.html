@@ -120,7 +120,7 @@
     <div id="divbottom" class="divbottom">
         <div id="buttondiv" class="buttondiv">
             <div>
-                <input type="button" class="button" value="30秒(Q)" onclick="ftimevalue(0.5*60*1000)" />
+                <input type="button" class="button" value="30秒(Q)" onclick="ftimevalue(30*1000)" />
                 <input type="button" class="button" value="1分钟(W)" onclick="ftimevalue(1*60*1000)" />
                 <input type="button" class="button" value="2分钟(E)" onclick="ftimevalue(2*60*1000)" />
                 <input type="button" class="button" value="3分钟(R)" onclick="ftimevalue(3*60*1000)" />
@@ -131,22 +131,21 @@
                 <input type="number" id="number" class="number" value="15" />
                 <input type="button" class="button" value="开始(U)" onclick="ftimevalue2()" />
             </div>
-
-
-
         </div>
         <div id="countdown" class="countdown"></div>
-
-
     </div>
     </div>
 
 </body>
-<!-- <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-<script src="https://cdn.bootcss.com/lrsjng.jquery-qrcode/0.17.0/jquery-qrcode.min.js"></script> -->
-<script src="js/jquery.min.js"></script>
+<!-- <script src="js/jquery.min.js"></script>
 <script src="js/jquery-qrcode-0.17.0.min.js"></script>
-<script src="js/ConvertCalendar.js"></script>
+<script src="js/ConvertCalendar.js"></script> -->
+
+<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/ConvertCalendar.js"></script>
+
+<script type='text/javascript' src='//www.midijs.net/lib/midi.js'></script>
 
 
 <script>
@@ -169,20 +168,6 @@
     var rotate = parseInt($.getUrlParam('rotate'))
     rotatefunction()
     var showtime = true
-
-    var endtime
-    function ftimevalue(value) {
-
-        var date = new Date()
-        var utc8DiffMinutes = date.getTimezoneOffset() + 480
-        date.setMinutes(date.getMinutes() + utc8DiffMinutes)
-
-        endtime = date.getTime() + parseInt(value)
-    }
-    function ftimevalue2() {
-        ftimevalue($("#number").val() * 60 * 1000)
-    }
-
 
     update()
     setInterval("update()", 1000)
@@ -262,9 +247,25 @@
 
     }
 
+    var endtime
+    var timesRun = 0;
+    function ftimevalue(value) {
+        timesRun = 119
+        MIDIjs.stop()
+        var date = new Date()
+        var utc8DiffMinutes = date.getTimezoneOffset() + 480
+        date.setMinutes(date.getMinutes() + utc8DiffMinutes)
+
+        endtime = date.getTime() + parseInt(value)
+    }
+    function ftimevalue2() {
+        ftimevalue($("#number").val() * 60 * 1000)
+    }
+
     function flicker() {
 
-        var timesRun = 0;
+        timesRun = 0;
+        MIDIjs.play('contra.mid')
 
         var timer = setInterval(function () {
             timesRun += 1;
@@ -280,6 +281,7 @@
             if (timesRun == 120) {
                 $("#body").css({ background: "#fff" })
                 $("#countdown").css({ 'font-size': "6rem" })
+                MIDIjs.stop()
                 clearInterval(timer);
             }
 
@@ -332,6 +334,9 @@
     $(document).keypress(function (e) {
 
         switch (e.keyCode) {
+            case 99: //c
+                ftimevalue(1000)
+                break;
             case 100: //d
                 showtimefunction()
                 break;
