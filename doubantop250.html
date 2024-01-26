@@ -226,7 +226,7 @@
   $("#divmain").css("position", "absolute")
 
   update()
-  setInterval("update()", 1 * 60 * 1000)
+  setInterval("update()", 1 * 30 * 1000)
 
   function update() {
     $("#body").css({ cursor: "none" });
@@ -279,11 +279,10 @@
     }, 5000);
   }
   // 判断图片加载的函数
-  function isImgLoad(callback) {
+  function isImgLoad() {
     $("#image").each(function () {
       if (this.height < 50) {
         $("#image").attr("src", $("#image").attr("src"))
-        return false;
       }
     });
   }
