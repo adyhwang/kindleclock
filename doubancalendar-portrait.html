@@ -292,6 +292,18 @@
       }
       get_data(today)
     }
+    setTimeout(function () {
+      isImgLoad()
+    }, 5000);
+  }
+  // 判断图片加载的函数
+  function isImgLoad() {
+    $("#image").each(function () {
+      if (this.height < 50) {
+        $("#image").attr("src", $("#image").attr("src"))
+        return false;
+      }
+    });
   }
 
   function get_data(today) {
