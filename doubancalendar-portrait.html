@@ -202,7 +202,7 @@
 
   var showtime = false
   var showmore = false
-  var today = "07-09";
+  var today = "01-01";
   var jsonfilename = $.getUrlParam('id')
   var rotate = parseInt($.getUrlParam('rotate'))
   rotatefunction()
@@ -298,10 +298,9 @@
   }
   // 判断图片加载的函数
   function isImgLoad() {
-    $("#image").each(function () {
+    $("#backgroundImage").each(function () {
       if (this.height < 50) {
-        $("#image").attr("src", $("#image").attr("src"))
-        return false;
+        $("#backgroundImage").attr("src", $("#backgroundImage").attr("src"))
       }
     });
   }
