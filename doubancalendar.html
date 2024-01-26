@@ -128,7 +128,6 @@
 
     <div id="divleft" class="divleft">
       <img id="image" class="image" alt="Loading..." mode="aspectFill" referrerPolicy="no-referrer">
-      <span id="imagename" style="position: absolute;right:20px;top: 20px;color: red;">01-01</span>
     </div>
 
     <div id="divright" class="divright">
@@ -212,7 +211,6 @@
   window.addEventListener("orientationchange", orientationChange);
 
 
-  $("#imagename").hide()
   $("#director").css("-webkit-line-clamp", "4")
   $("#star").hide()
   $("#summary").hide()
@@ -275,11 +273,10 @@
     }, 5000);
   }
   // 判断图片加载的函数
-  function isImgLoad(callback) {
+  function isImgLoad() {
     $("#image").each(function () {
-      if (this.height < 50) {        
+      if (this.height < 50) {
         $("#image").attr("src", $("#image").attr("src"))
-        return false;
       }
     });
   }
@@ -299,7 +296,7 @@
             set_data(jsonstr.list)
           })
           .fail(function () {
-            $("#imagename").show()
+
           });
       }
     } else {
@@ -309,7 +306,7 @@
           set_data(jsonstr.list)
         })
         .fail(function () {
-          $("#imagename").show()
+
         });
     }
 
