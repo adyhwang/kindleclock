@@ -181,8 +181,7 @@
   var showmore = false
   var idlength = 249
   var top_id = getQueryVariable("id")
-  var rotate =  parseInt($.getUrlParam('rotate'))
-  
+  var rotate = parseInt($.getUrlParam('rotate'))
   rotatefunction()
 
   if (top_id == '') {
@@ -267,84 +266,96 @@
       }
       get_data(top_id)
     }
+    setTimeout(function () {
+      isImgLoad()
+    }, 5000);
+  }
+  // 判断图片加载的函数
+  function isImgLoad(callback) {
+    $("#image").each(function () {
+      if (this.height < 50) {
+        $("#image").attr("src", $("#image").attr("src"))
+        return false;
+      }
+    });
   }
 
-    function get_data() {
+  function get_data() {
 
-      var json = ""
-      if (typeof (Storage) !== "undefined") {
-        // 针对 localStorage/sessionStorage 的代码
-        json = localStorage.getItem("DoubanTop250")
-        if (json !== "" && json !== null) {
+    var json = ""
+    if (typeof (Storage) !== "undefined") {
+      // 针对 localStorage/sessionStorage 的代码
+      json = localStorage.getItem("DoubanTop250")
+      if (json !== "" && json !== null) {
 
-          set_data(JSON.parse(json))
-        } else {
-          $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
-            .done(function () {
-              localStorage.setItem("DoubanTop250", JSON.stringify(jsonstr.list));
-              set_data(jsonstr.list)
-            })
-            .fail(function () {
-              $("#imagename").show()
-            });
-        }
+        set_data(JSON.parse(json))
       } else {
-        // 抱歉！不支持 Web Storage ..
         $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
           .done(function () {
+            localStorage.setItem("DoubanTop250", JSON.stringify(jsonstr.list));
             set_data(jsonstr.list)
           })
           .fail(function () {
             $("#imagename").show()
           });
       }
-
+    } else {
+      // 抱歉！不支持 Web Storage ..
+      $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
+        .done(function () {
+          set_data(jsonstr.list)
+        })
+        .fail(function () {
+          $("#imagename").show()
+        });
     }
+
+  }
   function set_data(json) {
     var title = json[top_id].title //片名
-        var rating = json[top_id].douban_rating //评分
-        var rank = json[top_id].douban_rank //排名
-        var director = json[top_id].director//导演
-        var star = json[top_id].star //主演
+    var rating = json[top_id].douban_rating //评分
+    var rank = json[top_id].douban_rank //排名
+    var director = json[top_id].director//导演
+    var star = json[top_id].star //主演
 
-        var year = json[top_id].year//年份
-        var country = json[top_id].country//国家地区 
-        var genre = json[top_id].genre//类型
+    var year = json[top_id].year//年份
+    var country = json[top_id].country//国家地区 
+    var genre = json[top_id].genre//类型
 
-        var douban_link = "https://movie.douban.com/subject/" + json[top_id].douban_id //豆瓣链接
-        var quote = json[top_id].quote //短评
+    var douban_link = "https://movie.douban.com/subject/" + json[top_id].douban_id //豆瓣链接
+    var quote = json[top_id].quote //短评
 
-        var summary = json[top_id].summary //简介
+    var summary = json[top_id].summary //简介
 
-        //var image = "https://images.weserv.nl/?url=" + json[top_id].photo //海报       384x528
-        //var image = json[top_id].photo //海报       384x528var 
-        image = "images/DoubanTop250/" + json[top_id].douban_id + ".jpg" //豆瓣日历剧照    
+    //var image = "https://images.weserv.nl/?url=" + json[top_id].photo //海报       384x528
+    //var image = json[top_id].photo //海报       384x528var 
+    image = "images/DoubanTop250/" + json[top_id].douban_id + ".jpg" //豆瓣日历剧照    
 
-        $("#title").html(title)
-        $("#rating").html("豆瓣评分：" + rating + "　排名：" + rank)
-        $("#director").html("导演：" + director)
-        $("#star").html("主演：" + star)
-        $("#year").html(year + " / " + country + " / " + genre)
+    $("#title").html(title)
+    $("#rating").html("豆瓣评分：" + rating + "　排名：" + rank)
+    $("#director").html("导演：" + director)
+    $("#star").html("主演：" + star)
+    $("#year").html(year + " / " + country + " / " + genre)
 
 
-        $("#quote").html("\"" + quote + "\"")
+    $("#quote").html("\"" + quote + "\"")
 
-        $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
+    $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
 
-        $("#image").attr("src", image)
+    $("#image").attr("src", image)
 
-        $("#mobile_qr").html("")
-        $("#mobile_qr").qrcode({   //二维码
-          render: "canvas",
-          width: 50,
-          height: 50,
-          text: douban_link
-        });
-        $("#mobile_qr").children("canvas").css("width", "100px");
-        $('#mobile_qr').unbind("click"); //移除click
-        $('#mobile_qr').click(function () {
-          window.open(douban_link, "_blank");
-        });
+    $("#mobile_qr").html("")
+    $("#mobile_qr").qrcode({   //二维码
+      render: "canvas",
+      width: 50,
+      height: 50,
+      text: douban_link
+    });
+    $("#mobile_qr").children("canvas").css("width", "100px");
+    $('#mobile_qr').unbind("click"); //移除click
+    $('#mobile_qr').click(function () {
+      window.open(douban_link, "_blank");
+    });
   }
   function showtimefunction() {
     if (showtime) {
@@ -423,7 +434,7 @@
   $('#day').click(function () {
     showtimefunction()
   });
-  
+
   $('#lunar').click(function () {
     rotatefunction()
   });
