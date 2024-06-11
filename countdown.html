@@ -278,11 +278,12 @@
             fontsize = parseInt(Math.random() * 10).toString(10) + "rem"
             $("#body").css({ background: color })
             $("#countdown").css({ 'font-size': fontsize })
-            if (timesRun == 120) {
+            if (timesRun >= 120) {
                 $("#body").css({ background: "#fff" })
                 $("#countdown").css({ 'font-size': "6rem" })
                 MIDIjs.stop()
-                clearInterval(timer);
+                clearInterval(timer)
+                timesRun = 0
             }
 
         }, 100);
