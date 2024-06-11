@@ -162,7 +162,8 @@
     var content = json[random].content //标题
     var reply = json[random].reply
     $(".content").html('content：' + content)
-    $(".reply").html('reply：' + reply)
+    if(content!=reply){
+    $(".reply").html('reply：' + reply)    }
   }
 
 
