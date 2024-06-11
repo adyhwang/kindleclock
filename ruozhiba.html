@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+  <title>Time</title>
+  <style>
+    @font-face {
+      font-family: 'LED';
+      src: url('js/DS-Digital.TTF');
+    }
+
+    .body {
+      height: 100vh;
+      width: 98%;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .main {
+      color:black;
+    }
+
+    .date {
+      white-space: nowrap;
+      font-size: 2rem;
+    }
+
+    .time {
+      font-family: LED;
+      white-space: nowrap;
+      font-size: 7rem;
+    }
+
+    .content{      
+      text-align: left;
+      font-size: 1rem;
+    }    
+    .reply{      
+      text-align: left;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <div class="main">
+    <div class="date"></div>
+    <div class="time"></div>
+    <div class="content"></div>
+    <div class="reply"></div>
+  </div>
+</body>
+
+
+<!-- <script src="js/jquery.min.js"></script>
+<script src="js/jquery-qrcode-0.17.0.min.js"></script>
+<script src="js/ConvertCalendar.js"></script> -->
+
+<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/ConvertCalendar.js"></script>
+
+<script>
+  var fontcolor = 1
+  var random = 0
+  var idlength = 10892
+  $('.body').click(function () {
+    switch (fontcolor) {
+      case 1:
+        jQuery('.body').css("background-color", "black");
+        jQuery('.main').css("color", "white");
+        fontcolor++
+        break;
+      case 2:
+        jQuery('.body').css("background-color", "white");
+        jQuery('.main').css("color", "black");
+        fontcolor++
+        break;
+      default:
+        jQuery('.body').css("background-color", "rgba(0, 0, 0, 0.404)");
+        jQuery('.main').css("color", "white");
+        fontcolor = 1
+        break;
+    }
+
+  });
+  update()
+  setInterval("update()", 1 * 30 * 1000)
+  function update() {
+
+    var date = new Date()
+    var utc8DiffMinutes = date.getTimezoneOffset() + 480
+    date.setMinutes(date.getMinutes() + utc8DiffMinutes)
+
+
+    var hour = date.getHours()
+    hour = hour < 10 ? '0' + hour : hour
+    var Minutes = date.getMinutes()
+    Minutes = Minutes < 10 ? '0' + Minutes : Minutes
+    var timeString = hour + ':' + Minutes
+    var yearString = date.getFullYear()
+    var monthString = date.getMonth() + 1
+    var dayString = date.getDate()
+
+    var _todaylunarjson = calendar.solar2lunar(yearString, monthString, dayString);
+
+    //公历
+    var _today = yearString + "年" + monthString + "月" + dayString + "日" + " " + _todaylunarjson.ncWeek + " " + _todaylunarjson.astro
+    //农历
+    var _todaylunar = _todaylunarjson.gzYear + _todaylunarjson.Animal + "年 " + _todaylunarjson.IMonthCn + _todaylunarjson.IDayCn
+
+    $(".date").html(_today + "</br>" + _todaylunar)
+    $(".time").html(timeString)
+
+
+    var l = jQuery('.body').height();
+    var level = l / 2;
+    var bt = jQuery('.main').height() / 2;
+    var val = level - bt - parseInt(jQuery('.main').css('padding-top'));
+    jQuery('.main').css("margin-top", val);
+
+    random = Math.ceil(Math.random() * idlength)
+    get_data(random)
+  }
+
+
+  function get_data() {
+    var json = ""
+    if (typeof (Storage) !== "undefined") {
+      // 针对 localStorage/sessionStorage 的代码
+      json = localStorage.getItem("ruozhiba")
+      if (json !== "" && json !== null) {
+        set_data(JSON.parse(json))
+      } else {
+        $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/ruozhiba.js")
+          .done(function () {
+            localStorage.setItem("ruozhiba", JSON.stringify(jsonstr.list));
+            set_data(jsonstr.list)
+          })
+          .fail(function () {
+            // $("#imagename").show()
+          });
+      }
+    } else {
+      // 抱歉！不支持 Web Storage ..
+      $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/ruozhiba.js")
+        .done(function () {
+          set_data(jsonstr.list)
+        })
+        .fail(function () {
+          // $("#imagename").show()
+        });
+    }
+  }
+  function set_data(json) {
+    idlength = json.length
+    var content = json[random].content //标题
+    var reply = json[random].reply
+    $(".content").html('content：'+content)    
+    $(".reply").html('reply：'+reply)
+  }
+
+
+</script>
+
+</html>
