@@ -15,13 +15,13 @@
 
     .body {
       height: 100vh;
-      width: 95%;
+      width: 98%;
       text-align: center;
       overflow: hidden;
     }
 
     .main {
-      color:black;
+      color: black;
     }
 
     .date {
@@ -35,11 +35,12 @@
       font-size: 7rem;
     }
 
-    .content{      
+    .content {
       text-align: left;
       font-size: 1rem;
-    }    
-    .reply{      
+    }
+
+    .reply {
       text-align: left;
       font-size: 1rem;
     }
@@ -89,7 +90,7 @@
 
   });
   update()
-  setInterval("update()", 1 * 60 * 1000)
+  setInterval("update()", 0.5 * 60 * 1000)
   function update() {
 
     var date = new Date()
@@ -113,18 +114,18 @@
     //农历
     var _todaylunar = _todaylunarjson.gzYear + _todaylunarjson.Animal + "年 " + _todaylunarjson.IMonthCn + _todaylunarjson.IDayCn
 
-    $(".date").html(_today + "</br>" + _todaylunar)
-    $(".time").html(timeString)
-
-
     var l = jQuery('.body').height();
     var level = l / 2;
     var bt = jQuery('.main').height() / 2;
     var val = level - bt - parseInt(jQuery('.main').css('padding-top'));
     jQuery('.main').css("margin-top", val);
 
-    random = Math.ceil(Math.random() * idlength)
-    get_data(random)
+    if ($(".time").html().substring(0, 4) != timeString.substring(0, 4)) {
+      random = Math.ceil(Math.random() * idlength)
+      get_data(random)
+    }
+    $(".date").html(_today + "</br>" + _todaylunar)
+    $(".time").html(timeString)
   }
 
 
@@ -160,8 +161,8 @@
     idlength = json.length
     var content = json[random].content //标题
     var reply = json[random].reply
-    $(".content").html('content：'+content)    
-    $(".reply").html('reply：'+reply)
+    $(".content").html('content：' + content)
+    $(".reply").html('reply：' + reply)
   }
 
 
