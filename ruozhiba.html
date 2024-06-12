@@ -161,9 +161,8 @@
     idlength = json.length
     var content = json[random].content //标题
     var reply = json[random].reply
-    $(".content").html('content：' + content)
-    if(content!=reply){
-    $(".reply").html('reply：' + reply)    }
+    $(".content").html('content：' + content)      
+    content!=reply?$(".reply").html('reply：' + reply): $(".reply").html('')
   }
 
 
