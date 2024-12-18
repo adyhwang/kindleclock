@@ -192,8 +192,8 @@
     </div>
   </div>
   <div class="_divbottom">
-    <div id="mobile_qr" class="mobile_qr"></div>
     <div class="_quote">
+      <div id="mobile_qr" class="mobile_qr"></div>
       <div id="quote" class="quote">
       </div>
     </div>
@@ -249,15 +249,7 @@
   var jsonfilename = $.getUrlParam('id')
 
 
-  $("#star").show()
-  $("#time").show()
-  $("#quote").show()
-
-  $("#summary").hide()
   $("#mobile_qr").hide()
-  $("#bottomright").css("width", "55%")
-  // $("#body").css("position", "fixed")
-  $("#divbottom").css("position", "absolute")
 
   update()
   setInterval("update()", 1 * 30 * 1000)
@@ -402,7 +394,6 @@
         $('#mobile_qr').click(function () {
           window.open(douban_link, "_blank");
         });
-        $("#imagename").html(jsonfilename + "-" + today)
         break;
       }
 
@@ -413,20 +404,10 @@
 
   function showmorefunction() {
     if (showmore) {
-      $("#bottomleft").show()
-      $("#bottomright").css("width", "53%")
-      $("#quote").hide()
-      $("#summary").hide()
-      $("#star").hide()
       $("#mobile_qr").hide()
       showmore = false;
     }
     else {
-      $("#bottomleft").hide()
-      $("#bottomright").css("width", "")
-      $("#quote").show()
-      $("#summary").show()
-      $("#star").show()
       $("#mobile_qr").show()
       showmore = true;
     }
@@ -443,7 +424,7 @@
   }
 
 
-  $('#bottomright').click(function () {
+  $('#_divbottom').click(function () {
     showmorefunction()
   });
 
