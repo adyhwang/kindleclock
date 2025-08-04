@@ -14,27 +14,22 @@
       src: url("js/DS-Digital.TTF");
     }
 
-    .main {
-      background-color: rgba(0, 0, 0, 0.404);
-    }
-
-    .body {
-      font-size: 100%;
-      margin: 0px;
+    /* 基础样式 */
+    body {
+      margin: 0;
       width: 100%;
-      height: auto;
-
-      background-color: rgba(0, 0, 0, 0.404);
+      height: 100vh;
+      overflow: hidden;
+      color: rgb(255, 255, 255);
+      background-color: rgba(0, 0, 0, 0.600);
       background-position: center top;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
     }
 
-
-
     .image {
-      width: 90%;
+      max-width: 100%;
     }
 
     .quote {
@@ -50,65 +45,15 @@
       font-style: italic;
     }
 
-    .day {
-      font-family: LED;
-      /* height: 100%; */
-      width: 100%;
-      text-align: center;
-      /* font-size: 10rem; */
-      font-size: calc(100vw * 600 / 1920);
-      font-weight: 700;
-    }
-
-    .time {
-      font-family: LED;
-      /* height: 100%; */
-      width: 100%;
-      text-align: center;
-      font-size: calc(100vw * 500 / 1920);
-      font-weight: 700;
-    }
-
-    .divmain {
-      width: 100%;
-      height: 100%;
-      color: rgb(255, 255, 255);
-      background-color: rgba(0, 0, 0, 0.404);
-      z-index: 999;
-      position: absolute;
-      bottom: 0px;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-    }
-
-    .divleft {
-      width: 50%;
-      height: 100%;
-      float: left;
-      vertical-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .divright {
-      /* height: 100%; */
-      width: 80%;
-    }
-
     .title {
       text-align: left;
       font-weight: 600;
       font-size: 1.5rem;
-      margin: 0.3rrem;
+      margin: 0.3rem;
     }
 
     .content {
       text-align: left;
-      /* margin-top: 0.2rem; */
       font-size: 0.8rem;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -116,392 +61,520 @@
       -webkit-box-orient: vertical;
     }
 
-
     .mobile_qr {
-      text-align: center
+      text-align: center;
     }
-  </style>
+
+    /* 竖屏样式 */
+    @media (orientation: portrait) {
+      .portrait-container {
+        display: block;
+        height: 100%;
+      }
+
+      .landscape-container {
+        display: none;
+      }
+
+      .col-top-left {
+        font-size: 0.8rem;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 1px;
+        padding-left: 1px;
+      }
+
+      .col-top-right {
+        font-size: 0.8rem;
+        float: right;
+        position: relative;
+        min-height: 1px;
+        padding-right: 1px;
+        padding-left: 1px;
+      }
+
+      .day-portrait {
+        font-family: LED;
+        text-align: center;
+        font-size: 10rem;
+      }
+
+      .divbottom {
+        width: 100%;
+        /* background-color: white; */
+        z-index: 999;
+        position: absolute;
+        bottom: 0;
+        margin: 0px 1px 0px 1px;
+        text-align: center;
+      }
+
+      .bottomleft {
+        width: 45%;
+        height: 100%;
+        float: left;
+      }
+
+      .bottomright {
+        height: 100%;
+        float: right;
+        width: 53%;
+      }
+    }
+
+    /* 横屏样式 */
+    @media (orientation: landscape) {
+      .portrait-container {
+        display: none;
+      }
+
+      .landscape-container {
+        display: block;
+        height: 100%;
+      }
+
+      .day-landscape {
+        font-family: LED;
+        width: 100%;
+        text-align: center;
+        font-size: calc(100vw * 600 / 1920);
+        font-weight: 700;
+      }
+
+      .time-landscape {
+        font-family: LED;
+        width: 100%;
+        text-align: center;
+        font-size: calc(100vw * 500 / 1920);
+        font-weight: 700;
+      }
+
+      .divmain {
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        position: absolute;
+        bottom: 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .divleft {
+        width: 50%;
+        height: 100%;
+        float: left;
+        vertical-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .divright {
+        width: 80%;
+      }
+    }
   </style>
 </head>
 
-<body id="body" class="body">
-  <div id="divmain" class="divmain">
-
-    <div id="divleft" class="divleft">
-      <img id="image" class="image" alt="Loading..." mode="aspectFill" referrerPolicy="no-referrer">
+<body id="body">
+  <!-- 竖屏布局容器 -->
+  <div class="portrait-container">
+    <div id="divtop" class="divtop">
+      <div class="col-top-left">
+        <div id="yearmonthday" class="text-left"></div>
+      </div>
+      <div class="col-top-right">
+        <div id="lunar-portrait" class="text-right"></div>
+      </div>
+      <div id="day-portrait" class="day-portrait"></div>
     </div>
 
-    <div id="divright" class="divright">
-      <div id=daytime>
-        <div id="day" class="day">01</div>
-        <div id="time" class="time">00:00</div>
-        <div id="monthday" class="text-left">01月01日</div>
-        <div id="lunar" class="text-left">农历癸卯兔年 腊月十五</div>
+    <div id="divbottom" class="divbottom">
+      <div id="bottomleft" class="bottomleft">
+        <img id="image-portrait" class="image" alt="Loading..." mode="aspectFill" referrerPolicy="no-referrer">
       </div>
 
-      <div id="content" class="content">
-        <div id="title" class="title"></div>
-        <div id="rating"></div>
-        <div id="year"></div>
-        <div id="director"></div>
-        <div id="star"></div>
-        <div id="quote" class="quote"></div>
-        <div id="summary"></div>
-        <div id="mobile_qr" class="mobile_qr"></div>
+      <div id="bottomright" class="bottomright">
+        <div id="title-portrait" class="title"></div>
+        <div id="director-portrait" class="content"></div>
+        <div id="star-portrait" class="content"></div>
+        <div id="year-portrait" class="content"></div>
+        <div id="rating-portrait" class="content"></div>
+        <div id="rank-portrait" class="content"></div>
+        <div id="quote-portrait" class="quote"></div>
+        <div id="summary-portrait" class="content"></div>
+        <div id="mobile_qr-portrait" class="mobile_qr"></div>
       </div>
-
     </div>
   </div>
 
-</body>
+  <!-- 横屏布局容器 -->
+  <div class="landscape-container body-landscape">
+    <div id="divmain" class="divmain">
+      <div id="divleft" class="divleft">
+        <img id="image-landscape" class="image" alt="Loading..." mode="aspectFill" referrerPolicy="no-referrer">
+      </div>
 
-<!-- <script src="js/jquery.min.js"></script>
-<script src="js/jquery-qrcode-0.17.0.min.js"></script>
-<script src="js/ConvertCalendar.js"></script> -->
+      <div id="divright" class="divright">
+        <div id=daytime>
+          <div id="day-landscape" class="day-landscape">01</div>
+          <div id="time-landscape" class="time-landscape">00:00</div>
+          <div id="monthday" class="text-left">01月01日</div>
+          <div id="lunar-landscape" class="text-left">农历癸卯兔年 腊月十五</div>
+        </div>
 
-<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js"></script>
-<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js"></script>
-<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/ConvertCalendar.js"></script>
+        <div id="content" class="content">
+          <div id="title-landscape" class="title"></div>
+          <div id="rating-landscape"></div>
+          <div id="year-landscape"></div>
+          <div id="director-landscape"></div>
+          <div id="star-landscape"></div>
+          <div id="quote-landscape" class="quote"></div>
+          <div id="summary-landscape"></div>
+          <div id="mobile_qr-landscape" class="mobile_qr"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js"></script>
+  <script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js"></script>
+  <script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/ConvertCalendar.js"></script>
 
-<script>
-
-  (function ($) {
-    $.getUrlParam = function (name) {
-      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-      var r = window.location.search.substr(1).match(reg);
-      if (r != null) return unescape(r[2]); return null;
-    }
-  })(jQuery);
-
-  $(document).ready(function () {
-    $(document).mousemove(function () {
-      $("#body").css({ cursor: "default" });
-    });
-  });
-
-  var showtime = true
-  var showmore = false
-  var idlength = 250
-  var top_id = getQueryVariable("id")
-  var rotate = parseInt($.getUrlParam("rotate"))
-
-  rotatefunction()
-
-  if (top_id == "") {
-    top_id = Math.ceil(Math.random() * idlength);
-  }
-
-  var mode = $.getUrlParam("mode") //portrait or landscape
-
-  switch (mode) {
-    case "portrait":
-      window.location.href = "doubantop250-portrait.html?id=" + top_id + "&mode=portrait";
-      break;
-    case "landscape":
-      break;
-    case null:
-      if (screen.width < screen.height) {
-        window.location.href = "doubantop250-portrait.html?id=" + top_id;
+  <script>
+    (function ($) {
+      $.getUrlParam = function (name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
       }
-      break;
-    default:
-      break;
-  }
-  function orientationChange() {
-    if (screen.width < screen.height) {
-      window.location.href = "doubantop250-portrait.html?id=" + top_id;
-    }
-  }
+    })(jQuery);
 
-  window.addEventListener("orientationchange", orientationChange);
+    $(document).ready(function () {
+      $(document).mousemove(function () {
+        $("#body").css({ cursor: "default" });
+      });
+    });
 
+    var showtime = true;
+    var showmore = false;
+    var idlength = 250;
+    var top_id = getQueryVariable("id");
+    var rotate = parseInt($.getUrlParam("rotate")) || 0;
 
+    // 初始化旋转状态
+    rotatefunction();
 
-  $("#director").css("-webkit-line-clamp", "4")
-  $("#star").hide()
-  $("#summary").hide()
-  $("#mobile_qr").hide()
-  // $("#quote").hide()
-  $("#divmain").css("position", "absolute")
-
-  update()
-  setInterval("update()", 1 * 30 * 1000)
-
-  function update() {
-    $("#body").css({ cursor: "none" });
-
-    var date = new Date()
-    var utc8DiffMinutes = date.getTimezoneOffset() + 480
-    date.setMinutes(date.getMinutes() + utc8DiffMinutes)
-
-
-    var hour = date.getHours()
-    hour = hour < 10 ? "0" + hour : hour
-    var Minutes = date.getMinutes()
-    Minutes = Minutes < 10 ? "0" + Minutes : Minutes
-    var timeString = hour + ":" + Minutes
-    var yearString = date.getFullYear()
-    var monthString = date.getMonth() + 1
-    var dayString = date.getDate()
-
-    var _todaylunarjson = calendar.solar2lunar(yearString, monthString, dayString);
-
-    //公历
-    var _today = yearString + "年" + monthString + "月" + dayString + "日" + " " + _todaylunarjson.ncWeek + " " + _todaylunarjson.astro
-    //农历
-    var _todaylunar = "农历" + _todaylunarjson.gzYear + _todaylunarjson.Animal + "年 " + _todaylunarjson.IMonthCn + _todaylunarjson.IDayCn
-
-    if (showtime) {
-      $("#time").show()
-      $("#day").hide()
-      $("#time").html(timeString)
+    // 处理初始ID
+    if (top_id === "" || !top_id) {
+      top_id = Math.ceil(Math.random() * idlength) - 1;
     } else {
-      $("#time").hide()
-      $("#day").show()
-      $("#day").html(dayString)
+      top_id = parseInt(top_id) - 1; // 转换为索引
     }
 
-    if ($("#monthday").html().indexOf(_today) != 0) {
-      $("#monthday").html(_today)
-      $("#lunar").html(_todaylunar)
+    // 初始化样式
+    initStyles();
+    update();
+    setInterval(update, 30 * 1000);
 
-      if (top_id > 0) {
-        top_id = top_id - 1
-      }
-      else {
-        top_id = 249
-      }
-      get_data(top_id)
-    }
-    setTimeout(function () {
-      isImgLoad()
-    }, 5000);
-  }
-  // 判断图片加载的函数
-  function isImgLoad() {
-    $("#image").each(function () {
-      if (this.height < 50) {
-        $("#image").attr("src", $("#image").attr("src"))
-      }
+    // 监听屏幕旋转
+    window.addEventListener("orientationchange", function () {
+      initStyles();
+      update();
     });
-  }
 
-  function get_data(top_id) {
+    function initStyles() {
+      // 竖屏样式初始化
+      $("#star-portrait").css("-webkit-line-clamp", "4");
+      $("#quote-portrait").css("-webkit-line-clamp", "4");
+      $("#mobile_qr-portrait").hide();
+      $("#summary-portrait").hide();
+      $("#divbottom").css("position", "absolute");
 
-    var json = ""
-    if (typeof (Storage) !== "undefined") {
-      // 针对 localStorage/sessionStorage 的代码
-      json = localStorage.getItem("DoubanTop250")
-      if (json !== "" && json !== null) {
+      // 横屏样式初始化
+      $("#director-landscape").css("-webkit-line-clamp", "4");
+      $("#star-landscape").hide();
+      $("#summary-landscape").hide();
+      $("#mobile_qr-landscape").hide();
+      $("#divmain").css("position", "absolute");
+    }
 
-        set_data(JSON.parse(json))
+    function update() {
+      $("#body").css({ cursor: "none" });
+
+      var date = new Date();
+      var utc8DiffMinutes = date.getTimezoneOffset() + 480;
+      date.setMinutes(date.getMinutes() + utc8DiffMinutes);
+
+      var hour = date.getHours();
+      hour = hour < 10 ? "0" + hour : hour;
+      var minutes = date.getMinutes();
+      minutes = minutes < 10 ? "0" + minutes : minutes;
+      var timeString = hour + ":" + minutes;
+      var yearString = date.getFullYear();
+      var monthString = date.getMonth() + 1;
+      var dayString = date.getDate();
+
+      var _todaylunarjson = calendar.solar2lunar(yearString, monthString, dayString);
+
+      // 公历和农历信息
+      var _today = yearString + "年" + monthString + "月" + dayString + "日" + " " + _todaylunarjson.ncWeek + " " + _todaylunarjson.astro;
+      var _todaylunar = "农历" + _todaylunarjson.gzYear + _todaylunarjson.Animal + "年 " + _todaylunarjson.IMonthCn + _todaylunarjson.IDayCn;
+
+      // 更新竖屏时间显示
+      if (showtime) {
+        $("#day-portrait").html(timeString);
+      } else {
+        $("#day-portrait").html(dayString);
+      }
+      $("#yearmonthday").html("　" + _today);
+      $("#lunar-portrait").html(_todaylunar + "　");
+
+      // 更新横屏时间显示
+      if (showtime) {
+        $("#time-landscape").show();
+        $("#day-landscape").hide();
+        $("#time-landscape").html(timeString);
+      } else {
+        $("#time-landscape").hide();
+        $("#day-landscape").show();
+        $("#day-landscape").html(dayString);
+      }
+      $("#monthday").html(_today);
+      $("#lunar-landscape").html(_todaylunar);
+
+      // 日期变化时更新电影
+      var currentDateStr = yearString + monthString + dayString;
+      if (!window.lastUpdateDate || window.lastUpdateDate !== currentDateStr) {
+        window.lastUpdateDate = currentDateStr;
+        top_id = (top_id + 1) % idlength;
+        get_data();
+      }
+
+      // 检查图片加载
+      setTimeout(isImgLoad, 5000);
+    }
+
+    function isImgLoad() {
+      // 检查竖屏图片
+      if ($("#image-portrait").height() < 50) {
+        $("#image-portrait").attr("src", $("#image-portrait").attr("src"));
+      }
+      // 检查横屏图片
+      if ($("#image-landscape").height() < 50) {
+        $("#image-landscape").attr("src", $("#image-landscape").attr("src"));
+      }
+    }
+
+    function get_data() {
+      var json = "";
+      if (typeof (Storage) !== "undefined") {
+        json = localStorage.getItem("DoubanTop250");
+        if (json && json !== "") {
+          set_data(JSON.parse(json));
+        } else {
+          $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
+            .done(function () {
+              localStorage.setItem("DoubanTop250", JSON.stringify(jsonstr.list));
+              set_data(jsonstr.list);
+            })
+            .fail(function () { });
+        }
       } else {
         $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
           .done(function () {
-            localStorage.setItem("DoubanTop250", JSON.stringify(jsonstr.list));
-            set_data(jsonstr.list)
+            set_data(jsonstr.list);
           })
-          .fail(function () {
-
-          });
+          .fail(function () { });
       }
-    } else {
-      // 抱歉！不支持 Web Storage ..
-      $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/DoubanTop250.js")
-        .done(function () {
-          set_data(jsonstr.list)
-        })
-        .fail(function () {
+    }
 
+    function set_data(json) {
+      var data = json[top_id];
+      if (!data) return;
+
+      var title = data.title;
+      var rating = data.douban_rating;
+      var rank = data.douban_rank;
+      var director = data.director;
+      var star = data.star;
+      var year = data.year;
+      var country = data.country;
+      var genre = data.genre;
+      var douban_link = "https://movie.douban.com/subject/" + data.douban_id;
+      var quote = data.quote;
+      var summary = data.summary;
+      var image = "images/DoubanTop250/" + data.douban_id + ".jpg";
+
+      // 更新竖屏内容
+      $("#title-portrait").html(title);
+      $("#rating-portrait").html("豆瓣评分：" + rating + "　排名：" + rank);
+      $("#director-portrait").html("导演：" + director);
+      $("#star-portrait").html("主演：" + star);
+      $("#year-portrait").html(year + " / " + country + " / " + genre);
+      $("#quote-portrait").html("\"" + quote + "\"");
+      $("#summary-portrait").html("剧情简介 · · · · · ·</br>　　" + summary);
+      $("#image-portrait").attr("src", image);
+      $("#mobile_qr-portrait").html("").qrcode({
+        render: "canvas",
+        width: 50,
+        height: 50,
+        text: douban_link
+      });
+      $("#mobile_qr-portrait").children("canvas").css("width", "100px");
+      $("#mobile_qr-portrait").unbind("click").click(function () {
+        window.open(douban_link, "_blank");
+      });
+
+      // 更新横屏内容
+      $("#title-landscape").html(title);
+      $("#rating-landscape").html("豆瓣评分：" + rating + "　排名：" + rank);
+      $("#director-landscape").html("导演：" + director);
+      $("#star-landscape").html("主演：" + star);
+      $("#year-landscape").html(year + " / " + country + " / " + genre);
+      $("#quote-landscape").html("\"" + quote + "\"");
+      $("#summary-landscape").html("剧情简介 · · · · · ·</br>　　" + summary);
+      $("#image-landscape").attr("src", image);
+      $("#mobile_qr-landscape").html("").qrcode({
+        render: "canvas",
+        width: 50,
+        height: 50,
+        text: douban_link
+      });
+      $("#mobile_qr-landscape").children("canvas").css("width", "100px");
+      $("#mobile_qr-landscape").unbind("click").click(function () {
+        window.open(douban_link, "_blank");
+      });
+    }
+
+    function showtimefunction() {
+      showtime = !showtime;
+      update();
+    }
+
+    function showmorefunction() {
+      var isPortrait = window.innerWidth < window.innerHeight;
+      if (showmore) {
+        // 恢复默认显示
+        if (isPortrait) {
+          $("#bottomleft").show();
+          $("#bottomright").css("width", "53%");
+          $("#summary-portrait").hide();
+          $("#mobile_qr-portrait").hide();
+        } else {
+          $("#divleft").show();
+          $("#daytime").show();
+          $("#star-landscape").hide();
+          $("#summary-landscape").hide();
+          $("#mobile_qr-landscape").hide();
+        }
+      } else {
+        // 显示更多内容
+        if (isPortrait) {
+          $("#bottomleft").hide();
+          $("#bottomright").css("width", "100%");
+          $("#summary-portrait").show();
+          $("#mobile_qr-portrait").show();
+        } else {
+          $("#divleft").hide();
+          $("#daytime").hide();
+          $("#star-landscape").show();
+          $("#summary-landscape").show();
+          $("#mobile_qr-landscape").show();
+        }
+      }
+      showmore = !showmore;
+    }
+
+    function previousid() {
+      top_id = (top_id - 1 + idlength) % idlength;
+      get_data();
+    }
+
+    function alertinput() {
+      var input = prompt("请输入影片排名(1-250)：");
+      var num = parseInt(input);
+      if (num && num >= 1 && num <= 250) {
+        top_id = num - 1;
+        get_data();
+      }
+    }
+
+    function rotatefunction() {
+      var isPortrait = window.innerWidth < window.innerHeight;
+      var target = isPortrait ? "#body" : "#divmain";
+
+      if (rotate) {
+        $(target).css({
+          "transform": "rotate(180deg)",
+          "-webkit-transform": "rotate(180deg)",
+          "-moz-transform": "rotate(180deg)",
+          "-o-transform": "rotate(180deg)",
+          "-ms-transform": "rotate(180deg)"
         });
+      } else {
+        $(target).css({
+          "transform": "",
+          "-webkit-transform": "",
+          "-moz-transform": "",
+          "-o-transform": "",
+          "-ms-transform": ""
+        });
+      }
+      rotate = 1 - rotate;
     }
 
-  }
-  function set_data(json) {
-    var title = json[top_id].title //片名
-    var rating = json[top_id].douban_rating //评分
-    var rank = json[top_id].douban_rank //排名
-    var director = json[top_id].director//导演
-    var star = json[top_id].star //主演
+    // 事件绑定 - 竖屏
+    $("#day-portrait").click(showtimefunction);
+    $("#lunar-portrait").click(rotatefunction);
+    $("#title-portrait").click(alertinput);
+    $("#rating-portrait, #year-portrait, #star-portrait, #quote-portrait, #summary-portrait").click(showmorefunction);
+    $("#image-portrait").click(previousid);
 
-    var year = json[top_id].year//年份
-    var country = json[top_id].country//国家地区 
-    var genre = json[top_id].genre//类型
+    // 事件绑定 - 横屏
+    $("#daytime").click(showtimefunction);
+    $("#title-landscape").click(alertinput);
+    $("#rating-landscape, #year-landscape, #star-landscape, #quote-landscape, #summary-landscape").click(showmorefunction);
+    $("#image-landscape").click(previousid);
 
-    var douban_link = "https://movie.douban.com/subject/" + json[top_id].douban_id //豆瓣链接
-    var quote = json[top_id].quote //短评
-
-    var summary = json[top_id].summary //简介
-
-    //var image = "https://images.weserv.nl/?url=" + json[top_id].photo //海报       384x528
-    //var image = json[top_id].photo //海报       384x528var 
-    image = "images/DoubanTop250/" + json[top_id].douban_id + ".jpg" //豆瓣日历剧照    
-
-    $("#title").html(title)
-    $("#rating").html("豆瓣评分：" + rating + "　排名：" + rank)
-    $("#director").html("导演：" + director)
-    $("#star").html("主演：" + star)
-    $("#year").html(year + " / " + country + " / " + genre)
-
-
-    $("#quote").html("\"" + quote + "\"")
-
-    $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
-
-    $("#image").attr("src", image)
-
-    $("#mobile_qr").html("")
-    $("#mobile_qr").qrcode({   //二维码
-      render: "canvas",
-      width: 50,
-      height: 50,
-      text: douban_link
+    // 键盘事件
+    $(document).keypress(function (e) {
+      switch (e.keyCode) {
+        case 100: // d
+          showtimefunction();
+          break;
+        case 105: // i
+          alertinput();
+          break;
+        case 109: // m
+          // 切换模式通过CSS自动处理，无需跳转
+          break;
+        case 114: // r
+          previousid();
+          break;
+        case 115: // s
+          showmorefunction();
+          break;
+        case 120: // x
+        case 122: // z
+          rotatefunction();
+          break;
+      }
     });
-    $("#mobile_qr").children("canvas").css("width", "100px");
-    $("#mobile_qr").unbind("click"); //移除click
-    $("#mobile_qr").click(function () {
-      window.open(douban_link, "_blank");
-    });
 
-  }
-  function showtimefunction() {
-    showtime = showtime != true
-    update()
-  }
-
-  function showmorefunction() {
-    if (showmore) {
-      $("#divleft").show()
-      $("#daytime").show()
-      // $("#quote").hide()
-      $("#summary").hide()
-      $("#star").hide()
-      $("#mobile_qr").hide()
-      showmore = false;
+    function getQueryVariable(variable) {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+        if (pair[0] == variable) { return pair[1]; }
+      }
+      return false;
     }
-    else {
-      $("#divleft").hide()
-      $("#daytime").hide()
-      $("#content").show()
-      // $("#quote").show()
-      $("#star").show()
-      $("#summary").show()
-      $("#mobile_qr").show()
-      showmore = true;
-    }
-
-  }
-
-  function previousid() {
-    top_id = parseInt(top_id)
-    if (top_id > 0) {
-      top_id = top_id - 1
-    }
-    else {
-      top_id = idlength - 1
-    }
-    get_data(top_id)
-  }
-
-  function alertinput() {
-    top_id = prompt("请输入影片排名(1-250)：")
-
-    top_id = parseInt(top_id)
-    top_id = top_id - 1
-    get_data(top_id)
-  }
-
-  function modefunction() {
-    window.location.href = "doubantop250-portrait.html?id=" + top_id + "&mode=portrait";
-  }
-
-  function rotatefunction() {
-    if (rotate) {
-      $("#divmain").css("transform", "rotate(180deg)");
-      $("#divmain").css("-webkit-transform", "rotate(180deg)");
-      $("#divmain").css("-moz-transform", "rotate(180deg)");
-      $("#divmain").css("-o-transform", "rotate(180deg)");
-      $("#divmain").css("-ms-transform", "rotate(180deg)");
-      rotate = 0
-
-    }
-    else {
-      $("#divmain").css("transform", "");
-      $("#divmain").css("-webkit-transform", "");
-      $("#divmain").css("-moz-transform", "");
-      $("#divmain").css("-o-transform", "");
-      $("#divmain").css("-ms-transform", "");
-      rotate = 1
-    }
-  }
-  ///////
-  $("#daytime").click(function () {
-    showtimefunction()
-  });
-
-
-  $("#title").click(function () {
-    alertinput()
-  });
-  $("#rating").click(function () {
-    showmorefunction()
-  });
-  $("#year").click(function () {
-    showmorefunction()
-  });
-  $("#star").click(function () {
-    showmorefunction()
-  });
-  $("#quote").click(function () {
-    showmorefunction()
-  });
-  $("#summary").click(function () {
-    showmorefunction()
-  });
-
-
-  $("#image").click(function () {
-    previousid()
-  });
-
-  ///////  
-
-  $(document).keypress(function (e) {
-    switch (e.keyCode) {
-      case 100: //d
-        showtimefunction()
-        break;
-      case 105: //i
-        alertinput()
-        break;
-      case 109: //m
-        modefunction()
-        break;
-      case 114: //r
-        previousid()
-        break;
-      case 115: //s
-        showmorefunction()
-        break;
-      case 120: //x
-      case 122: //z
-        rotatefunction()
-        break;
-      default:
-        break;
-    }
-  })
-
-  function getQueryVariable(variable) {
-    var query = window.location.search.substring(1);
-    var vars = query.split("&");
-    for (var i = 0; i < vars.length; i++) {
-      var pair = vars[i].split("=");
-      if (pair[0] == variable) { return pair[1]; }
-    }
-    return (false);
-  }
-</script>
+  </script>
+</body>
 
 </html>
