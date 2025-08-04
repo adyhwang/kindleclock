@@ -1,47 +1,39 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
 <head>
   <title>Kindleclock</title>
-
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport"
-    content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-  <link rel="shortcut icon" href="favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <style>
+    :root {
+      --text-color: #fff;
+      --bg-transparent: rgba(0, 0, 0, 0.404);
+      --font-led: "LED";
+    }
+
     @font-face {
       font-family: "LED";
       src: url("js/DS-Digital.TTF");
-    }
-
-    .main {
-      background-color: rgba(0, 0, 0, 0.404);
+      font-display: swap;
     }
 
     .body {
+      color: var(--text-color);
+      background-color: rgba(0, 0, 0, 0.6);
       font-size: 100%;
-      margin: 0px;
+      margin: 0;
       width: 100%;
-      height: auto;
-
-      background-color: rgba(0, 0, 0, 0.404);
+      height: 100vh;
       background-position: center top;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
     }
 
-
-
-    .image {
-      width: 90%;
-    }
-
     .quote {
       text-align: left;
-      margin: 0.3rem;
-      margin-left: 1rem;
-      margin-right: 1rem;
+      margin: 0.3rem 1rem;
       font-size: 1.2rem;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -50,65 +42,22 @@
       font-style: italic;
     }
 
-    .day {
-      font-family: LED;
-      /* height: 100%; */
+    .day, .time {
+      font-family: var(--font-led);
       width: 100%;
       text-align: center;
-      /* font-size: 10rem; */
-      font-size: calc(100vw * 600 / 1920);
       font-weight: 700;
-    }
-
-    .time {
-      font-family: LED;
-      /* height: 100%; */
-      width: 100%;
-      text-align: center;
-      font-size: calc(100vw * 500 / 1920);
-      font-weight: 700;
-    }
-
-    .divmain {
-      width: 100%;
-      height: 100%;
-      color: rgb(255, 255, 255);
-      background-color: rgba(0, 0, 0, 0.404);
-      z-index: 999;
-      position: absolute;
-      bottom: 0px;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-    }
-
-    .divleft {
-      width: 50%;
-      height: 100%;
-      float: left;
-      vertical-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .divright {
-      /* height: 100%; */
-      width: 80%;
     }
 
     .title {
       text-align: left;
       font-weight: 600;
       font-size: 1.5rem;
-      margin: 0.3rrem;
+      margin: 0.3rem;
     }
 
     .content {
       text-align: left;
-      /* margin-top: 0.2rem; */
       font-size: 0.8rem;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -116,28 +65,121 @@
       -webkit-box-orient: vertical;
     }
 
-
     .mobile_qr {
-      text-align: center
+      text-align: center;
+    }
+
+    .imagename {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      color: red;
+      display: none;
+    }
+
+    /* 横屏样式 */
+    .mode-landscape .divmain {
+      width: 100%;
+      height: 100%;
+      z-index: 999;
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .mode-landscape .divleft {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .mode-landscape .divright {
+      width: 80%;
+    }
+
+    .mode-landscape .image {
+      width: 90%;
+    }
+
+    .mode-landscape .day {
+      font-size: calc(100vw * 600 / 1920);
+    }
+
+    .mode-landscape .time {
+      font-size: calc(100vw * 500 / 1920);
+    }
+
+    /* 竖屏样式 */
+    .mode-portrait .backgroundImage {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      z-index: 2;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .mode-portrait .divbottom {
+      width: 100%;
+      color: var(--text-color);
+      background-color: var(--bg-transparent);
+      z-index: 999;
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+    }
+
+    .mode-portrait .bottomleft {
+      width: 45%;
+      height: 100%;
+      float: left;
+    }
+
+    .mode-portrait .bottomright {
+      margin-top: 10px;
+      height: 100%;
+      float: right;
+      width: 55%;
+    }
+
+    .mode-portrait .image {
+      max-width: 600px;
+      max-height: 300px;
+    }
+
+    .mode-portrait .day {
+      font-size: 9rem;
+    }
+
+    .mode-portrait .time {
+      font-size: 4.4rem;
+    }
+
+    /* 布局切换隐藏控制 */
+    .mode-landscape .portrait-only,
+    .mode-portrait .landscape-only {
+      display: none !important;
     }
   </style>
 </head>
-
 <body id="body" class="body">
-  <div id="divmain" class="divmain">
-
+  <!-- 横屏布局 -->
+  <div id="divmain" class="divmain landscape-only">
     <div id="divleft" class="divleft">
       <img id="image" class="image" alt="Loading..." mode="aspectFill" referrerPolicy="no-referrer">
     </div>
-
     <div id="divright" class="divright">
-      <div id=daytime>
+      <div id="daytime">
         <div id="day" class="day">19</div>
         <div id="time" class="time"></div>
         <div id="monthday" class="text-left">12月11日</div>
         <div id="lunar" class="text-left"></div>
       </div>
-
       <div id="content" class="content">
         <div id="title" class="title"></div>
         <div id="rating"></div>
@@ -148,325 +190,375 @@
         <div id="summary"></div>
         <div id="mobile_qr" class="mobile_qr"></div>
       </div>
-
     </div>
   </div>
 
-</body>
+  <!-- 竖屏布局 -->
+  <div id="backgroundImage" class="backgroundImage portrait-only" style="background-image: url(); display: block;"></div>
+  <span id="imagename" class="imagename portrait-only">01-01</span>
+  <div id="divbottom" class="divbottom portrait-only">
+    <div id="bottomleft" class="bottomleft">
+      <div id="daytime-portrait">
+        <div id="day-portrait" class="day">19</div>
+        <div id="time-portrait" class="time"></div>
+      </div>
+      <div id="monthday-portrait" class="text-left">01月01日</div>
+      <div id="lunar-portrait" class="text-left"></div>
+    </div>
+    <div id="bottomright" class="bottomright">
+      <div id="title-portrait" class="title"></div>
+      <div class="content">
+        <div id="rating-portrait"></div>
+        <div id="year-portrait"></div>
+        <div id="director-portrait"></div>
+        <div id="star-portrait"></div>
+        <div id="quote-portrait" class="quote"></div>
+        <div id="summary-portrait"></div>
+      </div>
+    </div>
+    <div id="mobile_qr-portrait" class="mobile_qr"></div>
+  </div>
 
-<!-- <script src="js/jquery.min.js"></script>
-<script src="js/jquery-qrcode-0.17.0.min.js"></script>
-<script src="js/ConvertCalendar.js"></script> -->
+  <script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js" defer></script>
+  <script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js" defer></script>
+  <script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/ConvertCalendar.js" defer></script>
 
-<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery.min.js"></script>
-<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/jquery-qrcode-0.17.0.min.js"></script>
-<script src="https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/ConvertCalendar.js"></script>
-
-<script>
-
-  (function ($) {
-    $.getUrlParam = function (name) {
-      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-      var r = window.location.search.substr(1).match(reg);
-      if (r != null) return unescape(r[2]); return null;
-    }
-  })(jQuery);
-
-  $(document).ready(function () {
-    $(document).mousemove(function () {
-      $("#body").css({ cursor: "default" });
-    });
-  });
-
-  var showtime = false
-  var showmore = false
-  var today = "01-01";
-  var jsonfilename = $.getUrlParam("id")
-
-  var rotate = parseInt($.getUrlParam("rotate"))
-  rotatefunction()
-
-  var mode = $.getUrlParam("mode") //portrait or landscape
-
-  switch (mode) {
-    case "portrait":
-      window.location.href = "doubancalendar-portrait.html?id=" + jsonfilename + "&mode=portrait";
-      break;
-    case "landscape":
-      break;
-    case null:
-      if (screen.width < screen.height) {
-        window.location.href = "doubancalendar-portrait.html?id=" + jsonfilename;
+  <script>
+    (function($) {
+      $.getUrlParam = function(name) {
+        const reg = new RegExp(`(^|&)${name}=([^&]*)(&|$)`);
+        const r = window.location.search.substr(1).match(reg);
+        return r ? unescape(r[2]) : null;
       }
-      break;
-    default:
-      break;
-  }
-  function orientationChange() {
-    if (screen.width < screen.height) {
-      window.location.href = "doubancalendar-portrait.html?id=" + jsonfilename;
-    }
-  }
+    })(jQuery);
 
-  window.addEventListener("orientationchange", orientationChange);
+    $(document).ready(function() {
+      // DOM元素缓存
+      const $body = $("#body");
+      const $divmain = $("#divmain");
+      const $divleft = $("#divleft");
+      const $image = $("#image");
+      const $day = $("#day");
+      const $time = $("#time");
+      const $monthday = $("#monthday");
+      const $lunar = $("#lunar");
+      const $content = $("#content");
+      const $title = $("#title");
+      const $rating = $("#rating");
+      const $director = $("#director");
+      const $star = $("#star");
+      const $year = $("#year");
+      const $quote = $("#quote");
+      const $summary = $("#summary");
+      const $mobile_qr = $("#mobile_qr");
+      
+      // 竖屏元素缓存
+      const $backgroundImage = $("#backgroundImage");
+      const $imagename = $("#imagename");
+      const $divbottom = $("#divbottom");
+      const $bottomleft = $("#bottomleft");
+      const $dayPortrait = $("#day-portrait");
+      const $timePortrait = $("#time-portrait");
+      const $monthdayPortrait = $("#monthday-portrait");
+      const $lunarPortrait = $("#lunar-portrait");
+      const $bottomright = $("#bottomright");
+      const $titlePortrait = $("#title-portrait");
+      const $ratingPortrait = $("#rating-portrait");
+      const $directorPortrait = $("#director-portrait");
+      const $starPortrait = $("#star-portrait");
+      const $yearPortrait = $("#year-portrait");
+      const $quotePortrait = $("#quote-portrait");
+      const $summaryPortrait = $("#summary-portrait");
+      const $mobileQrPortrait = $("#mobile_qr-portrait");
 
+      // 变量初始化
+      let showtime = false;
+      let showmore = false;
+      let today = "01-01";
+      let lastDate = ""; // 用于检测日期是否变化
+      const jsonfilename = $.getUrlParam("id");
+      let rotate = parseInt($.getUrlParam("rotate")) || 0;
+      const mode = $.getUrlParam("mode");
+      let currentMode = "landscape";
 
-  $("#director").css("-webkit-line-clamp", "4")
-  $("#star").hide()
-  $("#summary").hide()
-  $("#mobile_qr").hide()
-  $("#quote").hide()
-  $("#divmain").css("position", "absolute")
-
-  update()
-  setInterval("update()", 1 * 30 * 1000)
-
-  function update() {
-    $("#body").css({ cursor: "none" });
-
-    var date = new Date()
-    var utc8DiffMinutes = date.getTimezoneOffset() + 480
-    date.setMinutes(date.getMinutes() + utc8DiffMinutes)
-
-
-    var hour = date.getHours()
-    hour = hour < 10 ? "0" + hour : hour
-    var Minutes = date.getMinutes()
-    Minutes = Minutes < 10 ? "0" + Minutes : Minutes
-    var timeString = hour + ":" + Minutes
-    var yearString = date.getFullYear()
-    var monthString = date.getMonth() + 1
-    monthString = monthString < 10 ? "0" + monthString : monthString
-    var dayString = date.getDate()
-    dayString = dayString < 10 ? "0" + dayString : dayString
-    var daysString = dayString.length == 1 ? "0" + dayString : dayString
-
-    var _todaylunarjson = calendar.solar2lunar(yearString, monthString, dayString);
-
-    //公历
-    var _today = monthString + "月" + dayString + "日" + " " + _todaylunarjson.ncWeek
-    today = monthString + "-" + daysString
-    //农历
-    var _todaylunar = "农历" + _todaylunarjson.IMonthCn + _todaylunarjson.IDayCn
-
-    if (showtime) {
-      $("#time").hide()
-      $("#day").show()
-      $("#day").html(dayString)
-    } else {
-      $("#time").show()
-      $("#day").hide()
-      $("#time").html(timeString)
-    }
-
-    if ($("#monthday").html().indexOf(_today) != 0) {
-      $("#monthday").html(_today)
-      $("#lunar").html(_todaylunar)
-
-      if (jsonfilename == null || jsonfilename == "") {
-        jsonfilename = "DoubanAlbum2024"
+      // 初始化模式
+      function initMode() {
+        currentMode = mode === "portrait" ? "portrait" : 
+                     (mode === "landscape" ? "landscape" : 
+                     (screen.width >= screen.height ? "landscape" : "portrait"));
+        $body.removeClass("mode-landscape mode-portrait").addClass("mode-" + currentMode);
+        rotatefunction();
       }
-      get_data(today)
-    }
-    setTimeout(function () {
-      isImgLoad()
-    }, 5000);
-  }
-  // 判断图片加载的函数
-  function isImgLoad() {
-    $("#image").each(function () {
-      if (this.height < 50) {
-        $("#image").attr("src", $("#image").attr("src"))
+
+      // 方向改变处理
+      function orientationChange() {
+        const newMode = screen.width >= screen.height ? "landscape" : "portrait";
+        if (newMode !== currentMode) {
+          currentMode = newMode;
+          $body.removeClass("mode-landscape mode-portrait").addClass("mode-" + currentMode);
+          update();
+        }
       }
-    });
-  }
 
-  function get_data(today) {
-    var json = ""
-    if (typeof (Storage) !== "undefined") {
-      // 针对 localStorage/sessionStorage 的代码
-      json = localStorage.getItem(jsonfilename)
-      if (json !== "" && json !== null) {
+      window.addEventListener("orientationchange", orientationChange);
 
-        set_data(JSON.parse(json))
-      } else {
-        $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/" + jsonfilename + ".js")
-          .done(function () {
-            localStorage.setItem(jsonfilename, JSON.stringify(jsonstr.list));
-            set_data(jsonstr.list)
+      // 初始化布局
+      function initLayout() {
+        if (currentMode === "landscape") {
+          $director.css("-webkit-line-clamp", "4");
+          $star.hide();
+          $summary.hide();
+          $mobile_qr.hide();
+          $quote.hide();
+          $divmain.css("position", "absolute");
+        } else {
+          $starPortrait.hide();
+          $timePortrait.hide();
+          $quotePortrait.hide();
+          $summaryPortrait.hide();
+          $mobileQrPortrait.hide();
+          $bottomright.css("width", "55%");
+          $divbottom.css("position", "absolute");
+        }
+      }
+
+      // 旋转功能
+      function rotatefunction() {
+        const $target = currentMode === "landscape" ? $divmain : $body;
+        if (rotate) {
+          $target.css({
+            transform: "rotate(180deg)",
+            "-webkit-transform": "rotate(180deg)",
+            "-moz-transform": "rotate(180deg)",
+            "-o-transform": "rotate(180deg)",
+            "-ms-transform": "rotate(180deg)"
+          });
+        } else {
+          $target.css({
+            transform: "",
+            "-webkit-transform": "",
+            "-moz-transform": "",
+            "-o-transform": "",
+            "-ms-transform": ""
+          });
+        }
+      }
+
+      // 模式切换
+      function modefunction() {
+        const newMode = currentMode === "landscape" ? "portrait" : "landscape";
+        window.location.href = `doubancalendar.html?id=${jsonfilename}&mode=${newMode}${rotate ? "&rotate=1" : ""}`;
+      }
+
+      // 更新时间和日期
+      function update() {
+        $body.css("cursor", "none");
+
+        const date = new Date();
+        date.setMinutes(date.getMinutes() + date.getTimezoneOffset() + 480); // UTC+8
+
+        const hour = String(date.getHours()).padStart(2, "0");
+        const minutes = String(date.getMinutes()).padStart(2, "0");
+        const timeString = `${hour}:${minutes}`;
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, "0");
+        const day = String(date.getDate()).padStart(2, "0");
+        const currentDate = `${month}-${day}`;
+
+        const lunar = calendar.solar2lunar(year, month, day);
+        const lunarStr = `农历${lunar.IMonthCn}${lunar.IDayCn}`;
+        const dateStr = `${month}月${day}日 ${lunar.ncWeek}`;
+
+        // 仅在日期变化时更新数据
+        if (currentDate !== lastDate) {
+          today = currentDate;
+          lastDate = currentDate;
+          if (currentMode === "landscape") {
+            $monthday.html(dateStr);
+            $lunar.html(lunarStr);
+          } else {
+            $monthdayPortrait.html(dateStr);
+            $lunarPortrait.html(lunarStr);
+          }
+          loadData(year);
+        }
+
+        // 更新时间/日期显示
+        if (currentMode === "landscape") {
+          if (showtime) {
+            $time.hide();
+            $day.show().html(day);
+          } else {
+            $day.hide();
+            $time.show().html(timeString);
+          }
+        } else {
+          if (showtime) {
+            $timePortrait.hide();
+            $dayPortrait.show().html(day);
+          } else {
+            $dayPortrait.hide();
+            $timePortrait.show().html(timeString);
+          }
+        }
+
+        setTimeout(isImgLoad, 5000);
+      }
+
+      // 检查图片加载
+      function isImgLoad() {
+        if (currentMode === "landscape") {
+          if ($image[0].height < 50) {
+            $image.attr("src", $image.attr("src"));
+          }
+        } else {
+          const currentImg = $backgroundImage.css("background-image").replace(/url\("|"\)/g, "");
+          if ($backgroundImage[0].height < 50) {
+            $backgroundImage.css("background-image", `url(${currentImg})`);
+          }
+        }
+      }
+
+      // 加载数据
+      function loadData(year) {
+        const filename = jsonfilename || `DoubanAlbum${year}`;
+        
+        if (typeof Storage !== "undefined") {
+          const stored = localStorage.getItem(filename);
+          if (stored) {
+            setData(JSON.parse(stored));
+            return;
+          }
+        }
+
+        // 动态加载脚本
+        $.getScript(`https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/${filename}.js`)
+          .done(() => {
+            if (typeof Storage !== "undefined") {
+              localStorage.setItem(filename, JSON.stringify(jsonstr.list));
+            }
+            setData(jsonstr.list);
           })
-          .fail(function () {
-
+          .fail(() => {
+            if (currentMode === "portrait") $imagename.show();
           });
       }
-    } else {
-      // 抱歉！不支持 Web Storage ..
-      $.getScript("https://fastly.jsdelivr.net/gh/adyhwang/kindleclock/js/" + jsonfilename + ".js")
-        .done(function () {
-          set_data(jsonstr.list)
-        })
-        .fail(function () {
 
-        });
-    }
+      // 设置数据到界面
+      function setData(data) {
+        for (const key in data) {
+          if (data[key].doubandate.includes(today)) {
+            const item = data[key];
+            const { title, douban_rating: rating, director, star, year, country, genre, douban_id, quote, summary } = item;
+            const link = `https://movie.douban.com/subject/${douban_id}`;
+            const imageUrl = `images/${jsonfilename || `DoubanAlbum${year}`}/${today}.jpg`;
 
-  }
-
-  function set_data(json) {
-    for (var key in json) {
-      if (json[key].doubandate.indexOf(today) > -1) {
-        var title = json[key].title //片名
-
-        var rating = json[key].douban_rating //评分
-        var rank = json[key].douban_rank //排名
-        var director = json[key].director//导演
-        var star = json[key].star //主演
-
-        var year = json[key].year//年份
-        var country = json[key].country//国家地区 
-        var genre = json[key].genre//类型
-
-        var douban_link = "https://movie.douban.com/subject/" + json[key].douban_id //豆瓣链接
-        var quote = json[key].quote //短评
-
-        var summary = json[key].summary //简介
-
-
-        var image = "images/" + jsonfilename + "/" + today + ".jpg" //豆瓣日历剧照    
-        //var image = json[key].photo //豆瓣日历剧照 
-
-        $("#title").html("《" + title + "》")
-        $("#rating").html("豆瓣评分：" + rating)
-        $("#director").html("导演：" + director)
-        $("#star").html("主演：" + star)
-        $("#year").html(year + " / " + country + " / " + genre)
-        $("#quote").html("\"" + quote + "\"")
-        $("#summary").html("剧情简介 · · · · · ·</br>　　" + summary)
-
-        $("#image").attr("src", image)
-        $("#mobile_qr").html("")
-        $("#mobile_qr").qrcode({   //二维码
-          render: "canvas",
-          width: 50,
-          height: 50,
-          text: douban_link
-        });
-        $("#mobile_qr").children("canvas").css("width", "100px");
-        $("#mobile_qr").unbind("click"); //移除click
-        $("#mobile_qr").click(function () {
-          window.open(douban_link, "_blank");
-        });
-        $("#imagename").html(jsonfilename + "-" + today)
-        break;
+            if (currentMode === "landscape") {
+              $title.html(`《${title}》`);
+              $rating.html(`豆瓣评分：${rating}`);
+              $director.html(`导演：${director}`);
+              $star.html(`主演：${star}`);
+              $year.html(`${year} / ${country} / ${genre}`);
+              $quote.html(`"${quote}"`);
+              $summary.html(`剧情简介 · · · · · ·</br>　　${summary}`);
+              $image.attr("src", imageUrl);
+              $mobile_qr.html("").qrcode({ render: "canvas", width: 50, height: 50, text: link })
+                .children("canvas").css("width", "100px")
+                .parent().off("click").on("click", () => window.open(link, "_blank"));
+            } else {
+              $titlePortrait.html(`《${title}》`);
+              $ratingPortrait.html(`豆瓣评分：${rating}`);
+              $directorPortrait.html(`导演：${director}`);
+              $starPortrait.html(`主演：${star}`);
+              $yearPortrait.html(`${year} / ${country} / ${genre}`);
+              $quotePortrait.html(`"${quote}"`);
+              $summaryPortrait.html(`剧情简介 · · · · · ·</br>　　${summary}`);
+              $backgroundImage.css("background-image", `url(${imageUrl})`);
+              $mobileQrPortrait.html("").qrcode({ render: "canvas", width: 50, height: 50, text: link })
+                .children("canvas").css("width", "100px")
+                .parent().off("click").on("click", () => window.open(link, "_blank"));
+              $imagename.html(`${jsonfilename || `DoubanAlbum${year}`}-${today}`);
+            }
+            break;
+          }
+        }
       }
 
-    }
-  }
+      // 切换时间/日期显示
+      function showtimefunction() {
+        showtime = !showtime;
+        update();
+      }
 
+      // 切换更多信息显示
+      function showmorefunction() {
+        showmore = !showmore;
+        if (currentMode === "landscape") {
+          $divleft.toggle(!showmore);
+          $daytime.toggle(!showmore);
+          $content.toggle(showmore);
+          $quote.toggle(showmore);
+          $star.toggle(showmore);
+          $summary.toggle(showmore);
+          $mobile_qr.toggle(showmore);
+        } else {
+          $bottomleft.toggle(!showmore);
+          $bottomright.css("width", showmore ? "" : "53%");
+          $quotePortrait.toggle(showmore);
+          $summaryPortrait.toggle(showmore);
+          $starPortrait.toggle(showmore);
+          $mobileQrPortrait.toggle(showmore);
+        }
+      }
 
+      // 输入日期
+      function alertinput() {
+        const input = prompt("请输入日期MMdd，如：2月15日输入0215");
+        if (input && input.length === 4) {
+          today = `${input.slice(0, 2)}-${input.slice(2)}`;
+          lastDate = today; // 强制更新
+          loadData(new Date().getFullYear());
+        } else {
+          alert("日期格式错误！请输入日期，如0215");
+        }
+      }
 
-  function showtimefunction() {
-    if (showtime) {
-      showtime = false;
-    }
-    else {
-      showtime = true;
-    }
+      // 绑定事件
+      function bindEvents() {
+        // 横屏事件
+        $content.click(showmorefunction);
+        $daytime.click(showtimefunction);
+        $monthday.click(alertinput);
 
-    update()
-  }
+        // 竖屏事件
+        $bottomright.click(showmorefunction);
+        $("#daytime-portrait").click(showtimefunction);
+        $monthdayPortrait.click(alertinput);
 
-  function showmorefunction() {
-    if (showmore) {
-      $("#divleft").show()
-      $("#daytime").show()
-      $("#quote").hide()
-      $("#summary").hide()
-      $("#star").hide()
-      $("#mobile_qr").hide()
-      showmore = false;
-    }
-    else {
-      $("#divleft").hide()
-      $("#daytime").hide()
-      $("#content").show()
-      $("#quote").show()
-      $("#star").show()
-      $("#summary").show()
-      $("#mobile_qr").show()
-      showmore = true;
-    }
-  }
+        // 键盘事件
+        $(document).keypress(e => {
+          switch (e.keyCode) {
+            case 100: showtimefunction(); break; // d
+            case 109: modefunction(); break;     // m
+            case 115: showmorefunction(); break; // s
+            case 120: case 122:                  // x/z
+              rotate = rotate ? 0 : 1;
+              rotatefunction();
+              break;
+          }
+        });
 
-  function alertinput() {
-    today = prompt("请输入日期MMdd，如：2月15日输入0215")
-    if (today.length == 4) {
-      today = today.slice(0, 2) + "-" + today.slice(2);
-      get_data(today)
-    } else {
-      alert("日期格式错误！请输入日期，如0215")
-    }
-  }
+        // 鼠标移动显示光标
+        $(document).mousemove(() => $body.css("cursor", "default"));
+      }
 
-  function modefunction() {
-    window.location.href = "doubancalendar-portrait.html?id=" + jsonfilename + "&mode=portrait";
-  }
-
-  function rotatefunction() {
-    if (rotate) {
-      $("#divmain").css("transform", "rotate(180deg)");
-      $("#divmain").css("-webkit-transform", "rotate(180deg)");
-      $("#divmain").css("-moz-transform", "rotate(180deg)");
-      $("#divmain").css("-o-transform", "rotate(180deg)");
-      $("#divmain").css("-ms-transform", "rotate(180deg)");
-      rotate = 0
-
-    }
-    else {
-      $("#divmain").css("transform", "");
-      $("#divmain").css("-webkit-transform", "");
-      $("#divmain").css("-moz-transform", "");
-      $("#divmain").css("-o-transform", "");
-      $("#divmain").css("-ms-transform", "");
-      rotate = 1
-    }
-  }
-
-  $("#content").click(function () {
-    showmorefunction()
-  });
-
-  $("#daytime").click(function () {
-    showtimefunction()
-  });
-
-  $("#monthday").click(function () {
-    alertinput()
-  });
-  ///////  
-
-  $(document).keypress(function (e) {
-
-    switch (e.keyCode) {
-      case 100: //d
-        showtimefunction()
-        break;
-      case 109: //m
-        modefunction()
-        break;
-      case 115: //s
-        showmorefunction()
-        break;
-      case 120: //x
-      case 122: //z
-        rotatefunction()
-        break;
-      default:
-        break;
-    }
-
-  })
-
-</script>
-
+      // 初始化执行
+      initMode();
+      initLayout();
+      bindEvents();
+      update();
+      setInterval(update, 30000);
+    });
+  </script>
+</body>
 </html>
