@@ -35,9 +35,16 @@
       max-height: 300px;
     }
 
+    .content{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
     .content_en {
       max-width: 600px;
-      text-align: left;
+      text-align: center;
       font-size: 1.2rem;
       text-overflow: ellipsis;
       display: -webkit-box;
@@ -47,7 +54,7 @@
 
     .content_zh {
       max-width: 600px;
-      text-align: left;
+      text-align: center;
       font-size: 1rem;
       text-overflow: ellipsis;
       display: -webkit-box;
@@ -58,11 +65,9 @@
     }
 
     .divbottom {
-      max-width: 600px;
       width: 100%;
       background-color: white;
       z-index: 999;
-      /* position: absolute; */
       bottom: 0;
       margin: 0px 1px 0px 1px;
       text-align: center;
@@ -113,9 +118,10 @@
 <body id="body" class="body">
   <div id="divbox" class="divbox">
     <img id="image" class="image" alt="Loading..." mode="aspectFill" src="images/img.png" referrerPolicy="no-referrer">
-    <div id="content_en" class="content_en"></div>
-    <div id="content_zh" class="content_zh"></div>
-    <!-- <div style="border:1px solid #CCC"></div>   -->
+    <div class="content">
+      <div id="content_en" class="content_en"></div>
+      <div id="content_zh" class="content_zh"></div>
+    </div>
     <div class="mid"></div>
     <div id="divbottom" class="divbottom">
       <div id="monthday" class="text-left">monthday</div>

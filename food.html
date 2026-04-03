@@ -75,7 +75,7 @@
       text-align: left;
       font-weight: 600;
       font-size: 1.5rem;
-      margin: 0.3rem;
+      margin: 0.8rem;
     }
 
     .content {
@@ -265,7 +265,7 @@
       thisurl = thisurl.substring(0, thisurl.indexOf("?"))
     }
     thisurl = thisurl + "?id=" + random
-    $("#mobile_qr").html("点击复制")
+    $("#mobile_qr").html("")
     $("#mobile_qr").qrcode({   //二维码
       render: "canvas",
       width: 50,
