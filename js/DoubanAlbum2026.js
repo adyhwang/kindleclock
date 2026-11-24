@@ -19,7 +19,7 @@ var jsonstr = { list:[
     "quote": "最爱小孩子猜声音那段，算得上看过的电影里相当浪漫的叙事了。很温和也很有爱。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2915454411.jpg",
     "douban_id": "36154853",
-    "doubandate": "2025-01-01",
+    "doubandate": "2026-01-01",
     "calendarimageurl": ""
   },
   {
@@ -42,7 +42,7 @@ var jsonstr = { list:[
     "quote": "当她落寞无限，孤独地走在林子里时，回头却看到了狐狸的身影。 \r\n原来它并没有死。她知道自己失去了它的信任，明白了爱并不是占有。\r\nPS电影很优美",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p458726329.jpg",
     "douban_id": "2028659",
-    "doubandate": "2025-01-02",
+    "doubandate": "2026-01-02",
     "calendarimageurl": ""
   },
   {
@@ -65,7 +65,7 @@ var jsonstr = { list:[
     "quote": "配色十级艺术，绝美画面，经常为两位的脸和穿搭而窒息。出来后和朋友聊，觉得可能是纽约太商品化的原因，我看着她家的天际线、艺术品、书、她租的房子，我脑子里只会去想资产价值，上产者的生命痛苦突然就显得很虚浮了。疾病、痛苦、亲情、寂寞，又有多少人的死亡比这复杂和绝望多得多。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2911534490.jpg",
     "douban_id": "36687720",
-    "doubandate": "2025-01-03",
+    "doubandate": "2026-01-03",
     "calendarimageurl": ""
   },
   {
@@ -88,7 +88,7 @@ var jsonstr = { list:[
     "quote": "不看演员表，你能看出企鹅人是科林法瑞尔吗",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2911831149.jpg",
     "douban_id": "35604181",
-    "doubandate": "2025-01-04",
+    "doubandate": "2026-01-04",
     "calendarimageurl": ""
   },
   {
@@ -111,7 +111,7 @@ var jsonstr = { list:[
     "quote": "大概对柯南来说，不难看就约等于好看了。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2883894742.jpg",
     "douban_id": "35437938",
-    "doubandate": "2025-01-05",
+    "doubandate": "2026-01-05",
     "calendarimageurl": ""
   },
   {
@@ -134,7 +134,7 @@ var jsonstr = { list:[
     "quote": "印度教相信人活于世皆要遵从上神的安排，因此当阿努向普拉巴倾诉自己对父母安排好的婚姻的不满时，普拉巴说“你无法逃离命运”。但她最后依旧选择对丈夫说不，包容了阿努的穆斯林情人。并没有那种石破天惊的觉醒或者胜利，仅仅是漫长的，漫长生活中匆匆的一瞥。正如海岸边的一缕阳光，正如片名一样。当我们指责这位来自南亚的女导演“媚态讨好”“移植他国感情于本国土地”时，不妨先看一看我们的国际电影节在翻译时理所当然地将印度人口中的god翻译成“上帝”，不标注马拉雅拉姆语和印地语的分别导致很多情节理解都会出现偏差。我们显然并不了解也并没有打算真的了解对方，为什么还要用这么居高临下的目光对她的努力进行审判。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2909049672.jpg",
     "douban_id": "35965772",
-    "doubandate": "2025-01-06",
+    "doubandate": "2026-01-06",
     "calendarimageurl": ""
   },
   {
@@ -157,7 +157,7 @@ var jsonstr = { list:[
     "quote": "那只手表和猫的线索节点，和我预想的一模一样，感觉自己不当编剧导演真是屈才。洗手间的那个化妆盒，明明就是行刑前的仪式（死人妆），那个所谓的AA聚会，明明就是他们在甄别“祭品”，Ben和他的朋友们，更像是一种宗教组织，为了某个所谓的信仰而杀人。影片解读空间很大，豆瓣目前没看到好的影评",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2520095279.jpg",
     "douban_id": "26842702",
-    "doubandate": "2025-01-07",
+    "doubandate": "2026-01-07",
     "calendarimageurl": ""
   },
   {
@@ -180,7 +180,7 @@ var jsonstr = { list:[
     "quote": "别让刘晓庆看见这部片了",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913321636.jpg",
     "douban_id": "36402104",
-    "doubandate": "2025-01-08",
+    "doubandate": "2026-01-08",
     "calendarimageurl": ""
   },
   {
@@ -203,7 +203,7 @@ var jsonstr = { list:[
     "quote": "特供3D表脸",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2379032162.jpg",
     "douban_id": "26266072",
-    "doubandate": "2025-01-09",
+    "doubandate": "2026-01-09",
     "calendarimageurl": ""
   },
   {
@@ -226,7 +226,7 @@ var jsonstr = { list:[
     "quote": "刚刚看完第一集，整体质感还不错，就是男主表演实在是太同质化，看过他之前演的警察 缉毒警 军人 保镖。。。几乎一个模子",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2912375780.jpg",
     "douban_id": "36354084",
-    "doubandate": "2025-01-10",
+    "doubandate": "2026-01-10",
     "calendarimageurl": ""
   },
   {
@@ -249,7 +249,7 @@ var jsonstr = { list:[
     "quote": "7.0/10 分。007-20-2002。2018.08.13，重看，50周年纪念版蓝光。皮尔斯·布鲁斯南的第四部007，也是最后一部。最帅的007辞演了。007被逮捕了，还被折磨了，这是为他的离去唱的最后一首哀歌吗。。。哈莉·贝瑞，有料的黑美人，大战有料的白美人，裴淳华。下一部是四年后，2006年了，换人了，丹尼尔·克雷格。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p940106094.jpg",
     "douban_id": "1303773",
-    "doubandate": "2025-01-11",
+    "doubandate": "2026-01-11",
     "calendarimageurl": ""
   },
   {
@@ -272,7 +272,7 @@ var jsonstr = { list:[
     "quote": "没看过原著，但整个片子实在太美了，美得像个梦，每个局内人都在梦里呓语，说着自以为是的蠢话，只有波洛这个局外人才看清了梦外最残酷的现实。结局是个经典，死亡怎么会是最大的惩罚？最大的惩罚是长长久久的生不如死。光影的设计一流，人物也难得的精致美丽，英式复古的美，可以反复看",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2219829395.jpg",
     "douban_id": "1427038",
-    "doubandate": "2025-01-12",
+    "doubandate": "2026-01-12",
     "calendarimageurl": ""
   },
   {
@@ -295,7 +295,7 @@ var jsonstr = { list:[
     "quote": "John Huston执导的最后一部影作，儿子Tony改编剧本，女儿Anjelica出演女主角。乔伊斯短篇压卷之作的标题仿佛一语成谶。影评人罗杰伊伯特说“看过《死者》你不会见到一部杰作，但你会见识到其中宏大的气象，以及Huston本来可能拍出的杰作。”\n去年11月狮门公司发行的新版dvd,被影迷爆出删节了huston这部名片大约十分钟的段落(基本在开头处),此事纽约时报也做了报道,狮门公司此举引起众人批评,.他们表示这是一个技术差错,并承诺尽快处理此事",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p472337566.jpg",
     "douban_id": "1303529",
-    "doubandate": "2025-01-13",
+    "doubandate": "2026-01-13",
     "calendarimageurl": ""
   },
   {
@@ -318,7 +318,7 @@ var jsonstr = { list:[
     "quote": "小齐哥你睁大眼睛看看，王九才像郭富城亲生的啊！",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2920653336.jpg",
     "douban_id": "24284175",
-    "doubandate": "2025-01-14",
+    "doubandate": "2026-01-14",
     "calendarimageurl": ""
   },
   {
@@ -341,7 +341,7 @@ var jsonstr = { list:[
     "quote": "整体质感非常接近美剧了，可惜剧情还是中规中矩缺乏新鲜感，人物也很平淡。让裴斗娜演那么乏味的一个角色实在浪费，王后的角色倒是可以深化一下，可惜演员气场又不够。比一般的韩剧看起来还是要高级很多的，但其实也就相当于把一部电影拉长到了300分钟，最后还未完待续吧……",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2542945898.jpg",
     "douban_id": "26947951",
-    "doubandate": "2025-01-15",
+    "doubandate": "2026-01-15",
     "calendarimageurl": ""
   },
   {
@@ -364,7 +364,7 @@ var jsonstr = { list:[
     "quote": "村子里一对单纯的不锈钢兄弟，误打误撞进了趟城，突然发现村长竟然吃里扒外，变卖集体财产。哥俩立志要改变家乡面貌，团结一致斗地主。就在他们成功赶走地主后，分歧却来了。一个要走资本主义路线，一个要走社会主义路线。最终，两兄弟还是分道扬镳了。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2912407834.jpg",
     "douban_id": "34960078",
-    "doubandate": "2025-01-16",
+    "doubandate": "2026-01-16",
     "calendarimageurl": ""
   },
   {
@@ -387,7 +387,7 @@ var jsonstr = { list:[
     "quote": "特别喜欢他自己拉片希区柯克那段。最后彩蛋安妮特在Modern Love的歌声中“奔跑”太棒了！！！",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2908345521.jpg",
     "douban_id": "36436286",
-    "doubandate": "2025-01-17",
+    "doubandate": "2026-01-17",
     "calendarimageurl": ""
   },
   {
@@ -410,7 +410,7 @@ var jsonstr = { list:[
     "quote": "这宋运辉是换雷东宝人设了！",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2902867531.jpg",
     "douban_id": "35321446",
-    "doubandate": "2025-01-18",
+    "doubandate": "2026-01-18",
     "calendarimageurl": ""
   },
   {
@@ -433,7 +433,7 @@ var jsonstr = { list:[
     "quote": "令人不禁思考，在自己年轻的时候，是否做过什么有意义的事情，以至于在很老很老的时候，想起来也不会觉得后悔。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2897987524.jpg",
     "douban_id": "35376692",
-    "doubandate": "2025-01-19",
+    "doubandate": "2026-01-19",
     "calendarimageurl": ""
   },
   {
@@ -456,7 +456,7 @@ var jsonstr = { list:[
     "quote": "他的唯一不幸就是他的确是个人\n\n",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1474924253.jpg",
     "douban_id": "1293200",
-    "doubandate": "2025-01-20",
+    "doubandate": "2026-01-20",
     "calendarimageurl": ""
   },
   {
@@ -479,7 +479,7 @@ var jsonstr = { list:[
     "quote": "餐桌上那场戏太棒了，女儿的追问，父亲对权威的维护，针锋相对。最后的结尾，那一枪的安排也非常棒，不是朝着父亲开，而是朝着他脚下已经摇摇欲坠的黄土开，然后父亲随着这些黄土被一起埋葬，这些老旧、落后、野蛮的东西就该最终被埋进废墟。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913829689.jpg",
     "douban_id": "36864625",
-    "doubandate": "2025-01-21",
+    "doubandate": "2026-01-21",
     "calendarimageurl": ""
   },
   {
@@ -502,7 +502,7 @@ var jsonstr = { list:[
     "quote": "因为一些负面评价让我差点错过它，这部片子是拍给孤独的人看的佳片。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2628845704.jpg",
     "douban_id": "33433405",
-    "doubandate": "2025-01-22",
+    "doubandate": "2026-01-22",
     "calendarimageurl": ""
   },
   {
@@ -525,7 +525,7 @@ var jsonstr = { list:[
     "quote": "这种电影在时刻提醒世界，电影不能死",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2922238175.jpg",
     "douban_id": "35689244",
-    "doubandate": "2025-01-23",
+    "doubandate": "2026-01-23",
     "calendarimageurl": ""
   },
   {
@@ -548,7 +548,7 @@ var jsonstr = { list:[
     "quote": "院线字幕把“前男友”改成了“密友”，内地高中生谈恋爱比自杀还见不得光。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2906644236.jpg",
     "douban_id": "34940879",
-    "doubandate": "2025-01-24",
+    "doubandate": "2026-01-24",
     "calendarimageurl": ""
   },
   {
@@ -571,7 +571,7 @@ var jsonstr = { list:[
     "quote": "@ film forum 妈妈和女儿互相映照，从同一间学校毕业，在同样的校舍经历过十几岁时的脸红心跳。妈妈进入婚姻，生下小孩，不知不觉中变成孤独的陪读家长，女性面前的道路只有成为男性的附属和点缀。妈妈压抑的情绪和欲望被更年轻的男性看见，却又破坏了与女儿的亲密。而女性之间的嫉妒倾轧，归根到底由父权制维护者有意无意造就，也是他们希望看到的结果。喜欢开头和结尾母女照顾对方的身体（蜜蜡脱毛和精油护发）的场景，我们在世间的遭遇源于这具女性的身体，而这是我们仅有的东西，就像我和你。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2903776440.jpg",
     "douban_id": "35740387",
-    "doubandate": "2025-01-25",
+    "doubandate": "2026-01-25",
     "calendarimageurl": ""
   },
   {
@@ -594,7 +594,7 @@ var jsonstr = { list:[
     "quote": "哥哥娇嗔那句“生孩子会痛的嘛”简直笑得我灵魂出窍啊，连周星驰都完败了～！",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p940263436.jpg",
     "douban_id": "1300064",
-    "doubandate": "2025-01-26",
+    "doubandate": "2026-01-26",
     "calendarimageurl": ""
   },
   {
@@ -617,7 +617,7 @@ var jsonstr = { list:[
     "quote": "如果你在生卒年见遇见过一个旷世奇才是何等的幸运，当你费尽心机却无法掩盖他的光芒的时候，又是何等的悲哀~~",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p595764767.jpg",
     "douban_id": "1293399",
-    "doubandate": "2025-01-27",
+    "doubandate": "2026-01-27",
     "calendarimageurl": ""
   },
   {
@@ -640,7 +640,7 @@ var jsonstr = { list:[
     "quote": "连奥创都知道整容要去韩国。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2229594647.jpg",
     "douban_id": "10741834",
-    "doubandate": "2025-01-28",
+    "doubandate": "2026-01-28",
     "calendarimageurl": ""
   },
   {
@@ -663,7 +663,7 @@ var jsonstr = { list:[
     "quote": "可能是小津格局最大、最具社会性的作品，折射出整个日本（甚至适用于今日的其他国家）工薪阶层单调、贫乏、苦闷的人生：工作千篇一律，日日劳烦，通勤挤到拼命，升迁艰难无望，同事八卦碎嘴，娱乐了无新意，中年危机到来，又对配偶厌倦，半推半就出轨...片中也展现了各个人生阶段的上班族，从职场新人到老油条，从英年早逝到退休老人，似乎谁也挣脱不出寂寞与幻灭的枷锁。影片时时弥漫着疲惫、失落与忧郁的气息，纵使尾声轻巧明快的搬迁重生，似乎也只是短暂而浅表的释然。另外，在诸如老兵聚会等多个段落中，都可见出（或许是小津的）对二战败残结局的不甘与嗟叹，却不见换位反思。幽会接吻时切至地上自动转头的电扇，趣味盎然。PS：小津的镜头大抵正侧垂直，斜侧方2人并排或坐或立的平行构图常现；又见墙壁上水波潋滟般的光影流动。（8.5/10）",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1995485265.jpg",
     "douban_id": "1298704",
-    "doubandate": "2025-01-29",
+    "doubandate": "2026-01-29",
     "calendarimageurl": ""
   },
   {
@@ -686,7 +686,7 @@ var jsonstr = { list:[
     "quote": "可以说，创造了一种方法。声音作为时间和灵魂的标记参与其间。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2919503946.jpg",
     "douban_id": "36365206",
-    "doubandate": "2025-01-30",
+    "doubandate": "2026-01-30",
     "calendarimageurl": ""
   },
   {
@@ -709,7 +709,7 @@ var jsonstr = { list:[
     "quote": "多愛電影的人才能拍出這樣的電影⋯",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2871210079.jpg",
     "douban_id": "35354759",
-    "doubandate": "2025-01-31",
+    "doubandate": "2026-01-31",
     "calendarimageurl": ""
   },
   {
@@ -732,7 +732,7 @@ var jsonstr = { list:[
     "quote": "又是典中典的俗套“好人抢了坏人钱，然后被坏人追杀”的模版，囧瑟夫好久没演什么好电影了，纯纯赚点养老钱",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2924812911.jpg",
     "douban_id": "35897024",
-    "doubandate": "2025-02-01",
+    "doubandate": "2026-02-01",
     "calendarimageurl": ""
   },
   {
@@ -755,7 +755,7 @@ var jsonstr = { list:[
     "quote": "看到最后依旧是疑点重重，线索还是让你难以理清，和【性本恶】+《真探》的感觉差不多，似乎很接近真相了，但也只是很接近，你无法相信任何自己看到的听到的，同时凸显人性的复杂。相比同类型的美国片，这种悬而未决的故事更耐人寻味，大量的上帝之眼镜头让片子显得很风格化，越蛮荒越罪恶。★★★★",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2193145198.jpg",
     "douban_id": "25892603",
-    "doubandate": "2025-02-02",
+    "doubandate": "2026-02-02",
     "calendarimageurl": ""
   },
   {
@@ -778,7 +778,7 @@ var jsonstr = { list:[
     "quote": "这部纪录片存在的意义大于制作水平",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2916035510.jpg",
     "douban_id": "36741506",
-    "doubandate": "2025-02-03",
+    "doubandate": "2026-02-03",
     "calendarimageurl": ""
   },
   {
@@ -801,7 +801,7 @@ var jsonstr = { list:[
     "quote": "看到开头还以为是麦格教授带小玛丽去了霍格沃茨嘞╮(╯▽╰)╭",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1594026801.jpg",
     "douban_id": "1302133",
-    "doubandate": "2025-02-04",
+    "doubandate": "2026-02-04",
     "calendarimageurl": ""
   },
   {
@@ -824,7 +824,7 @@ var jsonstr = { list:[
     "quote": "简单空虚的英语措辞很东亚；做事的目的性很东亚；先入为主的“不信任”很东亚；血缘的以“爱”之名很东亚。中规中矩",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2906549270.jpg",
     "douban_id": "36464506",
-    "doubandate": "2025-02-05",
+    "doubandate": "2026-02-05",
     "calendarimageurl": ""
   },
   {
@@ -847,7 +847,7 @@ var jsonstr = { list:[
     "quote": "等了这么久终于上流媒体了，虽然剧情瑕疵挺多的，但between the certainty真的很美妙啊……另外摄影和美术太工整了，对我的眼睛极其友好，对J人来说更是一种颅内高潮……",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2915820112.jpg",
     "douban_id": "35948807",
-    "doubandate": "2025-02-06",
+    "doubandate": "2026-02-06",
     "calendarimageurl": ""
   },
   {
@@ -870,7 +870,7 @@ var jsonstr = { list:[
     "quote": "SFF 此片为 索尼音乐广告片 bd婚恋劝退宣传片 成瘾行为溯源片 还有英国海岸风光片。大自然是最好的疗愈师没错了，东亚人和白人互相理解不了对方的悲伤。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2911468508.jpg",
     "douban_id": "35756784",
-    "doubandate": "2025-02-07",
+    "doubandate": "2026-02-07",
     "calendarimageurl": ""
   },
   {
@@ -893,7 +893,7 @@ var jsonstr = { list:[
     "quote": "不喜欢主角那种皮笑肉不笑的感觉，不喜欢整个故事的慢和冗杂，如果仅仅是表现出迷茫的思考的话，觉得真是没有必要，有空看情色电影，调戏售货员不如好好工作么，迷茫个什么东西。。。最后的刺杀，在我看来，精神不太好吧。。。Oh my god~",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p792510233.jpg",
     "douban_id": "1292222",
-    "doubandate": "2025-02-08",
+    "doubandate": "2026-02-08",
     "calendarimageurl": ""
   },
   {
@@ -916,7 +916,7 @@ var jsonstr = { list:[
     "quote": "赶在上映第一天刷完，讲真没看过瘾。垃圾场对决这么重要的篇章怎么也值得120分钟片长，这80多分钟究竟是怎么想的。一个劲的赶剧情，还不停插播回忆杀，不给观众任何酝酿和释放情绪的机会。要不是决胜局研磨的第一视角演出过于精彩，我连打三星的心都有，希望IG不要再糟蹋好IP了。2024.2.16@金泽 AEON CINEMA",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2909378407.jpg",
     "douban_id": "36060209",
-    "doubandate": "2025-02-09",
+    "doubandate": "2026-02-09",
     "calendarimageurl": ""
   },
   {
@@ -939,7 +939,7 @@ var jsonstr = { list:[
     "quote": "当年的凯歌不是如今的凯歌，以前是长歌当哭，现在是对韭当歌。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2595703715.jpg",
     "douban_id": "30210248",
-    "doubandate": "2025-02-10",
+    "doubandate": "2026-02-10",
     "calendarimageurl": ""
   },
   {
@@ -962,7 +962,7 @@ var jsonstr = { list:[
     "quote": "余男，你太低调了。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p581291401.jpg",
     "douban_id": "1966460",
-    "doubandate": "2025-02-11",
+    "doubandate": "2026-02-11",
     "calendarimageurl": ""
   },
   {
@@ -985,7 +985,7 @@ var jsonstr = { list:[
     "quote": "人是漂泊的鸟，爱是宜居的岛。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2913022141.jpg",
     "douban_id": "36689857",
-    "doubandate": "2025-02-12",
+    "doubandate": "2026-02-12",
     "calendarimageurl": ""
   },
   {
@@ -1008,7 +1008,7 @@ var jsonstr = { list:[
     "quote": "伍迪老爷子使出怀旧必杀技真是让人毫无抵抗之力，连我等没在美国电台最黄金的时期活过的都在最后曼哈顿一片新年瑞雪之中对时代感的顿然逝去生出惋惜与感伤之情，虽说对一家子犹太亲戚都有诸多嘲笑，不过在吵闹的喧嚣里捡起一粒粒童年黄金时刻的珍珠拍出一部电影来，大概是最好的怀念。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2359633584.jpg",
     "douban_id": "1292894",
-    "doubandate": "2025-02-13",
+    "doubandate": "2026-02-13",
     "calendarimageurl": ""
   },
   {
@@ -1031,7 +1031,7 @@ var jsonstr = { list:[
     "quote": "拍暧昧就不能只拍暧昧，要拍送喜欢的人回家，看着她一层层往上，楼道的灯随着她的脚步一层层亮起再一层层熄灭；拍喜欢就不能只拍喜欢，要拍去见喜欢的人的路上，连风都带着甜蜜的气息；拍悸动就不能只拍悸动，要拍俩人之间只差一度就要沸腾的水。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2897215665.jpg",
     "douban_id": "35587662",
-    "doubandate": "2025-02-14",
+    "doubandate": "2026-02-14",
     "calendarimageurl": ""
   },
   {
@@ -1054,7 +1054,7 @@ var jsonstr = { list:[
     "quote": "陈凯歌拍的最后一部好片。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2394990566.jpg",
     "douban_id": "1307702",
-    "doubandate": "2025-02-15",
+    "doubandate": "2026-02-15",
     "calendarimageurl": ""
   },
   {
@@ -1077,7 +1077,7 @@ var jsonstr = { list:[
     "quote": "中国应该成为一个纪录片大国，这里有太多东西需要记录下来",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2166161286.jpg",
     "douban_id": "4102971",
-    "doubandate": "2025-02-16",
+    "doubandate": "2026-02-16",
     "calendarimageurl": ""
   },
   {
@@ -1100,7 +1100,7 @@ var jsonstr = { list:[
     "quote": "比第一部更好。被带节奏的舆论摧毁掉的梦想，飞机划过的夜空下突然亮灯的摩天轮，总是梦见自己输掉比赛的格斗高手，匍匐在城市丛林中的雄狮，都是导演在残酷现实语境（极度写实的场景）中对类型语法的熟练掌控，以及不断爆发着冲击力的影像，一招一式之间穿梭流动的运镜，突然的脑内蒙太奇是一波又一波情感巨浪，第二幕的戛然而止让电影在黑暗中劈出一道现实的裂缝，诺基亚、快乐女声和新闻记者一起在遥远的2009年召唤着我们的记忆，最终是为了出一口气（而非虚妄的励志），也是为了唤醒无足轻重的你我提出质疑和追寻真相与公正的勇气。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2915942528.jpg",
     "douban_id": "35883131",
-    "doubandate": "2025-02-17",
+    "doubandate": "2026-02-17",
     "calendarimageurl": ""
   },
   {
@@ -1123,7 +1123,7 @@ var jsonstr = { list:[
     "quote": "有些人不属于你，但遇见了也好。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2255650112.jpg",
     "douban_id": "23769147",
-    "doubandate": "2025-02-18",
+    "doubandate": "2026-02-18",
     "calendarimageurl": ""
   },
   {
@@ -1146,7 +1146,7 @@ var jsonstr = { list:[
     "quote": "在电影上我也算见过点世面的。但是印象中还没见过像这部片子一样，演员长相，发型，服装都丑到哭的。。。。真的丑到不能忍。。。。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1798309781.jpg",
     "douban_id": "1294634",
-    "doubandate": "2025-02-19",
+    "doubandate": "2026-02-19",
     "calendarimageurl": ""
   },
   {
@@ -1169,7 +1169,7 @@ var jsonstr = { list:[
     "quote": "5星的背景设定，被超雄男导演拍成2星的办公室微惊悚多角恋的烂俗故事。谜题是不去解答的，斗争是不做的，反抗是没有动力的，但是异性恋sex一定要做，outie做完innie做，女强人人设的女主，摇身一变变成了那种“亚撒西日漫”里面被废物男主夺舍后只赶着倒贴的福利角色。仔细一想，两季里面出现的一大半女角色都跟男主有浪漫关系，outie前妻、跟outie dating滚床单的黑人女、海伦娜、何莉……我愿称之为美剧版galgame，男主搁这儿收集全CG呢？",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2916136388.jpg",
     "douban_id": "35783948",
-    "doubandate": "2025-02-20",
+    "doubandate": "2026-02-20",
     "calendarimageurl": ""
   },
   {
@@ -1192,7 +1192,7 @@ var jsonstr = { list:[
     "quote": "#31 美术生找不到工作那里有位观众怒斥：有什么好笑的）",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2914342253.jpg",
     "douban_id": "36765646",
-    "doubandate": "2025-02-21",
+    "doubandate": "2026-02-21",
     "calendarimageurl": ""
   },
   {
@@ -1215,7 +1215,7 @@ var jsonstr = { list:[
     "quote": "每每看到这种一手好牌最后打成一手烂牌的人生，格外令人扼腕叹息。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2522306804.jpg",
     "douban_id": "26782382",
-    "doubandate": "2025-02-22",
+    "doubandate": "2026-02-22",
     "calendarimageurl": ""
   },
   {
@@ -1238,7 +1238,7 @@ var jsonstr = { list:[
     "quote": "令人惊艳的马桶",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p513567548.jpg",
     "douban_id": "1292528",
-    "doubandate": "2025-02-23",
+    "doubandate": "2026-02-23",
     "calendarimageurl": ""
   },
   {
@@ -1261,7 +1261,7 @@ var jsonstr = { list:[
     "quote": "我be like关晓彤大喊：到底什么是真的？你告诉我什么是真的？",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2886073087.jpg",
     "douban_id": "35381711",
-    "doubandate": "2025-02-24",
+    "doubandate": "2026-02-24",
     "calendarimageurl": ""
   },
   {
@@ -1284,7 +1284,7 @@ var jsonstr = { list:[
     "quote": "很好看，很欢乐",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2901353656.jpg",
     "douban_id": "34997864",
-    "doubandate": "2025-02-25",
+    "doubandate": "2026-02-25",
     "calendarimageurl": ""
   },
   {
@@ -1307,7 +1307,7 @@ var jsonstr = { list:[
     "quote": "卡卡羅特，我再也不想跟你合體了",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2513668453.jpg",
     "douban_id": "3554902",
-    "doubandate": "2025-02-26",
+    "doubandate": "2026-02-26",
     "calendarimageurl": ""
   },
   {
@@ -1330,7 +1330,7 @@ var jsonstr = { list:[
     "quote": "知道是个系列，不知道居然50部了…很高兴和一场次的爷爷奶奶一起体会他们当年的故事。那个敢爱敢说敢跳上新干线的时代真好。那个时代的姐姐们真是美的无话可说。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2560911907.jpg",
     "douban_id": "30367682",
-    "doubandate": "2025-02-27",
+    "doubandate": "2026-02-27",
     "calendarimageurl": ""
   },
   {
@@ -1353,7 +1353,7 @@ var jsonstr = { list:[
     "quote": "电影无所谓好不好，可况这个电影真的好，打动了你就什么都OK了",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p831480141.jpg",
     "douban_id": "1308632",
-    "doubandate": "2025-02-28",
+    "doubandate": "2026-02-28",
     "calendarimageurl": ""
   },
   {
@@ -1376,7 +1376,7 @@ var jsonstr = { list:[
     "quote": "爱国的最高形式是异议. --Thomas Jefferson",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p636048104.jpg",
     "douban_id": "1292728",
-    "doubandate": "2025-03-01",
+    "doubandate": "2026-03-01",
     "calendarimageurl": ""
   },
   {
@@ -1399,7 +1399,7 @@ var jsonstr = { list:[
     "quote": "&#34;Without the creative life, I have very little identity. I&#39;m like an actor without a part. &#34;\n&#34;I think we, all of us, live partly in a clandestine situation.&#34;\n&#34;I was able to pull out the necessary stops.&#34; \n&#34;I live in that bubble, and I import stuff. It is a kind of solitude in the sense that you&#39;re not sharing your thoughts with anyone.&#34;\n“That was a story about men from a diminished imperial power looking into a false reflection of themselves, still guarding a great nation, still playing the world&#39;s game, and in fact, they were a tragically reduced crowd, driven by their own nostalgia.&#34;\n他活得比我对他的想象还入戏 也更疏离 像个伤口一直发炎的人 细心为自己涂了一辈子药膏 并自得其乐 安息吧鸽子",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2897512013.jpg",
     "douban_id": "36489883",
-    "doubandate": "2025-03-02",
+    "doubandate": "2026-03-02",
     "calendarimageurl": ""
   },
   {
@@ -1422,7 +1422,7 @@ var jsonstr = { list:[
     "quote": "我疯了，好得发疯，起码跟杜拉斯的小说不相上下，甚至比马里昂巴德更上一个台阶，因为在她这里，不用琳琅满目的调度和上天下地的摄影机，情境和梦呓生发的空间就被充分地提示；更因为，雷乃并没有意识到，真正善于打通时空的，并非迷宫-影像，而是迷宫-声音，所以前者只是一个男性欲望中冰冷疏离的囚牢，而后者却是飘浮在幻象、历史、地名、语言、睡眠和激情的太虚之上的花园。更新奇的是，不仅声音在影像外独立出第三维度，还反过来确认影像内“物和空间”的自在和可延展性：杜拉斯的静物都是会说话的，即便凝视得再久，每一张地毯，每一盏灯，每一缕烟，都带着自己浓厚的口音（即它们的历史），向我们源源不断地敞开自己。布列松和杜拉斯，两位法语诵读最优秀的指导者，前者简朴中韵律顿挫，后者雍容的扬抑迸发着秘密，无怪同是声音另辟蹊径的匠人。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1876524378.jpg",
     "douban_id": "1298347",
-    "doubandate": "2025-03-03",
+    "doubandate": "2026-03-03",
     "calendarimageurl": ""
   },
   {
@@ -1445,7 +1445,7 @@ var jsonstr = { list:[
     "quote": "也是蛮像意大利文化和观光宣传片",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2903600763.jpg",
     "douban_id": "26415434",
-    "doubandate": "2025-03-04",
+    "doubandate": "2026-03-04",
     "calendarimageurl": ""
   },
   {
@@ -1468,7 +1468,7 @@ var jsonstr = { list:[
     "quote": "哪怕是虫虫，只要配上水汪汪的大眼睛，感觉萌度都直线上升。喜欢那个黑毛球，感觉像隐居的高人，喜欢听歌剧，会使用电器，会开飞船，太牛了。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2566206786.jpg",
     "douban_id": "26729867",
-    "doubandate": "2025-03-05",
+    "doubandate": "2026-03-05",
     "calendarimageurl": ""
   },
   {
@@ -1491,7 +1491,7 @@ var jsonstr = { list:[
     "quote": "1，我不想依赖于你的目光，我希望我爱你这件事，是完完全全的我的事，这份爱既因你而起也会流向我，它不是对你目光的回应，而是我生活中产生的感受之一。2，对妈妈死亡最大的遗憾，是无法让妈妈了解现在的我。3，在创作这部电影的过程中，女孩又在讨论些什么呢，在镜头外的那些夜里她们又会进行怎样的对话呢。4，因为旅行、工作而与陌生的女孩们同住在一间房，那间房里总能产生神奇的气场，让两个失眠的人开始讲述一些对着好朋友都很难讲出的话，不论是童年的记忆、对未来的展望，还是当下的彷徨和雀跃，那个夜晚我会是很真实的自己。5，从开头到结尾，从剧情到台词，从色调到配乐，都很好。唯一有一点点遗憾的就是没有西语字幕。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2899895897.jpg",
     "douban_id": "36043343",
-    "doubandate": "2025-03-06",
+    "doubandate": "2026-03-06",
     "calendarimageurl": ""
   },
   {
@@ -1514,7 +1514,7 @@ var jsonstr = { list:[
     "quote": "女演员们太鲜活了。最后Edith骂完痛快大笑的时候我为她落泪。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2902162282.jpg",
     "douban_id": "35900773",
-    "doubandate": "2025-03-07",
+    "doubandate": "2026-03-07",
     "calendarimageurl": ""
   },
   {
@@ -1537,7 +1537,7 @@ var jsonstr = { list:[
     "quote": "前面将家暴铺垫的那么深沉，不忍女儿重蹈覆辙甚至略微黑化，人物弧线很清晰，就是这样一个让人心碎的伟大女性，最后只用一张自己的选票来抵消她日夜经历的苦厄的生活，我实在难以接受，这对她来说，是一种塌方式的烂尾啊。好比我每天都要被电击1000下，最后给我的解决方案是给我换个木头笼子……",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2918279456.jpg",
     "douban_id": "36445098",
-    "doubandate": "2025-03-08",
+    "doubandate": "2026-03-08",
     "calendarimageurl": ""
   },
   {
@@ -1560,7 +1560,7 @@ var jsonstr = { list:[
     "quote": "那些慢镜头，那些缓慢的语言，那些昏暗的光线，靠，我可以去了",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1213580979.jpg",
     "douban_id": "1309183",
-    "doubandate": "2025-03-09",
+    "doubandate": "2026-03-09",
     "calendarimageurl": ""
   },
   {
@@ -1583,7 +1583,7 @@ var jsonstr = { list:[
     "quote": "麦克尤恩集中推出的三部改编都证明了一件事，他需要的是production value，是借影像来重塑自己的文字，借有形的表演来讲更多的东西，而不是想法设法让角色在有限时间里凭借念白速度来把小说再读一遍，那样看书不好么。乔怀特能让《赎罪》杀进奥斯卡还真不是靠剧本。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2525016253.jpg",
     "douban_id": "26886408",
-    "doubandate": "2025-03-10",
+    "doubandate": "2026-03-10",
     "calendarimageurl": ""
   },
   {
@@ -1606,7 +1606,7 @@ var jsonstr = { list:[
     "quote": "这部电影告诉我们，最重要的不是想出一套没有硬伤的“科幻”元素，而是讲一个好故事。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p988260245.jpg",
     "douban_id": "3075287",
-    "doubandate": "2025-03-11",
+    "doubandate": "2026-03-11",
     "calendarimageurl": ""
   },
   {
@@ -1629,7 +1629,7 @@ var jsonstr = { list:[
     "quote": "声音先于影像出现，后于影像消失，已经为我们预告了一切。德沃斯有时把镜头悄悄偏移，你便听不到脚步，听不到火车声，尽管你还看得到它们，但前一刻尚还存在的声音被悄悄隐去了，可还能听得到溪流和鸟鸣。天才的空镜编排，已能够自成叙事：森林与钢铁森林，绿藻与参天巨树，大世界和小世界，此处与他处。偶尔窥见黯淡时的倏然光亮，像入梦的提示，也像两颗心贴近的距离，不必非要是一种情愫，但是一种模糊与暧昧的寂静生长。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2887631184.jpg",
     "douban_id": "35918299",
-    "doubandate": "2025-03-12",
+    "doubandate": "2026-03-12",
     "calendarimageurl": ""
   },
   {
@@ -1652,7 +1652,7 @@ var jsonstr = { list:[
     "quote": "波兰方面的故事短了一些，但法国的那个确实烂漫很多啊，相当文艺了，很多镜头好奇特，颜色运用太美妙了（和昨天的毒品网络又是不同的风格），很多地方一片昏暗然后突然一点点大红⋯⋯挺美的",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2669725635.jpg",
     "douban_id": "1291877",
-    "doubandate": "2025-03-13",
+    "doubandate": "2026-03-13",
     "calendarimageurl": ""
   },
   {
@@ -1675,7 +1675,7 @@ var jsonstr = { list:[
     "quote": "男主明明英国人，不知道为什么演了那么多印度人。。。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2326716876.jpg",
     "douban_id": "3269088",
-    "doubandate": "2025-03-14",
+    "doubandate": "2026-03-14",
     "calendarimageurl": ""
   },
   {
@@ -1698,7 +1698,7 @@ var jsonstr = { list:[
     "quote": "看完发现：是吕克·贝松耶，这就解释了为啥故事小烂看起来还是赏心悦目的感觉",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2171003423.jpg",
     "douban_id": "10766459",
-    "doubandate": "2025-03-15",
+    "doubandate": "2026-03-15",
     "calendarimageurl": ""
   },
   {
@@ -1721,7 +1721,7 @@ var jsonstr = { list:[
     "quote": "很多人的评论搞错了方向，我以为将舞剧改成电影的意义在于：让动辄三位数票价的，只能在一二线城市大型剧院看到的，古典、唯美、高雅的舞蹈诗剧艺术形式以两位数的价格和近距离分毫毕现的体验飞入寻常百姓家，并毫不刻意地完成了文化润人之功能。我所在的场次坐了一半人，什么年龄段都有，却是我体验过的人多却观众席最安静的一场电影，可见它的剧情转承叙事逻辑弱并不是什么问题，是它诗意而震撼的音、画、景、舞、情令所有人动容。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2924988107.jpg",
     "douban_id": "36401998",
-    "doubandate": "2025-03-16",
+    "doubandate": "2026-03-16",
     "calendarimageurl": ""
   },
   {
@@ -1744,7 +1744,7 @@ var jsonstr = { list:[
     "quote": "“你们想失去伦敦么 你们想让拿破仑当国王么 你们想唱马赛曲么”",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1341139321.jpg",
     "douban_id": "1307749",
-    "doubandate": "2025-03-17",
+    "doubandate": "2026-03-17",
     "calendarimageurl": ""
   },
   {
@@ -1767,7 +1767,7 @@ var jsonstr = { list:[
     "quote": "电影忠实记录着华人亚裔女性们的历史；而现实中今天是川普当选的日子，令人唏嘘。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2914881627.jpg",
     "douban_id": "35183325",
-    "doubandate": "2025-03-18",
+    "doubandate": "2026-03-18",
     "calendarimageurl": ""
   },
   {
@@ -1790,7 +1790,7 @@ var jsonstr = { list:[
     "quote": "看下来本季最佳喜剧之一了，一群至贱碎嘴。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2152858504.jpg",
     "douban_id": "24532463",
-    "doubandate": "2025-03-19",
+    "doubandate": "2026-03-19",
     "calendarimageurl": ""
   },
   {
@@ -1813,7 +1813,7 @@ var jsonstr = { list:[
     "quote": "范丞丞的演技还不如院子里吊着那几条蛇瓜。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2907416715.jpg",
     "douban_id": "36534750",
-    "doubandate": "2025-03-20",
+    "doubandate": "2026-03-20",
     "calendarimageurl": ""
   },
   {
@@ -1836,7 +1836,7 @@ var jsonstr = { list:[
     "quote": "掌中之嘴，以口唤醒雕塑，穿过镜子来到旅馆透过钥匙孔看到各种光怪陆离，雪仗中的崩塌和谋杀、性命攸关的赌博与看客，重塑的雕像。影片旅馆前的段落都挺有趣，后半段政治意味更强了些。口与生命、房间与世界、在尸体上的赌博、作弊与反作弊的神，作者和观众的想象力大赛。对于电影和诗的理解都很深刻。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2205371266.jpg",
     "douban_id": "1303263",
-    "doubandate": "2025-03-21",
+    "doubandate": "2026-03-21",
     "calendarimageurl": ""
   },
   {
@@ -1859,7 +1859,7 @@ var jsonstr = { list:[
     "quote": "静谧、暗藏汹涌\n娓娓道来、引人入胜\n适合一人观看\n很有沉浸感",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2887630396.jpg",
     "douban_id": "2072475",
-    "doubandate": "2025-03-22",
+    "doubandate": "2026-03-22",
     "calendarimageurl": ""
   },
   {
@@ -1882,7 +1882,7 @@ var jsonstr = { list:[
     "quote": "想和这个女演员谈恋爱",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2927892573.jpg",
     "douban_id": "35790883",
-    "doubandate": "2025-03-23",
+    "doubandate": "2026-03-23",
     "calendarimageurl": ""
   },
   {
@@ -1905,7 +1905,7 @@ var jsonstr = { list:[
     "quote": "heaven&#39;s drive.最后一刻，我是笑着的，却分明流下了眼泪",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1910924635.jpg",
     "douban_id": "1291992",
-    "doubandate": "2025-03-24",
+    "doubandate": "2026-03-24",
     "calendarimageurl": ""
   },
   {
@@ -1928,7 +1928,7 @@ var jsonstr = { list:[
     "quote": "你的态度决定你开启人生的哪一道门",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2908031232.jpg",
     "douban_id": "35819414",
-    "doubandate": "2025-03-25",
+    "doubandate": "2026-03-25",
     "calendarimageurl": ""
   },
   {
@@ -1951,7 +1951,7 @@ var jsonstr = { list:[
     "quote": "7⭐ 还是喜欢的那个味！没有因为现代技术失去它的黏土气息（甚至讲科技题材都是机器人而非AI）。Gromit不能说话其实是现代的默片电影（类似猫和老鼠），反派企鹅更绝甚至没有表情算是库里肖夫实验的变体。对系列影迷而言本片呼应前作，还有各种彩蛋。摄影多用荷兰角（还有从某一角度转到另一角度）和Dolly Zoom，经典（老派）叙事技法的使用也很符合我对英国佬的刻板印象。\nps.Acton Deck到底是什么梗 全场都在笑",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2914283404.jpg",
     "douban_id": "35936983",
-    "doubandate": "2025-03-26",
+    "doubandate": "2026-03-26",
     "calendarimageurl": ""
   },
   {
@@ -1974,7 +1974,7 @@ var jsonstr = { list:[
     "quote": "用户画像很典，像是贴吧或虎扑用户无意闯进你瓣看到大家各种阳春白雪自得其乐然后舞台一掀吼道你们这是弄啥嘞老子来教你们做人然后就旁若无人地开始随地大小爹（外加随地大小便）。整个故事最开始的着力点还是蛮对味的，之后的发展也算是很有巧思，展现了不同层次、阶级的人在掌控了话语权之后对于场域内舆论导向的影响。但问题在于，并没有写出这种话语权在不同群体之间的流动，而只是短暂呈现了对这种话语权的暴力掠夺。完了还讽刺了上层对于所谓“弱势”的同情，Yannick掌握话语权性骚扰观众时无人吭声，但他被枪顶着头被羞辱的时候女主演又开始同情起他来。整个片子就像是一场合谋，不在场的导演、台下吃瓜的群众、一个跳梁小丑和几个自怨自艾的演员，完成了一场对于我们真正观众的“冒犯”，只有片中中途离场的白发老人选择了置身事外。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2901915929.jpg",
     "douban_id": "36352491",
-    "doubandate": "2025-03-27",
+    "doubandate": "2026-03-27",
     "calendarimageurl": ""
   },
   {
@@ -1997,7 +1997,7 @@ var jsonstr = { list:[
     "quote": "爱啊，真难！能有多少人，中年之后还能与人生最初的恋人重逢，而又不彼此伤害，且，不对身边的人造成伤害？ps，但凡聚会，总有音乐和集体跳舞，真high~羡慕。那对年轻夫妻，配角，安排的意义？反战？",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2516154391.jpg",
     "douban_id": "1358443",
-    "doubandate": "2025-03-28",
+    "doubandate": "2026-03-28",
     "calendarimageurl": ""
   },
   {
@@ -2020,7 +2020,7 @@ var jsonstr = { list:[
     "quote": "#69thBerlinale# 主竞赛展映。瓦尔达奶奶的新作就是一堂干货十足的大师班，是她对毕生创作经历的一次系统回顾，首先提出了她认为电影创作最重要的三个关键词：灵感（inspiration）、创意(creation)和分享(sharing)，然后从短片[杨科叔叔]开始，回顾了她的电影、摄影、装置创作，讨论到了诸如创意产生、创意执行、女性身份、数码转型等等问题，调用的材料包括几场大师班的录像、影片、片场纪录片、剧照、花絮纪录片（尤其是CC那套作品集里的几个重访纪录片）、摄影作品、装置纪录等等。完全是一部个人创作的百科全书式的作品。有很多非常珍贵的导演阐释，对她的许多影片的理解也因此更深了一层。老太太思维清晰，影片的材料组织非常非常讲究，尤其剪辑点的把握堪称已入化境。不过还是跟之前作品重复的东西比较多，而且剪了十几分钟[脸庞村庄]进去……",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2562055210.jpg",
     "douban_id": "30423539",
-    "doubandate": "2025-03-29",
+    "doubandate": "2026-03-29",
     "calendarimageurl": ""
   },
   {
@@ -2043,7 +2043,7 @@ var jsonstr = { list:[
     "quote": "在社会形态扭曲的法国大革命前后的欧洲的宏观背景下的生灵之态。要么如戈雅坐壁上观，画记荼毒；要么如洛伦佐墙草随势，虚伪卫道；要么如伊内斯无知信仰，纯粹地用一生描绘天使之心。你方唱罢我登场，乱世之间，荒诞无稽。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1669514683.jpg",
     "douban_id": "1776595",
-    "doubandate": "2025-03-30",
+    "doubandate": "2026-03-30",
     "calendarimageurl": ""
   },
   {
@@ -2066,7 +2066,7 @@ var jsonstr = { list:[
     "quote": "这家伙可以说是苏俄建国前30年最幸福的死宅躺平寓公了，吃住公家报销，个人不受政治左右，躲过大清洗和德国人，最后苟到玉米上台，这酒店完全就是莫斯科官场的桃花源。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2905397169.jpg",
     "douban_id": "27119398",
-    "doubandate": "2025-03-31",
+    "doubandate": "2026-03-31",
     "calendarimageurl": ""
   },
   {
@@ -2089,7 +2089,7 @@ var jsonstr = { list:[
     "quote": "一辈子能看到几部这么牛逼的电影？",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p616753227.jpg",
     "douban_id": "1301171",
-    "doubandate": "2025-04-01",
+    "doubandate": "2026-04-01",
     "calendarimageurl": ""
   },
   {
@@ -2112,7 +2112,7 @@ var jsonstr = { list:[
     "quote": "哈！虽然很怀疑女主有自闭症或Asperger，她的表现明明更像是ADHD嘛，但电影的前半部分很有趣，一看到她扮莫扎特我就high了。当她开始说dont u wanna make me happy就恶俗了，之后每况愈下，就女人绑架男人那一套吧。另：男主O型腿O得太厉害了",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p748200669.jpg",
     "douban_id": "1448832",
-    "doubandate": "2025-04-02",
+    "doubandate": "2026-04-02",
     "calendarimageurl": ""
   },
   {
@@ -2135,7 +2135,7 @@ var jsonstr = { list:[
     "quote": "洪常秀仿佛一个喜欢去别人家里唠嗑的人，从这一家唠到那一家",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2882366626.jpg",
     "douban_id": "36015057",
-    "doubandate": "2025-04-03",
+    "doubandate": "2026-04-03",
     "calendarimageurl": ""
   },
   {
@@ -2158,7 +2158,7 @@ var jsonstr = { list:[
     "quote": "暧昧的很温暖 夹杂着友情和亲情 ，但剧情有点拖。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p579870973.jpg",
     "douban_id": "1427819",
-    "doubandate": "2025-04-04",
+    "doubandate": "2026-04-04",
     "calendarimageurl": ""
   },
   {
@@ -2181,7 +2181,7 @@ var jsonstr = { list:[
     "quote": "看似热泪盈眶，实则伪善、算计。导演根本抓不准自己想要表达的重点，导致前后两段非常割裂。前面是门外汉黄子华初入殡仪行业莽撞中成长，后半段则侧重以父女情来展现卫诗雅身为女儿在传男不传女的家族事业「喃呒」中与父亲的矛盾与和解，算是以小见大较为深切地表现了香港女性社会地位被放于下位的糟粕是如此根深蒂固，再结合前面对女儿职业与父女关系的多处细节刻画，可以构想出一条强有力的父权制度批判线，但除了展现她的困境，没有任何主动的寻求改变，而是一味的谦让隐忍。特别是最后用一场极为催泪的兄妹一齐「破地狱」来达到所谓「女性地位的转变/提升」，可这是被男性「恩准」的虚假转变/提升，完全是用强烈的生死壮阔之情掩盖了对体制批判，底层逻辑还是顺应与认可。不过开头结尾两场的「破地狱」全过程拍还是很基于专业的流畅、好看。#PE",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2915837972.jpg",
     "douban_id": "36712987",
-    "doubandate": "2025-04-05",
+    "doubandate": "2026-04-05",
     "calendarimageurl": ""
   },
   {
@@ -2204,7 +2204,7 @@ var jsonstr = { list:[
     "quote": "有那么一点点太刻意，但这种投入的感情多于理智的励志片很难不给五星。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1874017507.jpg",
     "douban_id": "2133379",
-    "doubandate": "2025-04-06",
+    "doubandate": "2026-04-06",
     "calendarimageurl": ""
   },
   {
@@ -2227,7 +2227,7 @@ var jsonstr = { list:[
     "quote": "当年的证婚人成了现在的亲家，海盗交际圈真是太小了。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2459723975.jpg",
     "douban_id": "6311303",
-    "doubandate": "2025-04-07",
+    "doubandate": "2026-04-07",
     "calendarimageurl": ""
   },
   {
@@ -2250,7 +2250,7 @@ var jsonstr = { list:[
     "quote": "最正面的男性形象也是一个无能父亲，最负面的女性形象只是一个无能母亲。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2503644828.jpg",
     "douban_id": "27019527",
-    "doubandate": "2025-04-08",
+    "doubandate": "2026-04-08",
     "calendarimageurl": ""
   },
   {
@@ -2273,7 +2273,7 @@ var jsonstr = { list:[
     "quote": "导演水平很好但是白男能不能治一下恋父癖和自我感动，英式父子情强行升华求别玩这些尬的",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2922782000.jpg",
     "douban_id": "35370668",
-    "doubandate": "2025-04-09",
+    "doubandate": "2026-04-09",
     "calendarimageurl": ""
   },
   {
@@ -2296,7 +2296,7 @@ var jsonstr = { list:[
     "quote": "真的好好笑的，可以忽略剧情那种，非常接地气的好笑♥本卫肖就是一个，能把一个性向不明的熊，配的非常非常gay的，gay gay的gay。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2231740424.jpg",
     "douban_id": "2998373",
-    "doubandate": "2025-04-10",
+    "doubandate": "2026-04-10",
     "calendarimageurl": ""
   },
   {
@@ -2319,7 +2319,7 @@ var jsonstr = { list:[
     "quote": "第一部快，第二部慢；第一部急，第二部缓；第一部东瀛武士之道，硬碰硬，勇者胜。第二部神州武侠之风，静制动，柔克刚；刀出鞘，血如虹，投之亡地而后存，置之死地而后生。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910897532.jpg",
     "douban_id": "1291584",
-    "doubandate": "2025-04-11",
+    "doubandate": "2026-04-11",
     "calendarimageurl": ""
   },
   {
@@ -2342,7 +2342,7 @@ var jsonstr = { list:[
     "quote": "有人嫌平铺直叙无聊，拜托这么激动人心的题材铺平再铺平都是激动人心啊！大家一定要去看IMAX啊，NASA工程师们光溜溜的脑门儿拍的可清楚了一个不拉～最好的爱国宣传片了吧，我们这种外人看了心里涌现出来的唯一想法都是美国真强大，这可是五十年前啊人家就mankind全人类了，我们那会儿还在斗牛鬼蛇神呢啊。纪录片最后出现了肯尼迪，看看他的风度，再看看现在Trump的模样，我觉得这也就是全片唯一我想到的能让美国人黯然的地方了。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2565162792.jpg",
     "douban_id": "30390701",
-    "doubandate": "2025-04-12",
+    "doubandate": "2026-04-12",
     "calendarimageurl": ""
   },
   {
@@ -2365,7 +2365,7 @@ var jsonstr = { list:[
     "quote": "就好像有个人一直不痛不痒地摸你的痒痒肉 到最后抄砖头照你脑袋来了一下",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1678138538.jpg",
     "douban_id": "5995338",
-    "doubandate": "2025-04-13",
+    "doubandate": "2026-04-13",
     "calendarimageurl": ""
   },
   {
@@ -2388,7 +2388,7 @@ var jsonstr = { list:[
     "quote": "即便如此，仍然好看。你永远活在我心里的设定，真是止不住的眼泪。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2238784204.jpg",
     "douban_id": "26280710",
-    "doubandate": "2025-04-14",
+    "doubandate": "2026-04-14",
     "calendarimageurl": ""
   },
   {
@@ -2411,7 +2411,7 @@ var jsonstr = { list:[
     "quote": "打开豆瓣两眼一黑。热评说她又要演“倾国倾城”人设，“撕心裂肺”的演技。但我四集看完了都没见女主有什么倾国倾城的人设，甚至讨论她容貌的都没有，反而一直被说商贾之女如何如何低贱的。\n就连和男主第一次见面，男主也没表现出对女主容貌的夸奖与喜爱，两人还打起来了。\n要真是倾国倾城的美人，女主丈夫会一年多都不碰她？\n演技又是哪里撕心裂肺了明明情绪都是隐忍着，玉露死的时候她情绪的递进和爆发始终是压着，收着，等着将来要干大事的感觉。\n其他的就不说了，就这些人用一些固有形象来黑，也太搞笑了，肯定一集都没看。不是杨紫粉丝就是看到这种情况觉得真恶心吐槽罢了。我觉得这剧就是值得五星！祝大爆！",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2917205606.jpg",
     "douban_id": "36126283",
-    "doubandate": "2025-04-15",
+    "doubandate": "2026-04-15",
     "calendarimageurl": ""
   },
   {
@@ -2434,7 +2434,7 @@ var jsonstr = { list:[
     "quote": "初看以为又一番吊诡蝴蝶梦，愈看才发觉是对女性挣脱桎梏自立的入微刻画，男主人和两位女角都是时代的边缘人哪，相憎不如相持。Anya这个表演敏感和坚韧相成，剔透心肠的女主人。除却灵动，她在技巧上对角色口音、声音标志的创造一直做得很好",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2509584414.jpg",
     "douban_id": "27097037",
-    "doubandate": "2025-04-16",
+    "doubandate": "2026-04-16",
     "calendarimageurl": ""
   },
   {
@@ -2457,7 +2457,7 @@ var jsonstr = { list:[
     "quote": "最好的那档处女作。虽有生涩之处，但格外真挚细腻。或许是导演拍纪录片的经历，对中国家庭关系的洞察非常深切，捕捉到了疏离又亲密的拉扯，以及每代人各自的困境和无奈，但又并未将这些编纂成强烈的戏剧冲突，而是将它们散落在日常对话中。这些细枝末节所传递的普适性情感，又能够击中不同世代和不同地域的观众。（问了导演阿清的角色是不是gay，导演回答说是开放命题，留给观众解读。）",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2905567453.jpg",
     "douban_id": "35268501",
-    "doubandate": "2025-04-17",
+    "doubandate": "2026-04-17",
     "calendarimageurl": ""
   },
   {
@@ -2480,7 +2480,7 @@ var jsonstr = { list:[
     "quote": "Melbourne Power！全组人员都来自墨尔本或者邻近维州地区，预算来自维州政府拨款和墨尔本电影节资金。导演笑谈“这部片子是纳税人投资的”。他的前作还是n年前的《Mary and Max》，而满打满算这居然只是澳洲第三部黏土动画电影。很服，黏土定格确实太耗神费心了。好莱坞秃鹫都走了，留下来的都是虔诚的艺术家。不真诚的桥段没法在黏土中存活，只有赤诚的故事才会随着角色们脸上的指纹呼吸。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2924886534.jpg",
     "douban_id": "36467821",
-    "doubandate": "2025-04-18",
+    "doubandate": "2026-04-18",
     "calendarimageurl": ""
   },
   {
@@ -2503,7 +2503,7 @@ var jsonstr = { list:[
     "quote": "1-2。地堡场景，女主。当看到科幻故事里避孕方式仍然是往女性身体里植入节育器（取出手术仍然是血渍呼啦伤害她身体的时候）就可以明确的判断出作者是男的了，所以他丈夫一边深情的说着爱她，一边觉得这种手术没什么吧，就是一个小手术，所谓深情不过如此廉价。怀疑作者看过《微光城市》（那个电影倒是可以看看）",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2888866824.jpg",
     "douban_id": "35468745",
-    "doubandate": "2025-04-19",
+    "doubandate": "2026-04-19",
     "calendarimageurl": ""
   },
   {
@@ -2526,7 +2526,7 @@ var jsonstr = { list:[
     "quote": "励志说教片，但歌舞部分看的还是不错的。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p585329608.jpg",
     "douban_id": "2215609",
-    "doubandate": "2025-04-20",
+    "doubandate": "2026-04-20",
     "calendarimageurl": ""
   },
   {
@@ -2549,7 +2549,7 @@ var jsonstr = { list:[
     "quote": "是一桌好菜，但我人在厨房。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2911256273.jpg",
     "douban_id": "26816104",
-    "doubandate": "2025-04-21",
+    "doubandate": "2026-04-21",
     "calendarimageurl": ""
   },
   {
@@ -2572,7 +2572,7 @@ var jsonstr = { list:[
     "quote": "不就是《地球脉动》第二季剪出来的？",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2493261459.jpg",
     "douban_id": "26647876",
-    "doubandate": "2025-04-22",
+    "doubandate": "2026-04-22",
     "calendarimageurl": ""
   },
   {
@@ -2595,7 +2595,7 @@ var jsonstr = { list:[
     "quote": "我们的生活太快，跟朋友聚少离多，在一起都是谈自己的家常里短、工作烦恼，几乎不怎么跟朋友分享读书、音乐、电影的感觉，而宁肯写在豆瓣上给陌生人看，好奇怪。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p985716869.jpg",
     "douban_id": "2083967",
-    "doubandate": "2025-04-23",
+    "doubandate": "2026-04-23",
     "calendarimageurl": ""
   },
   {
@@ -2618,7 +2618,7 @@ var jsonstr = { list:[
     "quote": "他想当编剧，说观众认可他的点子，然而当冯柳柳提出他自己拍的时候，他的第一反应是这不现实。\n他想送母亲一台按摩椅，一直等按摩椅降价，终于等到打五折了，母亲已经走了。\n他想请冯柳柳去看音乐会，他明明看到对方正在输入，说不定冯柳柳也想约他，最终他还是没有把微信发出去。\n后来他看到冯柳柳再婚的时候，他会不会想：如果当时我点了发送，结果会不会不一样？\n最反对他拍电影的父亲，最后帮他完成了电影。\n好不容易把电影拍出来了，还是吴双帮他投给电影节的。\n母亲不仅弥补遗憾做了女主角，还和偶像合作，还在电影中跳了舞。\n所有人都会死，在实现梦想的过程中死去，可以说是此生无憾了。\n把电影投给电影节不一定会拿奖，发了微信也不一定有回音，但你总要试试。\n人生是走走停停，吴迪的问题是想得太多，做得太少，停得太多，走得太少。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2907440658.jpg",
     "douban_id": "35956190",
-    "doubandate": "2025-04-24",
+    "doubandate": "2026-04-24",
     "calendarimageurl": ""
   },
   {
@@ -2641,7 +2641,7 @@ var jsonstr = { list:[
     "quote": "如果这个世界没有人，其实，没有任何动物需要保护。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2908327049.jpg",
     "douban_id": "36271304",
-    "doubandate": "2025-04-25",
+    "doubandate": "2026-04-25",
     "calendarimageurl": ""
   },
   {
@@ -2664,7 +2664,7 @@ var jsonstr = { list:[
     "quote": "《真爱至上》导演、《诺丁山》《BJ单身日记》《四个婚礼和一个葬礼》编剧、《憨豆的黄金周》制片…依然励志，依然Happy Ending，依然内流满面。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p769608791.jpg",
     "douban_id": "3007773",
-    "doubandate": "2025-04-26",
+    "doubandate": "2026-04-26",
     "calendarimageurl": ""
   },
   {
@@ -2687,7 +2687,7 @@ var jsonstr = { list:[
     "quote": "比汉尼拔好看多了，所以说好演员出演很重要",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1352782024.jpg",
     "douban_id": "1305053",
-    "doubandate": "2025-04-27",
+    "doubandate": "2026-04-27",
     "calendarimageurl": ""
   },
   {
@@ -2710,7 +2710,7 @@ var jsonstr = { list:[
     "quote": "当你有一个学石油的男盆友 你就会被他拉去看这种片子",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2396092735.jpg",
     "douban_id": "22266320",
-    "doubandate": "2025-04-28",
+    "doubandate": "2026-04-28",
     "calendarimageurl": ""
   },
   {
@@ -2733,7 +2733,7 @@ var jsonstr = { list:[
     "quote": "本来人美舞更美已经足够好看，还被这个爸爸感动哭了！",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2535122755.jpg",
     "douban_id": "30279394",
-    "doubandate": "2025-04-29",
+    "doubandate": "2026-04-29",
     "calendarimageurl": ""
   },
   {
@@ -2756,7 +2756,7 @@ var jsonstr = { list:[
     "quote": "中途看手机想打开豆瓣，结果被隔壁的老太太严厉制止，她说我再看手机就要举报我，于是我乖乖关掉了屏幕。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2913661641.jpg",
     "douban_id": "36340655",
-    "doubandate": "2025-04-30",
+    "doubandate": "2026-04-30",
     "calendarimageurl": ""
   },
   {
@@ -2779,7 +2779,7 @@ var jsonstr = { list:[
     "quote": "看旧电影最无法跨越的逻辑障碍：金城武怎么可能会被甩！梁朝伟怎么可能会被甩！这不是渎神吗！",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p792381411.jpg",
     "douban_id": "1291999",
-    "doubandate": "2025-05-01",
+    "doubandate": "2026-05-01",
     "calendarimageurl": ""
   },
   {
@@ -2802,7 +2802,7 @@ var jsonstr = { list:[
     "quote": "《关于我抢了个银行但我也没想好到底我想拿这钱干什么》\n——应该拿这钱做这个住在山里的女主，自由自在，吃穿不愁，偶尔钓钓来山里玩迷路的男人",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2892488483.jpg",
     "douban_id": "35899010",
-    "doubandate": "2025-05-02",
+    "doubandate": "2026-05-02",
     "calendarimageurl": ""
   },
   {
@@ -2825,7 +2825,7 @@ var jsonstr = { list:[
     "quote": "看了首映，整部片子感觉是侮辱观众智商的。反抗军就是没有做不到的，只有想不到的。帝国军的行为简直让人怀疑他们是靠什么统治宇宙的？天行者和本索罗最后的决战竟然是个全息投影，我真觉得本索罗真是一个最不像领导者的人了…星球大战里，或许真的只有黑武士有脑子，可惜已经死了…",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2506694509.jpg",
     "douban_id": "22265634",
-    "doubandate": "2025-05-03",
+    "doubandate": "2026-05-03",
     "calendarimageurl": ""
   },
   {
@@ -2848,7 +2848,7 @@ var jsonstr = { list:[
     "quote": "疑似全员陪yyqx冲刺影帝 剧情很一般 过多solo演技镜头 为了一碟醋包了一顿饺子感 周雨彤出现的作用是？😂 想表达这个议题还不如看h被抓",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2916584640.jpg",
     "douban_id": "36498717",
-    "doubandate": "2025-05-04",
+    "doubandate": "2026-05-04",
     "calendarimageurl": ""
   },
   {
@@ -2871,7 +2871,7 @@ var jsonstr = { list:[
     "quote": "这种靠情感意识的电影需要在对的时间和对的情绪下观看。对了四星，错了则两星。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2427542610.jpg",
     "douban_id": "26708876",
-    "doubandate": "2025-05-05",
+    "doubandate": "2026-05-05",
     "calendarimageurl": ""
   },
   {
@@ -2894,7 +2894,7 @@ var jsonstr = { list:[
     "quote": "溜狗？你OUT了！开车溜保险箱去！",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p898634801.jpg",
     "douban_id": "4286017",
-    "doubandate": "2025-05-06",
+    "doubandate": "2026-05-06",
     "calendarimageurl": ""
   },
   {
@@ -2917,7 +2917,7 @@ var jsonstr = { list:[
     "quote": "从小童话故事就已经告诉我们，丑和老是一件罪不可恕令人厌恶的事情",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2264784442.jpg",
     "douban_id": "25767747",
-    "doubandate": "2025-05-07",
+    "doubandate": "2026-05-07",
     "calendarimageurl": ""
   },
   {
@@ -2940,7 +2940,7 @@ var jsonstr = { list:[
     "quote": "虽然喜欢Nimona但是这个叙事也太令人不适了，无处不在的LGBTQ隐喻 但是作为父权代言人的保守主义反派居然是女性 一个&#34;old nun&#34;？主线遵循爹得不行的所谓爸爸带娃（成男/少女）套路，作为故事标题和核心人物的Nimona身世模糊 和Gloreth的一段充满queerbating意味的青梅情无法解释两者之后的割裂 比起这个千年后的旧故事更想看千年前的纠葛谢谢。像是从一幅长卷里揪出了一小部分结果世界观都铺陈不完，更别说这个结局简直就是搞笑 酷儿女性为了背叛自己的全人类舍身堵枪眼才能让大家幡然醒悟，虽然得到你们的认同会要我的命，但是为了你们的幸福生活我可以去死，大家都有光明的未来🙏",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2893914878.jpg",
     "douban_id": "26423117",
-    "doubandate": "2025-05-08",
+    "doubandate": "2026-05-08",
     "calendarimageurl": ""
   },
   {
@@ -2963,7 +2963,7 @@ var jsonstr = { list:[
     "quote": "在童话的世界里，冒险永远轻盈可爱，旅程始终刺激充实，远方也在那里等着勇敢的人抵达。虽然不想承认，但我在看到他们终于飞到想要的那片星光闪闪的海时，确确实实哭出来了。感谢世界还有童话，还有相信童话的人。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2900212574.jpg",
     "douban_id": "36086942",
-    "doubandate": "2025-05-09",
+    "doubandate": "2026-05-09",
     "calendarimageurl": ""
   },
   {
@@ -2986,7 +2986,7 @@ var jsonstr = { list:[
     "quote": "上影节打卡。家庭观可能对我个人有些陈旧，男本位主义充斥剧情镜头语言各个角落有些不适，女性联盟也脸谱化。一分加给吉永的优雅老去，实在太美丽了…… 但演技在戏剧化和生活感中反复横跳，割裂得有些难评。伊野老人这出“闲笔“反而多了诸多趣味。喜欢一些主观视角的穿插，或许需要补一下母亲三部曲… \r特意抢的见面场，虽然对这部多少有点无感。但听到91岁的山田洋次温柔又打趣地说拍喜剧更难，拍让人悲伤的电影倒容易一些着实还是感到Respect. 亚撒西\rP. S.  实名吐槽观后谈拉存在感的某个独立电影导演，此刻你应是一个真诚的观众… 没想到真的有处处开屏者，没话说可以不说。扣回一分因为这种糟心。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2891977996.jpg",
     "douban_id": "36110780",
-    "doubandate": "2025-05-10",
+    "doubandate": "2026-05-10",
     "calendarimageurl": ""
   },
   {
@@ -3009,7 +3009,7 @@ var jsonstr = { list:[
     "quote": "伍迪艾伦有三宝，犯罪，出轨，绿茶婊。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2254317693.jpg",
     "douban_id": "25881888",
-    "doubandate": "2025-05-11",
+    "doubandate": "2026-05-11",
     "calendarimageurl": ""
   },
   {
@@ -3032,7 +3032,7 @@ var jsonstr = { list:[
     "quote": "绝对是《森德勒的名单》，比辛德勒的1100条命还要多的2500个孩子的生命，在这位护士手里，就这样创造了奇迹。诺贝尔和平奖，当之无愧~默默无闻的伟大的女性~",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2191665837.jpg",
     "douban_id": "3074506",
-    "doubandate": "2025-05-12",
+    "doubandate": "2026-05-12",
     "calendarimageurl": ""
   },
   {
@@ -3055,7 +3055,7 @@ var jsonstr = { list:[
     "quote": "这部片子里的孕妇和甄嬛传里的孕妇战斗力不是一个次元的",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2360940399.jpg",
     "douban_id": "25986180",
-    "doubandate": "2025-05-13",
+    "doubandate": "2026-05-13",
     "calendarimageurl": ""
   },
   {
@@ -3078,7 +3078,7 @@ var jsonstr = { list:[
     "quote": "一个纳粹之孙，一个红色战士之子，血统决定论是多么荒诞啊。喜欢影片的最后一个镜头，主人公乘上开往西德的火车，松了松领带，仿佛扼住喉咙的无形之手也消失了。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2513164684.jpg",
     "douban_id": "27608785",
-    "doubandate": "2025-05-14",
+    "doubandate": "2026-05-14",
     "calendarimageurl": ""
   },
   {
@@ -3101,7 +3101,7 @@ var jsonstr = { list:[
     "quote": "唉 为啥我没get到点，看不懂父亲究竟是个对感情负责还是不，工作狂的女儿放弃工作回家陪伴生病的母亲，全程没有任何感动的点，母亲为了维持表面的关系选择隐忍或牺牲自己，展现大爱，也没有特别打动到我。这么高的评分不敢苟同，难道是我很冷血吗",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1684611944.jpg",
     "douban_id": "1296235",
-    "doubandate": "2025-05-15",
+    "doubandate": "2026-05-15",
     "calendarimageurl": ""
   },
   {
@@ -3124,7 +3124,7 @@ var jsonstr = { list:[
     "quote": "TomCruise那时真是帅~~飞行员不得了眼力+脑力+智力+胆力。。非常人的工作呀为国效忠子从父业。。机车+皮夹+飞行员眼镜。。女教官也很酷就是TheAccused中的律师很知性很干练。。歌曲真像片名壮志凌云。。take my breath away~~",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1871745733.jpg",
     "douban_id": "1293799",
-    "doubandate": "2025-05-16",
+    "doubandate": "2026-05-16",
     "calendarimageurl": ""
   },
   {
@@ -3147,7 +3147,7 @@ var jsonstr = { list:[
     "quote": "本片涉及了许多吸引人的元素。余男有几场戏演得真棒。不过整体总觉得臆造的成分太大。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p727912138.jpg",
     "douban_id": "4290915",
-    "doubandate": "2025-05-17",
+    "doubandate": "2026-05-17",
     "calendarimageurl": ""
   },
   {
@@ -3170,7 +3170,7 @@ var jsonstr = { list:[
     "quote": "如果以为是一部类似“National Gallery”这样的片子，便错或失望了。欣赏艺术品，我们借助想像当时的年代来思考它的创作，古旧的建筑和雕塑，当时或许普通，时代赋予它价值；如今博物馆之外，城市和郊区的景象、建筑、树木、雀仔、甚至喧哗、垃圾、机器化工艺品，会不会也跟当年这些艺术品的处境相似？",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1665432034.jpg",
     "douban_id": "11500302",
-    "doubandate": "2025-05-18",
+    "doubandate": "2026-05-18",
     "calendarimageurl": ""
   },
   {
@@ -3193,7 +3193,7 @@ var jsonstr = { list:[
     "quote": "1.主角中弹一定是打中老婆送的怀表2。小朋友要多看百科全书哦3.国内手机蜂窝网络简直弱爆了你看人家可以上传youtube无压力呢4.美国所有的权威和愤怒化作一句fuck u建议写进宪法5.真汉子就是别人不要你你还拼命救人家 五颗星",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2039109399.jpg",
     "douban_id": "10746175",
-    "doubandate": "2025-05-19",
+    "doubandate": "2026-05-19",
     "calendarimageurl": ""
   },
   {
@@ -3216,7 +3216,7 @@ var jsonstr = { list:[
     "quote": "DIY恐怖片教科书 让你学会用最简单的办法制造个效果",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2073163069.jpg",
     "douban_id": "1292501",
-    "doubandate": "2025-05-20",
+    "doubandate": "2026-05-20",
     "calendarimageurl": ""
   },
   {
@@ -3239,7 +3239,7 @@ var jsonstr = { list:[
     "quote": "好久没看英国老太太片了 还挺治愈的 顺便 这也就是在意大利 要是德国maggie smith还能教盖世太保说good night lady？分分钟挨枪子儿的命",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2404525608.jpg",
     "douban_id": "1293942",
-    "doubandate": "2025-05-21",
+    "doubandate": "2026-05-21",
     "calendarimageurl": ""
   },
   {
@@ -3262,7 +3262,7 @@ var jsonstr = { list:[
     "quote": "看的时候，我一直想着，这电影好怪啊，演员的打扮、配乐、节奏、表演，都是四、五时年代好莱坞的感觉，如一开始的审讯场面，克鲁斯一群中计的戏（哪有这么失败的特工？）、结尾时列车员夸张的晕倒镜头······刚上网一查，原来是帕尔玛导演的，这才知道难怪如此······现在的好莱坞都是粗暴直露，但细节上极端追求写实，不会让观众刚到是看电影，而这部影片显然有太多毛边，你说不出来究竟不对在哪里，但有种味道在那·······帕尔玛继承经典传统还真是形神兼备，不过现代观众的口味不太能全然接受了吧？他的影片传达了上个时代的遗响",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1660124103.jpg",
     "douban_id": "1292484",
-    "doubandate": "2025-05-22",
+    "doubandate": "2026-05-22",
     "calendarimageurl": ""
   },
   {
@@ -3285,7 +3285,7 @@ var jsonstr = { list:[
     "quote": "心中有爱，神即存在。心中无爱，神也无奈。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2182280169.jpg",
     "douban_id": "1302488",
-    "doubandate": "2025-05-23",
+    "doubandate": "2026-05-23",
     "calendarimageurl": ""
   },
   {
@@ -3308,7 +3308,7 @@ var jsonstr = { list:[
     "quote": "悲伤的故事在日光底下温柔地说。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2345382471.jpg",
     "douban_id": "24860289",
-    "doubandate": "2025-05-24",
+    "doubandate": "2026-05-24",
     "calendarimageurl": ""
   },
   {
@@ -3331,7 +3331,7 @@ var jsonstr = { list:[
     "quote": "电影院放按摩椅的意义到底是什么！看到高潮突然启动，我以为异形从我椅子里爬出来了。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2910926865.jpg",
     "douban_id": "35792500",
-    "doubandate": "2025-05-25",
+    "doubandate": "2026-05-25",
     "calendarimageurl": ""
   },
   {
@@ -3354,7 +3354,7 @@ var jsonstr = { list:[
     "quote": "波兰斯基早期心理惊悚佳作之一，展现一个外地人在邻居的冷漠猜忌和排挤之中走向疯狂的过程。波兰斯基近乎本色出演，而阿佳妮是怎么打扮都美艳无比。配乐和布景都极度压抑冰冷，开篇公寓综览和结尾舞台化长镜头惊为天人，篮球变人头，墙洞牙齿，厕所与木乃伊，异装与受害妄想，纸板化的椅子。（9.0/10）",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2318513541.jpg",
     "douban_id": "1297399",
-    "doubandate": "2025-05-26",
+    "doubandate": "2026-05-26",
     "calendarimageurl": ""
   },
   {
@@ -3377,7 +3377,7 @@ var jsonstr = { list:[
     "quote": "是嘲讽吧——你以为人生要完了的时候它还在继续，你以为人生可以重新开始的时候，人生已完。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p884763596.jpg",
     "douban_id": "1787291",
-    "doubandate": "2025-05-27",
+    "doubandate": "2026-05-27",
     "calendarimageurl": ""
   },
   {
@@ -3400,7 +3400,7 @@ var jsonstr = { list:[
     "quote": "这么污的片子在德国居然不分级。下午场，一群小朋友（像是小学班里组织的吧）搞得我开始以为走错了厅……然后演到特别污的时候就听见一阵阵稚嫩的笑声，我简直……",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2321193376.jpg",
     "douban_id": "25830732",
-    "doubandate": "2025-05-28",
+    "doubandate": "2026-05-28",
     "calendarimageurl": ""
   },
   {
@@ -3423,7 +3423,7 @@ var jsonstr = { list:[
     "quote": "波斯时代就已证明，沙漠里搜不出大规模杀伤性武器。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p591951327.jpg",
     "douban_id": "1819388",
-    "doubandate": "2025-05-29",
+    "doubandate": "2026-05-29",
     "calendarimageurl": ""
   },
   {
@@ -3446,7 +3446,7 @@ var jsonstr = { list:[
     "quote": "非常延续90年代的日系科幻美学，SHELL的法国分壳了属于。导演在放映前说：我想证明法国电影不仅只有中产阶级家庭的痛苦问题”真的笑死",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2891905146.jpg",
     "douban_id": "35691849",
-    "doubandate": "2025-05-30",
+    "doubandate": "2026-05-30",
     "calendarimageurl": ""
   },
   {
@@ -3469,7 +3469,7 @@ var jsonstr = { list:[
     "quote": "我知道抽烟不对，但那是我的工作，没能劝服你抽烟才是我不对。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p641850219.jpg",
     "douban_id": "1498811",
-    "doubandate": "2025-05-31",
+    "doubandate": "2026-05-31",
     "calendarimageurl": ""
   },
   {
@@ -3492,7 +3492,7 @@ var jsonstr = { list:[
     "quote": "“杂草，长在体育场围栏外面，长得可好啦！”可是我的朱同，长在体育场围栏外面的谁说一定是杂草？你是那朵最自由的花。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2907906874.jpg",
     "douban_id": "35749842",
-    "doubandate": "2025-06-01",
+    "doubandate": "2026-06-01",
     "calendarimageurl": ""
   },
   {
@@ -3515,7 +3515,7 @@ var jsonstr = { list:[
     "quote": "没带入小男孩视角，所以在他道歉时才后知后觉地发现他明知一切却因为突然重新赢得父母的重视而默许误会发生。主角很有感染力，尽管二人都因不同的缘由而孤寂，但大叔因为久居旷野对人际关系的陌生而自始至终都是被动的一方。二人第一次下棋的正反打，拍大叔时不带关系，且镜头离小男孩有一点距离，更客观地展现 Gunnar 大叔的行为；拍小男孩 Ari 时则紧贴大叔并且带上一点头发，仿佛在传达大叔如何借下棋观察男孩，绞尽脑汁想象该如何与之相处。白马 Godi 真好啊，日思夜梦，求仁得仁。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2907029603.jpg",
     "douban_id": "35679700",
-    "doubandate": "2025-06-02",
+    "doubandate": "2026-06-02",
     "calendarimageurl": ""
   },
   {
@@ -3538,7 +3538,7 @@ var jsonstr = { list:[
     "quote": "舞象之年忆事寥，飞车美人度良宵。巨石吹醒黄粱梦，知己即将赴扬镳。严父盼儿勤学早，儿欲追风又弄潮。成年道路艰且长，四人助力一人跑。双亲无私有情扰，苦心孤诣也逍遥。鬓发霜白忆过往，且纵且欲乐今朝。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2422740055.jpg",
     "douban_id": "1292932",
-    "doubandate": "2025-06-03",
+    "doubandate": "2026-06-03",
     "calendarimageurl": ""
   },
   {
@@ -3561,7 +3561,7 @@ var jsonstr = { list:[
     "quote": "他割断她长发的瞬间我心脏停跳了一秒",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p707509468.jpg",
     "douban_id": "1863766",
-    "doubandate": "2025-06-04",
+    "doubandate": "2026-06-04",
     "calendarimageurl": ""
   },
   {
@@ -3584,7 +3584,7 @@ var jsonstr = { list:[
     "quote": "她是一个母亲，一个成功的母亲。\n音乐很好。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1056432046.jpg",
     "douban_id": "4018288",
-    "doubandate": "2025-06-05",
+    "doubandate": "2026-06-05",
     "calendarimageurl": ""
   },
   {
@@ -3607,7 +3607,7 @@ var jsonstr = { list:[
     "quote": "那些所谓的结局党，说有漏洞、没细节，没有前因后果的人都是弱智，完全不懂电影。导演手法纯熟，细节处见功力，Kevin和Hurt的表演分寸拿捏得体，女儿和女警察这两个角色很丰满，四星片，个人偏好再加一星，五星",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2255762675.jpg",
     "douban_id": "1949321",
-    "doubandate": "2025-06-06",
+    "doubandate": "2026-06-06",
     "calendarimageurl": ""
   },
   {
@@ -3630,7 +3630,7 @@ var jsonstr = { list:[
     "quote": "被喜剧包裹的恐怖片 最后二儿子不上清北了 去上体校了 结果看到瓶子还去捡笑的傻呵呵的 这下跑步也出不了成绩了孩子差不多就被毁了 看的时候观众都哈哈大笑 内里其实不能细想一点 \n甚至结尾 当主角夫妻两个 大号小号都练废了 还想再开一个小小号 谁看了不得毛骨悚然",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2910105262.jpg",
     "douban_id": "36653918",
-    "doubandate": "2025-06-07",
+    "doubandate": "2026-06-07",
     "calendarimageurl": ""
   },
   {
@@ -3653,7 +3653,7 @@ var jsonstr = { list:[
     "quote": "根据真人真事改编，但是故事本身很平淡，没有什么剧情上的起伏。还是不值得。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2887987018.jpg",
     "douban_id": "36151166",
-    "doubandate": "2025-06-08",
+    "doubandate": "2026-06-08",
     "calendarimageurl": ""
   },
   {
@@ -3676,7 +3676,7 @@ var jsonstr = { list:[
     "quote": "闷与睡眠的故事。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2262469516.jpg",
     "douban_id": "3750569",
-    "doubandate": "2025-06-09",
+    "doubandate": "2026-06-09",
     "calendarimageurl": ""
   },
   {
@@ -3699,7 +3699,7 @@ var jsonstr = { list:[
     "quote": "别让陈思诚看到这部片！",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2915350868.jpg",
     "douban_id": "36934908",
-    "doubandate": "2025-06-10",
+    "doubandate": "2026-06-10",
     "calendarimageurl": ""
   },
   {
@@ -3722,7 +3722,7 @@ var jsonstr = { list:[
     "quote": "感觉一般，事件间的联系性太弱，比电视剧都难看，像下面评论说的，该片其实是看人不看戏。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2222701213.jpg",
     "douban_id": "1294621",
-    "doubandate": "2025-06-11",
+    "doubandate": "2026-06-11",
     "calendarimageurl": ""
   },
   {
@@ -3745,7 +3745,7 @@ var jsonstr = { list:[
     "quote": "想象力挺好，不过国语版里泰国人讲闽南话什么意思？",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2543644708.jpg",
     "douban_id": "30349379",
-    "doubandate": "2025-06-12",
+    "doubandate": "2026-06-12",
     "calendarimageurl": ""
   },
   {
@@ -3768,7 +3768,7 @@ var jsonstr = { list:[
     "quote": "百度这个公司现在在我心中的形象有多差呢，打个比方，看黑镜第七季第一集的时候，我的脑海一直回荡：这绝对是百度能干得出来的事儿。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2920242376.jpg",
     "douban_id": "36653963",
-    "doubandate": "2025-06-13",
+    "doubandate": "2026-06-13",
     "calendarimageurl": ""
   },
   {
@@ -3791,7 +3791,7 @@ var jsonstr = { list:[
     "quote": "看电影时　观众们频频爆发出各种语调的铿锵有力的＂我操我操我操我操我操＂各种语调．此起彼伏．",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p456972157.jpg",
     "douban_id": "1440855",
-    "doubandate": "2025-06-14",
+    "doubandate": "2026-06-14",
     "calendarimageurl": ""
   },
   {
@@ -3814,7 +3814,7 @@ var jsonstr = { list:[
     "quote": "不是关于宫崎骏如何创作，而是关于他如何走向死亡。令人惊讶的是本片竟然试图追随着宫崎骏抛下观众的匆忙步伐，放弃了以往吉卜力纪录片重幕后故事、重创作科普与记录的服务态度。跟随了宫崎那么多年的电视纪录片导演荒川格好像第一次以纯粹的电影观众、宫崎骏观察者的身份，残忍地用关于宫崎骏的创作记录去复述一部自己眼中的《你想活出怎样的人生》。这是两个创作者的较量，一边是幻想世界的创作者，一边是感伤的评论者——这份冲动越过了纪录片的类型，它已经是一个评论创作了。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2908582115.jpg",
     "douban_id": "36822614",
-    "doubandate": "2025-06-15",
+    "doubandate": "2026-06-15",
     "calendarimageurl": ""
   },
   {
@@ -3837,7 +3837,7 @@ var jsonstr = { list:[
     "quote": "斯派克最高，他一度是我对男人的标准的实体话~",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p454096953.jpg",
     "douban_id": "1307031",
-    "doubandate": "2025-06-16",
+    "doubandate": "2026-06-16",
     "calendarimageurl": ""
   },
   {
@@ -3860,7 +3860,7 @@ var jsonstr = { list:[
     "quote": "7 野外骆驼远征队宣传片。澳大利亚旅游局赞助了么？太平庸了，矛盾解决的非常low，和《面纱》相比没有任何进步，这位导演看来没什么才华，建议转做电视专题片。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2180302593.jpg",
     "douban_id": "19975328",
-    "doubandate": "2025-06-17",
+    "doubandate": "2026-06-17",
     "calendarimageurl": ""
   },
   {
@@ -3883,7 +3883,7 @@ var jsonstr = { list:[
     "quote": "比The Post更有劲，影片很多double focal lens拍摄的场景镜头语言都很绝妙，最喜欢的一场Woodward和Bernstein追到Sloan家做最终报道无误的确认，很连续和艰难的追问结束之后，Bernstein问候了一句Sloan‘s new born baby，一刹那三人的身体都随着这句突兀的small talk松懈了下来，非常高超的表演技巧",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1376946644.jpg",
     "douban_id": "1293715",
-    "doubandate": "2025-06-18",
+    "doubandate": "2026-06-18",
     "calendarimageurl": ""
   },
   {
@@ -3906,7 +3906,7 @@ var jsonstr = { list:[
     "quote": "陈凯歌脑子还好使的时候，拍的东西确实厉害，营造一个场，观众就进去了，几乎无可挑剔",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2346776403.jpg",
     "douban_id": "1302874",
-    "doubandate": "2025-06-19",
+    "doubandate": "2026-06-19",
     "calendarimageurl": ""
   },
   {
@@ -3929,7 +3929,7 @@ var jsonstr = { list:[
     "quote": "就像导演说的那样，这片子今年三月份拍完，现在就拿出来了，是她自己最快的速度，因为不能再等了，要尽快让这个世界看到。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2897561169.jpg",
     "douban_id": "36217949",
-    "doubandate": "2025-06-20",
+    "doubandate": "2026-06-20",
     "calendarimageurl": ""
   },
   {
@@ -3952,7 +3952,7 @@ var jsonstr = { list:[
     "quote": "尼莫有个好爸爸。。。。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1755893801.jpg",
     "douban_id": "1291586",
-    "doubandate": "2025-06-21",
+    "doubandate": "2026-06-21",
     "calendarimageurl": ""
   },
   {
@@ -3975,7 +3975,7 @@ var jsonstr = { list:[
     "quote": "比利怀尔德，世界上最会写结尾的编剧和最会拍喜剧的导演，几十年前拍的电影放到现在的银幕上秒杀百分之九十现役导演，一个字，屌",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p860250155.jpg",
     "douban_id": "1292574",
-    "doubandate": "2025-06-22",
+    "doubandate": "2026-06-22",
     "calendarimageurl": ""
   },
   {
@@ -3998,7 +3998,7 @@ var jsonstr = { list:[
     "quote": "虽然美国的励志片套路永远不变，但它总是能打动我，因为它的真实，真实的故事中传递着真实的爱、勇气和坚持不懈。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p842406558.jpg",
     "douban_id": "4301274",
-    "doubandate": "2025-06-23",
+    "doubandate": "2026-06-23",
     "calendarimageurl": ""
   },
   {
@@ -4021,7 +4021,7 @@ var jsonstr = { list:[
     "quote": "这部电影我印象最深的还是姐用钢铁之躯在水下百米冲刺…………",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2920693527.jpg",
     "douban_id": "30345743",
-    "doubandate": "2025-06-24",
+    "doubandate": "2026-06-24",
     "calendarimageurl": ""
   },
   {
@@ -4044,7 +4044,7 @@ var jsonstr = { list:[
     "quote": "这部电影拥有这世上几乎所有的美好",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2337103034.jpg",
     "douban_id": "26414979",
-    "doubandate": "2025-06-25",
+    "doubandate": "2026-06-25",
     "calendarimageurl": ""
   },
   {
@@ -4067,7 +4067,7 @@ var jsonstr = { list:[
     "quote": "自然而然会跟2021年《成瘾剂量》做对比。同样采取多线叙事，本作以销售团队和检察官为主，把销售团队的癫狂渲染到极致，反复在戒毒和复吸之间磨难的车房老板，可圈可点。相比之下，前作的成瘾医师集成了医师和受害者为一身的人设方式，更有叙事噱头。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2895517814.jpg",
     "douban_id": "34969716",
-    "doubandate": "2025-06-26",
+    "doubandate": "2026-06-26",
     "calendarimageurl": ""
   },
   {
@@ -4090,7 +4090,7 @@ var jsonstr = { list:[
     "quote": "曾祖母在战前卖汤饭，姥姥在水里滚，妈妈在地上跑，女儿才能在天上飞。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2919966929.jpg",
     "douban_id": "36053256",
-    "doubandate": "2025-06-27",
+    "doubandate": "2026-06-27",
     "calendarimageurl": ""
   },
   {
@@ -4113,7 +4113,7 @@ var jsonstr = { list:[
     "quote": "一切仿佛都是错误，可直到错无可避，才发觉内心是那么的懦弱又孤独。一切似乎早该结束，可直到老无所依，才明白自己踏上了无法回头的路。我们满怀虔诚的穿越漫天风雪，四周洁白而宁静，伙伴友善而热情，然而曙光来临之时，惊觉周围一片泥泞，眼前是阴风阵阵，身后是白骨重重，自己竟是这世界最孤独的人。看完第一反应就是：考夫曼再拍下去就真的能和林奇搂着肩膀喝咖啡了。太他妈神了，焦虑，疑惑，呐喊，腐烂，幻听，疲倦，挣扎，考夫曼几乎是把所有的感知体验全塞上了，整部电影就是一个大型的视听骗局，空间和时间的错位，听觉和视觉的错位，人物之间情绪的错位，年龄和认知的错位，口不应心，似是而非。人在表达时为了照顾对方，已经有了一定程度的扭曲，而当对方用同样的扭曲打个来回，又开始了另一次扭曲。硬要给个说法的话：人生来就是要后悔的。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2619279677.jpg",
     "douban_id": "30129061",
-    "doubandate": "2025-06-28",
+    "doubandate": "2026-06-28",
     "calendarimageurl": ""
   },
   {
@@ -4136,7 +4136,7 @@ var jsonstr = { list:[
     "quote": "希望网飞拍《许三观卖血记》、《白鹿原》",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913960454.jpg",
     "douban_id": "30482958",
-    "doubandate": "2025-06-29",
+    "doubandate": "2026-06-29",
     "calendarimageurl": ""
   },
   {
@@ -4159,7 +4159,7 @@ var jsonstr = { list:[
     "quote": "片中的残酷是真的，理想是假的。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p735379215.jpg",
     "douban_id": "1482072",
-    "doubandate": "2025-06-30",
+    "doubandate": "2026-06-30",
     "calendarimageurl": ""
   },
   {
@@ -4182,7 +4182,7 @@ var jsonstr = { list:[
     "quote": "没有闪回的丈夫，没有酗酒的母亲，没有恶意阻挠的官员，只有她，她的党，和她的女儿们。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2912813745.jpg",
     "douban_id": "35496807",
-    "doubandate": "2025-07-01",
+    "doubandate": "2026-07-01",
     "calendarimageurl": ""
   },
   {
@@ -4205,7 +4205,7 @@ var jsonstr = { list:[
     "quote": "这部太好看了，新时代新技术鲁邦！3DCG表情细腻、动作流畅，鲁邦、次元爸爸、小五、不二子、大叔，每个人都比之前更帅气了，鲁邦扔帽子记住激光路线穿过陷阱的那段，我的天啊！PS：传说元首没死，还有照片为证，笑尿",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2570280248.jpg",
     "douban_id": "34462037",
-    "doubandate": "2025-07-02",
+    "doubandate": "2026-07-02",
     "calendarimageurl": ""
   },
   {
@@ -4228,7 +4228,7 @@ var jsonstr = { list:[
     "quote": "1. 同意在任何一段关系里都不应该有一方迷失自我，并且也不应该把责任推到另一方身上。最重要的是在一开始就不要做出牺牲自己的决定。2.如果把片中夫妻处境对调，会发现丈夫的处境其实是现实中大部分的女性正在经历的困境，然而社会早已习惯这种对女性的无形压迫。当受压迫者变成男性，并且他为此自杀，所有人（包括观众）的第一反应都是-不可能。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2896940977.jpg",
     "douban_id": "35633650",
-    "doubandate": "2025-07-03",
+    "doubandate": "2026-07-03",
     "calendarimageurl": ""
   },
   {
@@ -4251,7 +4251,7 @@ var jsonstr = { list:[
     "quote": "我旺达和这个资源好到爆的丑男的床戏实在没眼看………",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2890052751.jpg",
     "douban_id": "35452077",
-    "doubandate": "2025-07-04",
+    "doubandate": "2026-07-04",
     "calendarimageurl": ""
   },
   {
@@ -4274,7 +4274,7 @@ var jsonstr = { list:[
     "quote": "绿皮书8.9这个7.8大家还是太喜欢白人叙事了",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2920268831.jpg",
     "douban_id": "36742579",
-    "doubandate": "2025-07-05",
+    "doubandate": "2026-07-05",
     "calendarimageurl": ""
   },
   {
@@ -4297,7 +4297,7 @@ var jsonstr = { list:[
     "quote": "“×××总有一天会结束，到时候，你就得面对自己的良心”",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2895335202.jpg",
     "douban_id": "35869056",
-    "doubandate": "2025-07-06",
+    "doubandate": "2026-07-06",
     "calendarimageurl": ""
   },
   {
@@ -4320,7 +4320,7 @@ var jsonstr = { list:[
     "quote": "无限想吃巧克力",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p703826185.jpg",
     "douban_id": "1301890",
-    "doubandate": "2025-07-07",
+    "doubandate": "2026-07-07",
     "calendarimageurl": ""
   },
   {
@@ -4343,7 +4343,7 @@ var jsonstr = { list:[
     "quote": "这部竟然拍得非常温柔，有点落寞和伤感，看完会被人的善良所打动。虽然确实有些天真，但还是好爱这样的电影，会让你很享受这个故事。当然，导演之前擅长的喜剧部分仍然很到位。几个演员都非常出色，女主和两个男配，写得好，演得更好。挺奥斯卡的片，应该能有斩获吧。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2502943384.jpg",
     "douban_id": "26611804",
-    "doubandate": "2025-07-08",
+    "doubandate": "2026-07-08",
     "calendarimageurl": ""
   },
   {
@@ -4366,7 +4366,7 @@ var jsonstr = { list:[
     "quote": "男人为了家庭放弃梦想才叫牺牲，女人不算；丈夫吃妻子一辈子，为了最后表现深情好男人让妻子病的病残的残。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2919083962.jpg",
     "douban_id": "35782224",
-    "doubandate": "2025-07-09",
+    "doubandate": "2026-07-09",
     "calendarimageurl": ""
   },
   {
@@ -4389,7 +4389,7 @@ var jsonstr = { list:[
     "quote": "你要怎么在孤单的、细碎的日常生活里，注意到世界是广阔的？在他向她讲述自己第一次惊恐发作经历的最后，两个身影走到天桥尽头，走到路灯之下，摄影机在一个更高更远的视角凝望他们，不是作为上帝、而是作为星星的眼睛。于是你在这里，不知道这是一段小巧的小品，还是一部广阔的电影。它选择了不尖锐也不痛。当人物在自己的动线里走着、过普通的日子，能遇到的所有人都是温馨的，只是日常的流动里总藏着隐患，隐患边上有他人的底噪。从荒川到星河，从城市到宇宙，城市也是周遭，宇宙也是周遭；你看最普通的人，都有小小的异样。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2919738979.jpg",
     "douban_id": "36135198",
-    "doubandate": "2025-07-10",
+    "doubandate": "2026-07-10",
     "calendarimageurl": ""
   },
   {
@@ -4412,7 +4412,7 @@ var jsonstr = { list:[
     "quote": "《腹荷》这个译名好太多。\n\n“正发生”的事情是为生活所迫，女性在家庭中的忍让也是在“从不，很少，有时，总是”中慢慢变得麻木的。\n\n贫苦家庭疲惫不堪，政府更甚。鉴于《何处为家》的困境和诘问，放弃这个“恩赐”也不失为不得已而为之的“良策”。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2888241510.jpg",
     "douban_id": "35937075",
-    "doubandate": "2025-07-11",
+    "doubandate": "2026-07-11",
     "calendarimageurl": ""
   },
   {
@@ -4435,7 +4435,7 @@ var jsonstr = { list:[
     "quote": "安雅在这片子里演技发挥全靠眼睛瞪得像铜铃",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2908300510.jpg",
     "douban_id": "34996127",
-    "doubandate": "2025-07-12",
+    "doubandate": "2026-07-12",
     "calendarimageurl": ""
   },
   {
@@ -4458,7 +4458,7 @@ var jsonstr = { list:[
     "quote": "1.入股猎冬后你可以嗑4对cp，盾冬、猎冬、盾鹰、盾冬鹰，超赚朋友们。看之前我以为是漫威超英相声组，看完：王牌特工3。吧唧失去长发后颜值暴减80%。虽然我不是美队粉，我更喜欢冬兵、猎鹰，但这部剧让我忽然意识到冬兵、猎鹰的魅力都依托于美队的存在，是的，我想他了，无可取代的史蒂夫。尤其第一集结尾的剧情，让这种感觉更加强烈。\n\n2.私以为美队3是罗素兄弟拍的超英最好的一部，成功的角色塑造有泽莫男爵一份功。因此在这部美队缺席的剧集中，由泽莫作为缺口补偿是最好的方式了，也为前两集乏味的剧情增添了亮色，新的三人组就此诞生，丹妞超甜。\n\n3.第三集画风突变赛博朋克无法之地，阿毛前脚刚演完《副本》第二季笑死，原来第三季给漫威拍了，生怕猎鹰突然说其实我是武·科瓦奇。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2632487996.jpg",
     "douban_id": "30367642",
-    "doubandate": "2025-07-13",
+    "doubandate": "2026-07-13",
     "calendarimageurl": ""
   },
   {
@@ -4481,7 +4481,7 @@ var jsonstr = { list:[
     "quote": "套路煽情 融合生硬 属于是人设也弥补不了演技 没打一星纯粹是因为青春回忆滤镜 另外一位略有回春 但没有cp感这件事还蛮硬伤",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2903101820.jpg",
     "douban_id": "36174933",
-    "doubandate": "2025-07-14",
+    "doubandate": "2026-07-14",
     "calendarimageurl": ""
   },
   {
@@ -4504,7 +4504,7 @@ var jsonstr = { list:[
     "quote": "3.5 这导演把戏剧化的艺术玩的很讨巧，所以觉得缺了点什么，要不是有Freeman撑台谁能忍受一部2个多小时的N多贵族大联欢。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2509472813.jpg",
     "douban_id": "1787541",
-    "doubandate": "2025-07-15",
+    "doubandate": "2026-07-15",
     "calendarimageurl": ""
   },
   {
@@ -4527,7 +4527,7 @@ var jsonstr = { list:[
     "quote": "我知道这个电影很有历史意义什么新浪潮左岸派代表作什么的但是它确实不好看。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2356864113.jpg",
     "douban_id": "1302050",
-    "doubandate": "2025-07-16",
+    "doubandate": "2026-07-16",
     "calendarimageurl": ""
   },
   {
@@ -4550,7 +4550,7 @@ var jsonstr = { list:[
     "quote": "结局太神了加两星。 转评价：THE MIST——典型的散户心态，大盘刚开始不好的时候犹豫不决，失去了离场的最佳时机；等到指数不断震荡下跌，又一次次补仓，一次次被套；最后在底部割肉出局了，结果国家队出来救市了，大反转",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2363134750.jpg",
     "douban_id": "1945330",
-    "doubandate": "2025-07-17",
+    "doubandate": "2026-07-17",
     "calendarimageurl": ""
   },
   {
@@ -4573,7 +4573,7 @@ var jsonstr = { list:[
     "quote": "好教练，好妈妈，好姐姐，好妻子。做对的事不需要道歉。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2349703757.jpg",
     "douban_id": "26265101",
-    "doubandate": "2025-07-18",
+    "doubandate": "2026-07-18",
     "calendarimageurl": ""
   },
   {
@@ -4596,7 +4596,7 @@ var jsonstr = { list:[
     "quote": "于是不打算再好好破案子了吗？演绎法在哪里？本来一头雾水的案情，夏洛克竟直接跳到揭秘阶段，没有任何推理调查直接给出答案，再用古今穿越的梦境掩盖这一突兀。致敬卖腐等小细节倒是可圈可点，然而没有惊艳的推理，福尔摩斯也沦为坑爹的悬疑和廉价的惊悚。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2299823043.jpg",
     "douban_id": "25920885",
-    "doubandate": "2025-07-19",
+    "doubandate": "2026-07-19",
     "calendarimageurl": ""
   },
   {
@@ -4619,7 +4619,7 @@ var jsonstr = { list:[
     "quote": "姚明登陆NBA的第一个赛季真的比大部分体育励志题材的影片还要精彩。看到姚明在对阵湖人的时候打出感觉，让巴克利亲了驴屁股，第一次姚鲨对决的时候送给沙克的几个大火锅，真是感动啊。现在看着姚明作为解说嘉宾，对比赛的分析那么好，真是觉得可惜，要是真的能夺得一次冠军，那么姚明这部电影，",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1910910408.jpg",
     "douban_id": "1291849",
-    "doubandate": "2025-07-20",
+    "doubandate": "2026-07-20",
     "calendarimageurl": ""
   },
   {
@@ -4642,7 +4642,7 @@ var jsonstr = { list:[
     "quote": "把生活过得这么尴尬的原来不止我一个",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2381631493.jpg",
     "douban_id": "26838164",
-    "doubandate": "2025-07-21",
+    "doubandate": "2026-07-21",
     "calendarimageurl": ""
   },
   {
@@ -4665,7 +4665,7 @@ var jsonstr = { list:[
     "quote": "何塞·埃爾南德斯出身平庸，十一次申請失敗不是終點，而是夢想的起點，年少時不甘平凡，但他又是如此幸運，有良師益友，有支持他的父母，還有賢妻陪伴，不離不棄。歷經三十多載的磕磕絆絆，2009年8月28日，航天飛機成功發射，實現了從棉花到星空的跨越，實現了太空夢想。\n總體來說，平淡細膩，沒有刻意營造波瀾壯闊的情節，只有十年如一日的堅持，很勵誌，很溫馨，用悠長的鋪墊和陳述，猶如一篇敘事散文細水長流。從一個移民農工到航天員，是一百萬英里的距離，就像飛越萬里的帝王蝶一樣，渺小又偉大。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2897851561.jpg",
     "douban_id": "36129169",
-    "doubandate": "2025-07-22",
+    "doubandate": "2026-07-22",
     "calendarimageurl": ""
   },
   {
@@ -4688,7 +4688,7 @@ var jsonstr = { list:[
     "quote": "在还有勇气面对离别的年纪勇敢去经历！郊野的孔雀破洞的球鞋他最喜欢的螳螂大雨淋湿的球场，是谁说少年不识愁滋味…每次戳泪点的都是野爷好心疼：“把它丢在湖里，让这块石头沉到我心里去了。要习惯孤独，没有人会陪你一辈子。”蒟蒻超萌的：“老丝我请你吃小美冰淇淋还是你要吃大便？我家里都有诶！”",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2151593136.jpg",
     "douban_id": "5997849",
-    "doubandate": "2025-07-23",
+    "doubandate": "2026-07-23",
     "calendarimageurl": ""
   },
   {
@@ -4711,7 +4711,7 @@ var jsonstr = { list:[
     "quote": "结尾剧作和台词都露了馅，陷入一种偏执的无路可走，但这个死胡同其实是假的，是作者自己给自己按上去的，他当然知道出路或许是可能的，但他不相信，不相信事情和人是会变的，他更愿意相信那个死胡同，那个速朽的永恒。无论是电影还是真实生活。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2511811355.jpg",
     "douban_id": "27172891",
-    "doubandate": "2025-07-24",
+    "doubandate": "2026-07-24",
     "calendarimageurl": ""
   },
   {
@@ -4734,7 +4734,7 @@ var jsonstr = { list:[
     "quote": "#2017年度十佳#世间最浪漫的事就是当面说不出口的爱在梦里夜夜相见，真是浪漫得一塌糊涂。金熊加费比西真是实至名归。女导演细腻而独特的视角（完爆许多日本小清新啊），某些时刻让人想起基耶斯洛夫斯基（两生花啊蓝色啊爱情短片啊之类）。真是美好又治愈的艺术片",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2426269453.jpg",
     "douban_id": "26935675",
-    "doubandate": "2025-07-25",
+    "doubandate": "2026-07-25",
     "calendarimageurl": ""
   },
   {
@@ -4757,7 +4757,7 @@ var jsonstr = { list:[
     "quote": "烦透了这种高层隐身、中层搞事、底层遭殃的设定，无数次看得我血压飙升，哪吒虽然设定是魔，行事倒是深受忠孝仁义那套东西束缚，也不知道到底反了个啥？",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2916323291.jpg",
     "douban_id": "34780991",
-    "doubandate": "2025-07-26",
+    "doubandate": "2026-07-26",
     "calendarimageurl": ""
   },
   {
@@ -4780,7 +4780,7 @@ var jsonstr = { list:[
     "quote": "让强权开颅，被媒介羞辱，受谣言欺骗，追信念消毒。对丑恶射箭每次都犹豫失手，在盲目逃难只会把理智弄丢。困在下水道，四通八达找不到出口；打开鱼罐头，饥肠辘辘吃不到血肉。怪物吃人还吐骨头，有些吃人无影无踪。射不中靶心，数不准弹头，我们都住在汉江边，看着平静的水面，不知底下藏着什么巨兽。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2512336853.jpg",
     "douban_id": "1763134",
-    "doubandate": "2025-07-27",
+    "doubandate": "2026-07-27",
     "calendarimageurl": ""
   },
   {
@@ -4803,7 +4803,7 @@ var jsonstr = { list:[
     "quote": "纳努的弟弟，茜拉的姨妈，消失的浮冰，一周的泳程，北极的故事，人类的良知……但，真的和人类有关吗？或真的有关，难道不正是出现于足以支撑此类拍摄活动的现代文明全球扩张之后？……据说拍摄跨度十五年，感叹之余也要指出：野生动物与电影不同，观察拍摄包含兴趣与科研。它是一种领月薪的日常工作。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p608084446.jpg",
     "douban_id": "2111619",
-    "doubandate": "2025-07-28",
+    "doubandate": "2026-07-28",
     "calendarimageurl": ""
   },
   {
@@ -4826,7 +4826,7 @@ var jsonstr = { list:[
     "quote": "还是动物世界有意思",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2906404399.jpg",
     "douban_id": "36795361",
-    "doubandate": "2025-07-29",
+    "doubandate": "2026-07-29",
     "calendarimageurl": ""
   },
   {
@@ -4849,7 +4849,7 @@ var jsonstr = { list:[
     "quote": "2024.1.5更新\n名单一公布，封神了有没有？\n迪士尼还准备把这片雪藏，不愧是民主党专业狗腿。各种未成年人和幼女被侵害，国内女拳鸦雀无声，常年喊着人权的自由派也不见踪影。liberals的下限深不见底。\n\n这么一部口碑佳作，前排竟然没有豆瓣常年霸占短评的熟人，比如常年拼接微博段子做影评的朝暮雪，什么烂片都能营销的同志亦凡人中文站。这是巧合吗？\n--------\n在美国，观众进场被告知电影拷贝失效，影厅停电，临时换成别的电影，各种离奇事故。\n在中国，各种对岸高端观众翻回墙内app打低分。\n这也是巧合吗？",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2893085018.jpg",
     "douban_id": "30454682",
-    "doubandate": "2025-07-30",
+    "doubandate": "2026-07-30",
     "calendarimageurl": ""
   },
   {
@@ -4872,7 +4872,7 @@ var jsonstr = { list:[
     "quote": "不管是书还是电影，火焰杯都是最好看的",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913456904.jpg",
     "douban_id": "1309055",
-    "doubandate": "2025-07-31",
+    "doubandate": "2026-07-31",
     "calendarimageurl": ""
   },
   {
@@ -4895,7 +4895,7 @@ var jsonstr = { list:[
     "quote": "据说上部被吐槽文戏少，是因为被放到了下部。看完水门桥后我认为，整部长津湖就没有什么文戏—每次战斗间歇的短暂交流可不算文戏。用电影去表现抗美援朝，表现志愿军，本就力不从心，并不是技术达不到，而是电影这种艺术形式本身无法表现国人心中的抗美援朝。抗美援朝如同一场雄壮的进行曲，不允许有任何不和谐音符，电影中，志愿军战士用各种牺牲诠释了英勇、顽强、视死如归。战争在中国人心中本就是不一样的事物，在中国，战争这个词是容不下多少哲学思考的。我们的战争首先是悲壮的，可歌可泣的。我们不能，也不允许像别的国家那样，从第三人的视角看待自己国家的战争。于是，我们最好用纪录片表现战争，能有好作品。至于电影，还是用来记录更加复杂晦暗的人性，和更加模棱两可的世界观吧。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2846021991.jpg",
     "douban_id": "35613853",
-    "doubandate": "2025-08-01",
+    "doubandate": "2026-08-01",
     "calendarimageurl": ""
   },
   {
@@ -4918,7 +4918,7 @@ var jsonstr = { list:[
     "quote": "有几个镜头里，龙哥会发光",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2504997087.jpg",
     "douban_id": "1297574",
-    "doubandate": "2025-08-02",
+    "doubandate": "2026-08-02",
     "calendarimageurl": ""
   },
   {
@@ -4941,7 +4941,7 @@ var jsonstr = { list:[
     "quote": "这质感也是不花钱能看到的？看到两位男主在战俘营汇合，心里还有点庆幸。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2903403191.jpg",
     "douban_id": "21264415",
-    "doubandate": "2025-08-03",
+    "doubandate": "2026-08-03",
     "calendarimageurl": ""
   },
   {
@@ -4964,7 +4964,7 @@ var jsonstr = { list:[
     "quote": "续集仍然精彩过无数国产电影，想象力真是个没法儿学的东西。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1703349212.jpg",
     "douban_id": "1428051",
-    "doubandate": "2025-08-04",
+    "doubandate": "2026-08-04",
     "calendarimageurl": ""
   },
   {
@@ -4987,7 +4987,7 @@ var jsonstr = { list:[
     "quote": "这些杀手都不冷",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p725839995.jpg",
     "douban_id": "1937621",
-    "doubandate": "2025-08-05",
+    "doubandate": "2026-08-05",
     "calendarimageurl": ""
   },
   {
@@ -5010,7 +5010,7 @@ var jsonstr = { list:[
     "quote": "建议译为老娘与海",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2910815887.jpg",
     "douban_id": "26656728",
-    "doubandate": "2025-08-06",
+    "doubandate": "2026-08-06",
     "calendarimageurl": ""
   },
   {
@@ -5033,7 +5033,7 @@ var jsonstr = { list:[
     "quote": "看到 Michelle 一个人在花园里的秋千上哭泣的场景，就很担心自己也要这么孤独老去，再回头想想，至少人家站街也站了一栋乡下别墅和巴黎一套房呢，我连哭泣的资格都没了。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2914011396.jpg",
     "douban_id": "36639612",
-    "doubandate": "2025-08-07",
+    "doubandate": "2026-08-07",
     "calendarimageurl": ""
   },
   {
@@ -5056,7 +5056,7 @@ var jsonstr = { list:[
     "quote": "这个家没有卡皮巴拉迟早得散",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2917594343.jpg",
     "douban_id": "35603727",
-    "doubandate": "2025-08-08",
+    "doubandate": "2026-08-08",
     "calendarimageurl": ""
   },
   {
@@ -5079,7 +5079,7 @@ var jsonstr = { list:[
     "quote": "真人真事改编，就像翻看了巴西独裁年代的家庭相册，亲见国家机器如何让一个幸福家庭缓慢地分崩离析。结尾有些拖长，要定格在妻子笑着领取丈夫死亡证明就好了...",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2921338462.jpg",
     "douban_id": "35512487",
-    "doubandate": "2025-08-09",
+    "doubandate": "2026-08-09",
     "calendarimageurl": ""
   },
   {
@@ -5102,7 +5102,7 @@ var jsonstr = { list:[
     "quote": "SIFF 5/太长了，如果短一些我可能会很喜欢，不可否认的是，女主真的很好，很细节很生活化的表演，那些陷入自我（无缘由的懵逼和力不从心时刻）被困住的神态也是极其的自然。前半段比后半段要好很多，中间让我能够短暂共情的原因是因为自己刚从学校那个大棺材里逃离出来，平时大多时候的我也是这个吊样子，非男人非女人是死人，讨厌别人也恶心自己，毁灭倾向不仅对外也冲内。对当下不知所措，对未来不可言说，家人的简单登场与对话却没有深入的展开，阶级问题一带而过根本没有想要展现矛盾，仍是专注于一些私人化的情绪表达。其实一些东西不明说就已经表现出来了，但是非要给这个厌世情绪的加一个原由属实没什么必要，反而显得刻意，最后一个小时简直太折磨人了，无意义的对话与肢体冲突，使得本就令人抓狂想死的生活最终完全沦为一种“听不懂”…",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2908736610.jpg",
     "douban_id": "36857198",
-    "doubandate": "2025-08-10",
+    "doubandate": "2026-08-10",
     "calendarimageurl": ""
   },
   {
@@ -5125,7 +5125,7 @@ var jsonstr = { list:[
     "quote": "三颗星，不能再少了",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2323818727.jpg",
     "douban_id": "7564989",
-    "doubandate": "2025-08-11",
+    "doubandate": "2026-08-11",
     "calendarimageurl": ""
   },
   {
@@ -5148,7 +5148,7 @@ var jsonstr = { list:[
     "quote": "和去年戛纳的《利益区域》片名对调下。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2897899393.jpg",
     "douban_id": "36490368",
-    "doubandate": "2025-08-12",
+    "doubandate": "2026-08-12",
     "calendarimageurl": ""
   },
   {
@@ -5171,7 +5171,7 @@ var jsonstr = { list:[
     "quote": "世间已几乎无人相信爱情，我觉得。。。爱情这东西，，，还是有的吧",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2306448007.jpg",
     "douban_id": "25904974",
-    "doubandate": "2025-08-13",
+    "doubandate": "2026-08-13",
     "calendarimageurl": ""
   },
   {
@@ -5194,7 +5194,7 @@ var jsonstr = { list:[
     "quote": "悲剧帝在变蝇过程中经历了嗜甜、哔哔、长毛、落齿、掉肉、吐汁、攀爬等系列步骤，但是！居然从未作过苍蝇的标志性动作：搓手！作为昆虫爱好者的大卫柯南伯格。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2503648785.jpg",
     "douban_id": "1293073",
-    "doubandate": "2025-08-14",
+    "doubandate": "2026-08-14",
     "calendarimageurl": ""
   },
   {
@@ -5217,7 +5217,7 @@ var jsonstr = { list:[
     "quote": "最喜欢那段，贝蒂把自己的头绳解下来给伊万，后来伊万回来找她，她看他攥着的拳头，想要看看但他还是紧紧的攥着不松手“我不是要拿回来。”她撑开发圈套上他的手腕，“这样就好啦”，然后牵住他手继续向前走。一种相依为命的温暖感",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2896333011.jpg",
     "douban_id": "2009392",
-    "doubandate": "2025-08-15",
+    "doubandate": "2026-08-15",
     "calendarimageurl": ""
   },
   {
@@ -5240,7 +5240,7 @@ var jsonstr = { list:[
     "quote": "或是被第三者插足，或是不受父母待见，或是被辞退，或是父母根本不想把Ta生下来……这群被抛弃的人们，却共同组成了最温馨、最和睦、最融洽、最可爱的家庭。\n他们或是失业，或是工伤，或是以偷窃维持生计，或是在风俗店工作，他们生活在社会的最底层，他们缺少物质财富，精神生活却无比充实。\n他们每个人之间都没有血缘关系，但每个人都比原来的家庭过得更加快乐。\n结婚不意味着幸福，被丈夫抛弃也能子孙满堂；\n生了孩子不一定就是母亲，没有生育能力也可以给予母爱。\n柴田治以为什么都教不了孩子，却教会了他什么叫青春期。\n亚纪远离了富有的家庭，因为4号先生的肩膀更让她感到温暖。\n由里遭到亲生父母虐待，却有一位素不相识的人愿意以失去工作的代价保护她。\n富有富的活法，穷有穷的活法。我们在丰衣足食中颓废度日，他们在贫困交加中感受大爱无疆。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2530599636.jpg",
     "douban_id": "27622447",
-    "doubandate": "2025-08-16",
+    "doubandate": "2026-08-16",
     "calendarimageurl": ""
   },
   {
@@ -5263,7 +5263,7 @@ var jsonstr = { list:[
     "quote": "此版本难看 Coco被造型成为一个只知道天天重复穿着男人的大号衣服的怪异女人！！！！！！！",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p453926224.jpg",
     "douban_id": "2148257",
-    "doubandate": "2025-08-17",
+    "doubandate": "2026-08-17",
     "calendarimageurl": ""
   },
   {
@@ -5286,7 +5286,7 @@ var jsonstr = { list:[
     "quote": "一帮社会名流联手欺侮一个孤寡犹太老头子的故事。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p851338375.jpg",
     "douban_id": "1309121",
-    "doubandate": "2025-08-18",
+    "doubandate": "2026-08-18",
     "calendarimageurl": ""
   },
   {
@@ -5309,7 +5309,7 @@ var jsonstr = { list:[
     "quote": "这货不是偶像剧，这货是文艺小清新……",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1376142476.jpg",
     "douban_id": "6129693",
-    "doubandate": "2025-08-19",
+    "doubandate": "2026-08-19",
     "calendarimageurl": ""
   },
   {
@@ -5332,7 +5332,7 @@ var jsonstr = { list:[
     "quote": "女孩们，去读书，去学习，去受教育，记住掌握知识不是目的而是手段，最重要的是我们可以拥有选择的机会。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2583759735.jpg",
     "douban_id": "30395843",
-    "doubandate": "2025-08-20",
+    "doubandate": "2026-08-20",
     "calendarimageurl": ""
   },
   {
@@ -5355,7 +5355,7 @@ var jsonstr = { list:[
     "quote": "我想它对作家的描绘可能是比较贴切吧，我从来没当过作家，我不清楚。我不是很喜欢这个Barton动不动就说自己多么理解你们平民，就好像自己不是平民似的，当一个平民作家却不自认为自己是其中一员的我觉得这种思想很欠打。其他的，我觉得这片子就算拍摄手法有一点超现实色彩我也觉得一般而已。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1058380546.jpg",
     "douban_id": "1298043",
-    "doubandate": "2025-08-21",
+    "doubandate": "2026-08-21",
     "calendarimageurl": ""
   },
   {
@@ -5378,7 +5378,7 @@ var jsonstr = { list:[
     "quote": "＃夏日国际电影节＃港版翻译“小学鸡整大批”非常好，就是小学生做个派的意思，概括了剧情主线。是那种没有负担可以随时大笑的电影，适合工作劳累一天结束的晚上看，感慨的是这样简单好笑的电影越来越少。影片很大一部分笑点是小娃娃们的行为、语言和本身年龄的反差，有点炫酷，有点热血和中二。其中最小的那个男孩子因为吐字太不清楚，只有他拥有复古字幕，戳中我的笑点。但故事的最后依靠的是最偷懒的“天降神兵”的结尾，让人有点失望。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2897789174.jpg",
     "douban_id": "36367141",
-    "doubandate": "2025-08-22",
+    "doubandate": "2026-08-22",
     "calendarimageurl": ""
   },
   {
@@ -5401,7 +5401,7 @@ var jsonstr = { list:[
     "quote": "这个农村妇女并没什么崇高目的，她只是要一个“说法”。她并不知道自己是在挑战中国千百年父权社会形成的家长威权。最后她成功了，可是恩怨已经掉转，法律“说法”反而比情理更让她难以接受。真实得渗人的乡土中国，结局简洁有力。巩俐彻底让人折服啊，那简直不能叫表演了！",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2554073275.jpg",
     "douban_id": "1300108",
-    "doubandate": "2025-08-23",
+    "doubandate": "2026-08-23",
     "calendarimageurl": ""
   },
   {
@@ -5424,7 +5424,7 @@ var jsonstr = { list:[
     "quote": "你们知道现在好莱坞能有一部完全尊重经典，不瞎几把改的真人版有多难得吗…",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2922512455.jpg",
     "douban_id": "36247731",
-    "doubandate": "2025-08-24",
+    "doubandate": "2026-08-24",
     "calendarimageurl": ""
   },
   {
@@ -5447,7 +5447,7 @@ var jsonstr = { list:[
     "quote": "傻逼女主是我见过最作最恶心的印度演员。净是演这种角色，玻璃心，爆脾气，公主病，一众帅哥让她选，爱要不要。。没有对印度电影角色这么恶心过。印度的范冰冰。瞎了那么多帅哥男演员",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2403573557.jpg",
     "douban_id": "26852163",
-    "doubandate": "2025-08-25",
+    "doubandate": "2026-08-25",
     "calendarimageurl": ""
   },
   {
@@ -5470,7 +5470,7 @@ var jsonstr = { list:[
     "quote": "《安德烈·卢布廖夫》是一部值得看一遍再看一遍以至无数遍的片子，因为它太沉，太深，离信仰太近，离我们太远。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1209470213.jpg",
     "douban_id": "1298248",
-    "doubandate": "2025-08-26",
+    "doubandate": "2026-08-26",
     "calendarimageurl": ""
   },
   {
@@ -5493,7 +5493,7 @@ var jsonstr = { list:[
     "quote": "这个故事其实在讲，异性恋女爱上异性恋男是人间最大的诅咒。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2916235422.jpg",
     "douban_id": "36318331",
-    "doubandate": "2025-08-27",
+    "doubandate": "2026-08-27",
     "calendarimageurl": ""
   },
   {
@@ -5516,7 +5516,7 @@ var jsonstr = { list:[
     "quote": "那也就是說McGregor又演了一個處男",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p786229120.jpg",
     "douban_id": "1927369",
-    "doubandate": "2025-08-28",
+    "doubandate": "2026-08-28",
     "calendarimageurl": ""
   },
   {
@@ -5539,7 +5539,7 @@ var jsonstr = { list:[
     "quote": "没有到狗尾续貂这么夸张，但确实食之无味、弃之可惜。还是用的电视剧的架构，而且是一集被抻长到两个小时的过渡集，没有紧张的氛围，更缺少精彩的结构。几处闪回冗长乏味，搞得情怀人物的出场也失去魅力。整部电影不值一晒，通片还没有律师第一季全黑白片头加一起气氛足。其实所有毒粉早该意识到一点：没有比第五季第十六集更好的高潮了。明天醒来我就要把这货忘得一干二净。This is not what I excepted, bitch.",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2569548689.jpg",
     "douban_id": "30372377",
-    "doubandate": "2025-08-29",
+    "doubandate": "2026-08-29",
     "calendarimageurl": ""
   },
   {
@@ -5562,7 +5562,7 @@ var jsonstr = { list:[
     "quote": "王小波：知识分子最怕活在不理智的年代",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1056945371.jpg",
     "douban_id": "3007809",
-    "doubandate": "2025-08-30",
+    "doubandate": "2026-08-30",
     "calendarimageurl": ""
   },
   {
@@ -5585,7 +5585,7 @@ var jsonstr = { list:[
     "quote": "诗织第一次跟调查员A见面时A开的“包养”玩笑就让我警铃大作，后来电话里A让诗织跟他结婚我实在忍不住爆粗口，镜头里的诗织身体僵硬但仍好言回答，这不是一种二次侵犯吗？还有那个愿意站出来作证的门卫，本来还感动他愿意出面，直到他说出“你应该高兴那晚是我值班”。如果真愿意出手那晚就应该直接阻止不省人事的诗织被拖进酒店不是吗？而不是在舆论明朗后愿意“承担风险实名发声”然后当英雄？还有想让诗织加入他们党派的安倍竞争对手，每个人都是这样，为了自己的私欲/利。一个性侵受害者还要经受多少伤害和攫取才能走到“胜诉”那一步？\n散场后诗织跟每个排队的影迷对话签名合照拥抱，一直不停地在说“感谢你能来”。是我们要谢谢你，愿意把自己投入这场如绞肉机般旷日持久的战役中。\n以及，拥抱真的可以传递力量，跟她拥抱时突然就红了眼眶。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2906032559.jpg",
     "douban_id": "36675987",
-    "doubandate": "2025-08-31",
+    "doubandate": "2026-08-31",
     "calendarimageurl": ""
   },
   {
@@ -5608,7 +5608,7 @@ var jsonstr = { list:[
     "quote": "老人不图儿女为家做多大贡献呀，一辈子不容易就图个团团圆圆。皮克斯替蔡国庆唱了回春晚。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2505426431.jpg",
     "douban_id": "20495023",
-    "doubandate": "2025-09-01",
+    "doubandate": "2026-09-01",
     "calendarimageurl": ""
   },
   {
@@ -5631,7 +5631,7 @@ var jsonstr = { list:[
     "quote": "荒诞程度跟真实案例的拿捏刚刚好，狗狗演技炸裂，可以颁个最会呲牙奖23333",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2917306109.jpg",
     "douban_id": "35682279",
-    "doubandate": "2025-09-02",
+    "doubandate": "2026-09-02",
     "calendarimageurl": ""
   },
   {
@@ -5654,7 +5654,7 @@ var jsonstr = { list:[
     "quote": "两个大单都没拿到尾款，唉，大环境太差了",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2916367228.jpg",
     "douban_id": "36323224",
-    "doubandate": "2025-09-03",
+    "doubandate": "2026-09-03",
     "calendarimageurl": ""
   },
   {
@@ -5677,7 +5677,7 @@ var jsonstr = { list:[
     "quote": "看了一半，厕所里霍夫曼和那个兰金的辩论着实精彩。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2550984699.jpg",
     "douban_id": "1307493",
-    "doubandate": "2025-09-04",
+    "doubandate": "2026-09-04",
     "calendarimageurl": ""
   },
   {
@@ -5700,7 +5700,7 @@ var jsonstr = { list:[
     "quote": "丛林控，亚马逊河控，即便换成了黑白影像也不减分。沿河而上溯源，就像亚马逊版《长江图》，却有更多荒蛮而玄幻的体验。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2321627914.jpg",
     "douban_id": "26349397",
-    "doubandate": "2025-09-05",
+    "doubandate": "2026-09-05",
     "calendarimageurl": ""
   },
   {
@@ -5723,7 +5723,7 @@ var jsonstr = { list:[
     "quote": "特吕弗说过：“爱情跟谋杀原本截然不同，但在希区柯克那里看起来竟然如此相似，我这才恍然大悟：恋爱和谋杀本来是一回事！”——恋爱和谋杀的控制者都让受控者为他的利益而牺牲自我，话说爱情就是个五彩斑斓的大抹布，任何丑恶都在这个环境中合理化而遁于无形，谋杀也有类似清扫的功效。【8】",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p828519563.jpg",
     "douban_id": "1300766",
-    "doubandate": "2025-09-06",
+    "doubandate": "2026-09-06",
     "calendarimageurl": ""
   },
   {
@@ -5746,7 +5746,7 @@ var jsonstr = { list:[
     "quote": "道具和布景方面，完全没料到的精致和细腻、写实和详尽。非常忠于元代的历史风貌和审美趣味，阔大沉雄、冲淡萧远。极赞！元代后妃命妇的罟罟冠、男子的髡发垂髻盘辫，与“南薰殿图”和元墓壁画完全一致；宫廷道具形制大气、勾勒有力，用材和质感就如同文物。分上中下三部，超长。现有版本意文，无中字。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2517727940.jpg",
     "douban_id": "1797176",
-    "doubandate": "2025-09-07",
+    "doubandate": "2026-09-07",
     "calendarimageurl": ""
   },
   {
@@ -5769,7 +5769,7 @@ var jsonstr = { list:[
     "quote": "小学全班组织去看的电影，有很多人感动的哭了………",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2661392792.jpg",
     "douban_id": "1294963",
-    "doubandate": "2025-09-08",
+    "doubandate": "2026-09-08",
     "calendarimageurl": ""
   },
   {
@@ -5792,7 +5792,7 @@ var jsonstr = { list:[
     "quote": "完蛋了。那个王子怎么会喜欢那个脸长的像个窝窝头的女的……",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p815665348.jpg",
     "douban_id": "1585236",
-    "doubandate": "2025-09-09",
+    "doubandate": "2026-09-09",
     "calendarimageurl": ""
   },
   {
@@ -5815,7 +5815,7 @@ var jsonstr = { list:[
     "quote": "这是一部需要重看的电影，男主在《肖申克》中饰演典狱长，这部年龄跨度30年，太喜欢他的表演，holland最终知晓自己生活的意义，并得到回报，令人感慨万千。2001年6月5日首次观看。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1216701008.jpg",
     "douban_id": "1298880",
-    "doubandate": "2025-09-10",
+    "doubandate": "2026-09-10",
     "calendarimageurl": ""
   },
   {
@@ -5838,7 +5838,7 @@ var jsonstr = { list:[
     "quote": "林青霞真是帅的让人一生都无法忘记",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p838966341.jpg",
     "douban_id": "1294417",
-    "doubandate": "2025-09-11",
+    "doubandate": "2026-09-11",
     "calendarimageurl": ""
   },
   {
@@ -5861,7 +5861,7 @@ var jsonstr = { list:[
     "quote": "真是我看过的节奏最差的电影没有之一，但还是被练霓裳感动的一塌糊涂。结尾她一身白衣立在风中，我却违和的想起金枝欲孽里那句台词“吉时到了，死了的人要出城门，心死的人也一样，请娘娘放行。”你赐予我姓名，愿意为我等待十年才开的优昙花，我亦愿意为你遍体鳞伤离开魔门，却还是不够吗？",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p958927779.jpg",
     "douban_id": "1293765",
-    "doubandate": "2025-09-12",
+    "doubandate": "2026-09-12",
     "calendarimageurl": ""
   },
   {
@@ -5884,7 +5884,7 @@ var jsonstr = { list:[
     "quote": "7.20 “荣誉不属于评论家的分析，也不属于那些指出强者、实干者的错误的聪明人，荣誉只属于那些有行动的人”“做人如果没有理想，还不如当植物”这老哥们的人生观和价值观很能鼓舞人感染人，怪怪的老头往往都特执着~固执又糊涂，开朗又乐观，真实而有趣的人总那么难以让人忘怀。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2480744820.jpg",
     "douban_id": "1449711",
-    "doubandate": "2025-09-13",
+    "doubandate": "2026-09-13",
     "calendarimageurl": ""
   },
   {
@@ -5907,7 +5907,7 @@ var jsonstr = { list:[
     "quote": "阿德里安，掌管破碎感的神",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2916648316.jpg",
     "douban_id": "30388206",
-    "doubandate": "2025-09-14",
+    "doubandate": "2026-09-14",
     "calendarimageurl": ""
   },
   {
@@ -5930,7 +5930,7 @@ var jsonstr = { list:[
     "quote": "还敢说你们没有基情？KJ啊有木有",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1731774258.jpg",
     "douban_id": "3642835",
-    "doubandate": "2025-09-15",
+    "doubandate": "2026-09-15",
     "calendarimageurl": ""
   },
   {
@@ -5953,7 +5953,7 @@ var jsonstr = { list:[
     "quote": "古惑仔不用脑，一世都是古惑仔。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2213462183.jpg",
     "douban_id": "1309220",
-    "doubandate": "2025-09-16",
+    "doubandate": "2026-09-16",
     "calendarimageurl": ""
   },
   {
@@ -5976,7 +5976,7 @@ var jsonstr = { list:[
     "quote": "哪里找的那么多长得这么狠感觉背了n条人命的演员",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2912133840.jpg",
     "douban_id": "36097760",
-    "doubandate": "2025-09-17",
+    "doubandate": "2026-09-17",
     "calendarimageurl": ""
   },
   {
@@ -5999,7 +5999,7 @@ var jsonstr = { list:[
     "quote": "整体节奏太棒了，镜头语言的运用也很成熟，日军侵入村子、军官调戏孙女、爷爷临终托孤、矿难场景都让人印象深刻，而且是直接展现了伪满洲国时期东北人民的悲惨生活，比起上海电影里救国的呐喊，这里才是真刀实枪的战场。歌以咏志，东北人表示《四季歌》更胜《渔光曲》",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2028934118.jpg",
     "douban_id": "1844187",
-    "doubandate": "2025-09-18",
+    "doubandate": "2026-09-18",
     "calendarimageurl": ""
   },
   {
@@ -6022,7 +6022,7 @@ var jsonstr = { list:[
     "quote": "一想到宇宙里还有母体/神/程序员/其他高级生物在设置、观察乃至操弄我们，如同我们观察操弄蚂蚁草芥一般，世上种种烦恼，也就释然了。73年电影版也许没感觉，在信息爆炸、3D打印、云技术和弱人工智能化的今天，更觉得此剧世界观架构的博大精妙。（不知道谁把我设置在天朝，好难搞的NPC 。。。）9.4",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2403347953.jpg",
     "douban_id": "2338055",
-    "doubandate": "2025-09-19",
+    "doubandate": "2026-09-19",
     "calendarimageurl": ""
   },
   {
@@ -6045,7 +6045,7 @@ var jsonstr = { list:[
     "quote": "剧情本身完成得还不错，但作为传记片，感觉人物刻画有些流于表面以至丧失了辨识度。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2926230816.jpg",
     "douban_id": "36413503",
-    "doubandate": "2025-09-20",
+    "doubandate": "2026-09-20",
     "calendarimageurl": ""
   },
   {
@@ -6068,7 +6068,7 @@ var jsonstr = { list:[
     "quote": "Augusto写在书上送给Pauli的话语值五星。因为爱，我把我的信仰写给你，晚年的时候在你面前将它失去，但我安然降落。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2887533750.jpg",
     "douban_id": "36181531",
-    "doubandate": "2025-09-21",
+    "doubandate": "2026-09-21",
     "calendarimageurl": ""
   },
   {
@@ -6091,7 +6091,7 @@ var jsonstr = { list:[
     "quote": "发哥不可为不帅，演技不可说不精，但是奇怪的是，看纵横四海喜欢张国荣，看辣手神探喜欢梁朝伟。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2606098518.jpg",
     "douban_id": "1293147",
-    "doubandate": "2025-09-22",
+    "doubandate": "2026-09-22",
     "calendarimageurl": ""
   },
   {
@@ -6114,7 +6114,7 @@ var jsonstr = { list:[
     "quote": "律师是假扮的这个梗其实倒是不难猜。不过这不是重点。重点在于“叙述”和“真相”的关系。在缺乏物证链条的基础上，男主的每一次叙述其实都是自洽且成立的，但或许也都不是真的。这一点才真的引人深思。我们所认定和掌握的真相，又有多少是被叙述掌控的呢？",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2498971355.jpg",
     "douban_id": "26580232",
-    "doubandate": "2025-09-23",
+    "doubandate": "2026-09-23",
     "calendarimageurl": ""
   },
   {
@@ -6137,7 +6137,7 @@ var jsonstr = { list:[
     "quote": "我靠，你怎么知道我治疗针都是在厕所找的。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2905409296.jpg",
     "douban_id": "35128081",
-    "doubandate": "2025-09-24",
+    "doubandate": "2026-09-24",
     "calendarimageurl": ""
   },
   {
@@ -6160,7 +6160,7 @@ var jsonstr = { list:[
     "quote": "那些年少时囫囵吞下的词句，却在某时某刻击中了你。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2893820209.jpg",
     "douban_id": "36035676",
-    "doubandate": "2025-09-25",
+    "doubandate": "2026-09-25",
     "calendarimageurl": ""
   },
   {
@@ -6183,7 +6183,7 @@ var jsonstr = { list:[
     "quote": "谢里丹是名副其实的故事大王，也是老戏骨们重出江湖的品质保证。80岁的哈里森福特，76岁的史泰龙，67岁的凯文科斯特纳，派拉蒙才不管那些少数群体怎么想，我们就是爱看这些硬汉。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2884549449.jpg",
     "douban_id": "35794664",
-    "doubandate": "2025-09-26",
+    "doubandate": "2026-09-26",
     "calendarimageurl": ""
   },
   {
@@ -6206,7 +6206,7 @@ var jsonstr = { list:[
     "quote": "最后把标题打在Benji的脸旁边的时候，像是一个问句，是的，什么是真正的痛苦呢。找不到人生的方向并不是真正的痛苦。真正的痛苦是，当我想把这个痛苦放进一个context里，我发现它格格不入。\n\n它无法被放置在家族历史的语境下，因为奥斯维辛的记忆那么惨痛，祖母奇迹般的幸存并且远渡重洋开始新的生活。“那么tough的祖母怎么会有想要结束自己生命的后代呢？”它也不能被放进兄弟情谊里，在David眼里，Benji那么酷那么招人喜欢，为什么会那么痛苦呢？\n\n是的， 格格不入，所以我只能一个人端着我的痛苦，承受这个重量，找不到一个安置他的地方，这才是The Real Pain.",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2913427843.jpg",
     "douban_id": "36065388",
-    "doubandate": "2025-09-27",
+    "doubandate": "2026-09-27",
     "calendarimageurl": ""
   },
   {
@@ -6229,7 +6229,7 @@ var jsonstr = { list:[
     "quote": "复古感不错，代入感也很好，但高潮部分太仓促，之后又突然强行给上了一个逻辑，来解释真相（为了收视率，主持人加入邪教和魔鬼达成交易，献祭了妻子），这个部分和此前的电视直播是割裂的，造成了观众的理解混乱…",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2910320280.jpg",
     "douban_id": "36068379",
-    "doubandate": "2025-09-28",
+    "doubandate": "2026-09-28",
     "calendarimageurl": ""
   },
   {
@@ -6252,7 +6252,7 @@ var jsonstr = { list:[
     "quote": "我很喜欢你，可是你不快乐。  ★★★☆",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2203804156.jpg",
     "douban_id": "1780168",
-    "doubandate": "2025-09-29",
+    "doubandate": "2026-09-29",
     "calendarimageurl": ""
   },
   {
@@ -6275,7 +6275,7 @@ var jsonstr = { list:[
     "quote": "开始以为是密室题材，后来以为是群盗题材，最后，原来是复仇题材……",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2580137248.jpg",
     "douban_id": "30145117",
-    "doubandate": "2025-09-30",
+    "doubandate": "2026-09-30",
     "calendarimageurl": ""
   },
   {
@@ -6298,7 +6298,7 @@ var jsonstr = { list:[
     "quote": "毕竟刚看第一集，主要说说人物衣着。\n\n人物衣着打扮上，过于注重颜值了吧？男女演员可明显的看出都涂了粉，女干部更是明显的涂了口红，也许在外事场合上点口红，但内部同志开会怎么也涂口红呢？\n\n有点失望，从这点上难找到时代的代入感。像《#风筝#》《#伟大的转折#》《#历史转折中的邓小平#》人物都没有化妆，一看人物衣着就感觉是那个年代的",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2561265236.jpg",
     "douban_id": "30251190",
-    "doubandate": "2025-10-01",
+    "doubandate": "2026-10-01",
     "calendarimageurl": ""
   },
   {
@@ -6321,7 +6321,7 @@ var jsonstr = { list:[
     "quote": "13岁时，他父亲出海再也没有回来，也是死在了海上。所以他15岁时，看到了落水的英国人，想也没想就冲去救人了。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2924724165.jpg",
     "douban_id": "30412658",
-    "doubandate": "2025-10-02",
+    "doubandate": "2026-10-02",
     "calendarimageurl": ""
   },
   {
@@ -6344,7 +6344,7 @@ var jsonstr = { list:[
     "quote": "In loving memory of Leonard Nimoy. For Anton.",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2377455123.jpg",
     "douban_id": "22939161",
-    "doubandate": "2025-10-03",
+    "doubandate": "2026-10-03",
     "calendarimageurl": ""
   },
   {
@@ -6367,7 +6367,7 @@ var jsonstr = { list:[
     "quote": "为了韦斯初为人父的温柔",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2499734013.jpg",
     "douban_id": "26640371",
-    "doubandate": "2025-10-04",
+    "doubandate": "2026-10-04",
     "calendarimageurl": ""
   },
   {
@@ -6390,7 +6390,7 @@ var jsonstr = { list:[
     "quote": "用韩国影史最贵的成本和最多的特效来安利最东方的亲情，冲着里面的孝道我给四星，至于七重审判、原告被告这些不伦不类cos西方的玩意儿就算了吧。车太贤rio惨，戏份快被河正宇和金东旭抢光了。都暻秀的角色我好像get到了...基情！？",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2500130777.jpg",
     "douban_id": "11584016",
-    "doubandate": "2025-10-05",
+    "doubandate": "2026-10-05",
     "calendarimageurl": ""
   },
   {
@@ -6413,7 +6413,7 @@ var jsonstr = { list:[
     "quote": "武侠、cult、丧尸、科幻……先锋",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2355311538.jpg",
     "douban_id": "1304091",
-    "doubandate": "2025-10-06",
+    "doubandate": "2026-10-06",
     "calendarimageurl": ""
   },
   {
@@ -6436,7 +6436,7 @@ var jsonstr = { list:[
     "quote": "一部纯靠女主一人撑起局面的片子。她身上那种生机盎然的虎气很容易让观众也随着她一同开心、焦虑、发怒和无力。这不只是西班牙劳动妇女的人生困境，在其他国家（比如中国）甚至世界范围内恐怕都是别无二致的。最后一段女主表情三个阶段（愧疚、迷惘、解脱的快乐）的变化设计得很棒。最后希望所有的中年女性都能拥有出走的勇气。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2887909953.jpg",
     "douban_id": "35331456",
-    "doubandate": "2025-10-07",
+    "doubandate": "2026-10-07",
     "calendarimageurl": ""
   },
   {
@@ -6459,7 +6459,7 @@ var jsonstr = { list:[
     "quote": "醉翁之意不在酒，锡兰并不是想让观众为了寻找谋杀案的真相而去看这部电影，他只是用寻找真相这条线作为线索，串联起影片的一干人等，展现他们的言行举止，借此折射安纳托利亚高原上这群人人生的生命现实。摄影很美，剧情留白很多很辛苦观众，但大师风范出来了。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p986278389.jpg",
     "douban_id": "5959260",
-    "doubandate": "2025-10-08",
+    "doubandate": "2026-10-08",
     "calendarimageurl": ""
   },
   {
@@ -6482,7 +6482,7 @@ var jsonstr = { list:[
     "quote": "漫威:制造一个大坏蛋，首先要给他超高的智慧，强大的肉体，绝顶的战斗技能，对了，还有无限宝石\n\n DC: 给他一个糟糕的人生吧",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2567198874.jpg",
     "douban_id": "27119724",
-    "doubandate": "2025-10-09",
+    "doubandate": "2026-10-09",
     "calendarimageurl": ""
   },
   {
@@ -6505,7 +6505,7 @@ var jsonstr = { list:[
     "quote": "故事讲得太土了，如果不是看在真实故事改编的份上，我多半会给差评。无论是剧情需要做出怎样戏剧性地编排，但是这种宠物救主的故事太过cliche。而电影开始的节奏对不了解故事梗概的人来说就是一团迷雾——最初以为是低配的Nyad，后来发现人与狗才是剧情的主轴。但同时感情又并未合理的铺陈，让这个因为一个肉丸引发的报恩故事离谱又荒诞。包括马克沃尔伯格在内的所有演员的表演都只像是例行公事，平白浪费了狗狗的萌宠表现。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2900768983.jpg",
     "douban_id": "34768157",
-    "doubandate": "2025-10-10",
+    "doubandate": "2026-10-10",
     "calendarimageurl": ""
   },
   {
@@ -6528,7 +6528,7 @@ var jsonstr = { list:[
     "quote": "葛丽泰·嘉宝饰演的苏联女特使冷若冰霜，也可以说是冰山美人，然而万恶的资本主义敌人居然使我们忧心人民的伟大同志腐化堕落，还让她笑出来了，实在罪大恶极，必须判处他们赔偿一位男士与之相伴终生。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2385476073.jpg",
     "douban_id": "1297926",
-    "doubandate": "2025-10-11",
+    "doubandate": "2026-10-11",
     "calendarimageurl": ""
   },
   {
@@ -6551,7 +6551,7 @@ var jsonstr = { list:[
     "quote": "果然只要是华人就有机率出现的经典家庭：不管儿子如何自私没有良心，妈妈永远偏袒的是儿子；不管女儿如何照顾，最多只会换来一句夸奖然后实实在在的遗产依旧没考虑到她。最恐怖的事是：妈妈也曾是自己家庭如此这般的受害者…\n我感动的点从来不是亲情，我承认或许和我的经历有关，但更直白的原因是从这个角度出发我根本感动不了一点。我感动的从来都是阿嬷本身：她面对化疗脱发带来的恐惧和悲伤，在夜晚被疼痛折磨时请求父母带她走的呢喃，和发现原来自己觉得唯一真心付出的外孙实际上和盯着她遗产的孩子没有差别的时候那种不动声色可是内心崩裂的失望….\n",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2911511570.jpg",
     "douban_id": "36328210",
-    "doubandate": "2025-10-12",
+    "doubandate": "2026-10-12",
     "calendarimageurl": ""
   },
   {
@@ -6574,7 +6574,7 @@ var jsonstr = { list:[
     "quote": "气氛很好，拍的也很精致，但一堆古典的发霉的中国人操着一口外语并且伴着那种外国女仆一贯的夸张表情真是不习惯。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2336736673.jpg",
     "douban_id": "1306346",
-    "doubandate": "2025-10-13",
+    "doubandate": "2026-10-13",
     "calendarimageurl": ""
   },
   {
@@ -6597,7 +6597,7 @@ var jsonstr = { list:[
     "quote": "爱与爱……张震没有一句台词都能那么秒人啊！",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1171885752.jpg",
     "douban_id": "1940880",
-    "doubandate": "2025-10-14",
+    "doubandate": "2026-10-14",
     "calendarimageurl": ""
   },
   {
@@ -6620,7 +6620,7 @@ var jsonstr = { list:[
     "quote": "这剧真是让人眼前一亮啊，律政+超级英雄的组合简直是我一直梦幻的，风格相当黑暗，看着真是让人有毛骨悚然的感觉。真是感慨现在在线供应商制作电视剧的水平已经赶超电视台了，netflix的剧制作太精良了，和Amazon的高堡奇人一样。电视的新时代！",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2229959957.jpg",
     "douban_id": "25769160",
-    "doubandate": "2025-10-15",
+    "doubandate": "2026-10-15",
     "calendarimageurl": ""
   },
   {
@@ -6643,7 +6643,7 @@ var jsonstr = { list:[
     "quote": "万万没想到有一天自己会为一只猪和一只鸡的爱情落泪。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2553166408.jpg",
     "douban_id": "30330264",
-    "doubandate": "2025-10-16",
+    "doubandate": "2026-10-16",
     "calendarimageurl": ""
   },
   {
@@ -6666,7 +6666,7 @@ var jsonstr = { list:[
     "quote": "孪生蝙蝠侠大战克隆金刚狼",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p480383375.jpg",
     "douban_id": "1780330",
-    "doubandate": "2025-10-17",
+    "doubandate": "2026-10-17",
     "calendarimageurl": ""
   },
   {
@@ -6689,7 +6689,7 @@ var jsonstr = { list:[
     "quote": "上影节第一部伯格曼，开头竟然还有伯格曼本人的导赏，惊了。。大师说了两个关键点：1.开头的四分钟很难懂，要当成音乐来理解；2.拍这片子的一个重要原因是因为在担任皇家剧院院长时要说一些言不由衷的话，内心有太多怒火。也就说所谓的假面和真实的自我。有了这这两句话，相对就好看懂很多了。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2507966309.jpg",
     "douban_id": "1294438",
-    "doubandate": "2025-10-18",
+    "doubandate": "2026-10-18",
     "calendarimageurl": ""
   },
   {
@@ -6712,7 +6712,7 @@ var jsonstr = { list:[
     "quote": "因为看到有人说最后三分钟是精华，还以为有什么惊天大反转，结果就这，男主从头到尾还是那样，没有被拯救，看完一直梗在心头。男版被嫌弃的一生，不爱看，还好不是女的，只能说是个恐怖片。要是女的就是韩国现实电影了",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2906769501.jpg",
     "douban_id": "36151169",
-    "doubandate": "2025-10-19",
+    "doubandate": "2026-10-19",
     "calendarimageurl": ""
   },
   {
@@ -6735,7 +6735,7 @@ var jsonstr = { list:[
     "quote": "我疯掉了，这是哪位清教徒投资的电影吗，清教徒的生活真恐怖，有个让女儿过这种生活的牧师父亲更是恐怖中的恐怖。巴贝特第一次见识她们晚餐的时候，我笑死了，仿佛感受到了一位广东名厨来到北京后的愤怒。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2528305654.jpg",
     "douban_id": "1292278",
-    "doubandate": "2025-10-20",
+    "doubandate": "2026-10-20",
     "calendarimageurl": ""
   },
   {
@@ -6758,7 +6758,7 @@ var jsonstr = { list:[
     "quote": "儿子的应激发火和马上冷静道歉，很遗憾地和爸爸如出一辙。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2918781186.jpg",
     "douban_id": "36820950",
-    "doubandate": "2025-10-21",
+    "doubandate": "2026-10-21",
     "calendarimageurl": ""
   },
   {
@@ -6781,7 +6781,7 @@ var jsonstr = { list:[
     "quote": "王战团有着刺猬的里，用赤子之心寻找理想之地，却被伤得体无完肤，周正则长出了刺猬的壳，用不原谅抵御残酷现实，却也刺伤了他人。在这片神奇的土地，人活得太清醒就成了病人，离开吧，游向那远方的太平洋。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2912147213.jpg",
     "douban_id": "35633904",
-    "doubandate": "2025-10-22",
+    "doubandate": "2026-10-22",
     "calendarimageurl": ""
   },
   {
@@ -6804,7 +6804,7 @@ var jsonstr = { list:[
     "quote": "笑点：勒苟拉斯学超级玛丽跳，阿佐格掉水，阿尔弗雷德的胸……卷福哦不对那条龙再一次死于话多……甘道夫被女王来了公主抱……片尾的素描分镜设定太美……索林内心戏太到位，精灵王冷艳到最后人性化了一下……末尾那段，让人想立刻重新过一遍魔戒三部曲。所以这部不是告别中土，而是一段旅途的开始。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2219406504.jpg",
     "douban_id": "2973079",
-    "doubandate": "2025-10-23",
+    "doubandate": "2026-10-23",
     "calendarimageurl": ""
   },
   {
@@ -6827,7 +6827,7 @@ var jsonstr = { list:[
     "quote": "又一个技术宅的经典喜剧诞生，最后一集的JJ撸射理论到发散思维直接将这部新剧推向神坛！唯一的不爽是这里是HBO，意思是每一季只有几集，根本就过不了瘾。★★★★★",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2172371194.jpg",
     "douban_id": "20644938",
-    "doubandate": "2025-10-24",
+    "doubandate": "2026-10-24",
     "calendarimageurl": ""
   },
   {
@@ -6850,7 +6850,7 @@ var jsonstr = { list:[
     "quote": "答应我一定要去看3D的好吗？",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2368783674.jpg",
     "douban_id": "3025375",
-    "doubandate": "2025-10-25",
+    "doubandate": "2026-10-25",
     "calendarimageurl": ""
   },
   {
@@ -6873,7 +6873,7 @@ var jsonstr = { list:[
     "quote": "9.1 拉杜裘德的《周末》，大罗马尼亚娜娜的一天见闻，如此下沉低俗又坚定立场地抓紧当代语气的荒谬与可笑。可能正是有彻底放下道德底线开地狱笑话的勇气，才能如此精准且有力地抨击这个时代的疑难病根:一个娱乐至死的永动机，每个人都深陷其中，每个人都在推波助澜。如今的&#34;真实&#34;已然比世界末日还要罪恶不堪，只能从过去的&#34;虚假&#34;之中寻求慰藉，但也许这世界一直都是一滩烂泥。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2902389739.jpg",
     "douban_id": "35772577",
-    "doubandate": "2025-10-26",
+    "doubandate": "2026-10-26",
     "calendarimageurl": ""
   },
   {
@@ -6896,7 +6896,7 @@ var jsonstr = { list:[
     "quote": "还是一股子算法的味道，算是流媒体行货吧，但安雅真的美的发光。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2916136841.jpg",
     "douban_id": "35295339",
-    "doubandate": "2025-10-27",
+    "doubandate": "2026-10-27",
     "calendarimageurl": ""
   },
   {
@@ -6919,7 +6919,7 @@ var jsonstr = { list:[
     "quote": "眼到，心到，手到，人镜合一，镜随呼吸，瞬息倏变，暗潮汹涌，戛然而猝，黑屏，字幕起",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2183209196.jpg",
     "douban_id": "1305337",
-    "doubandate": "2025-10-28",
+    "doubandate": "2026-10-28",
     "calendarimageurl": ""
   },
   {
@@ -6942,7 +6942,7 @@ var jsonstr = { list:[
     "quote": "三种人 1.make things happen  2.watch thing happen  3.what happened?",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2258047426.jpg",
     "douban_id": "25920096",
-    "doubandate": "2025-10-29",
+    "doubandate": "2026-10-29",
     "calendarimageurl": ""
   },
   {
@@ -6965,7 +6965,7 @@ var jsonstr = { list:[
     "quote": "十年前的张柏芝简直美爆了！",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2716102308.jpg",
     "douban_id": "1299878",
-    "doubandate": "2025-10-30",
+    "doubandate": "2026-10-30",
     "calendarimageurl": ""
   },
   {
@@ -6988,7 +6988,7 @@ var jsonstr = { list:[
     "quote": "隔着玻璃糖纸看，整个世界都五彩缤纷，但是你不能当真",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1731353563.jpg",
     "douban_id": "1919245",
-    "doubandate": "2025-10-31",
+    "doubandate": "2026-10-31",
     "calendarimageurl": ""
   },
   {
@@ -7011,7 +7011,7 @@ var jsonstr = { list:[
     "quote": "想到了说脖子是女人第二张脸，腿是女人第二张脸，头发是女人第二张脸，手是女人第二张脸，女人真是全身都长满了脸",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2912429928.jpg",
     "douban_id": "35882838",
-    "doubandate": "2025-11-01",
+    "doubandate": "2026-11-01",
     "calendarimageurl": ""
   },
   {
@@ -7034,7 +7034,7 @@ var jsonstr = { list:[
     "quote": "可怕的是看到很多网友说：经历过的人都知道，演的保守了。。。开玩笑说姜武演的不好，应该让自己爸来演。。。。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2912830708.jpg",
     "douban_id": "36587974",
-    "doubandate": "2025-11-02",
+    "doubandate": "2026-11-02",
     "calendarimageurl": ""
   },
   {
@@ -7057,7 +7057,7 @@ var jsonstr = { list:[
     "quote": "欢迎来到“1984”的世界，以一场虚构的家长会展示东欧集权主义的荒谬。一直以为《哈利波特》里的乌姆里奇是最邪恶的女教师了，结果被这片刷新下限——如此为人师表的角色当然是Communist（微笑脸）",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2512791657.jpg",
     "douban_id": "26727890",
-    "doubandate": "2025-11-03",
+    "doubandate": "2026-11-03",
     "calendarimageurl": ""
   },
   {
@@ -7080,7 +7080,7 @@ var jsonstr = { list:[
     "quote": "阿尼亚憋大便的时候我憋小便，某种意义上的沉浸式观影",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2907078869.jpg",
     "douban_id": "36190889",
-    "doubandate": "2025-11-04",
+    "doubandate": "2026-11-04",
     "calendarimageurl": ""
   },
   {
@@ -7103,7 +7103,7 @@ var jsonstr = { list:[
     "quote": "太痛了，惨不忍睹。旁边那个十分钟就扛不住了，我被Naomi虐惨了，有些镜头惨绝人寰，导演太无良了什么血肉模糊的镜头都给。故事线太薄，表演却是非常感人，Naomi那个惨烈Ewan那个哭啊，小男主会红，但不打算推荐，因为太痛苦了。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1839461050.jpg",
     "douban_id": "4832825",
-    "doubandate": "2025-11-05",
+    "doubandate": "2026-11-05",
     "calendarimageurl": ""
   },
   {
@@ -7126,7 +7126,7 @@ var jsonstr = { list:[
     "quote": "就是要看女的真拳锤脸，女的亲嘴贴贴，女的执棋博弈！好女人坏女人狠女人疯女人，生动迷人复杂强大的女人们看得爽死我了！",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913171099.jpg",
     "douban_id": "35669844",
-    "doubandate": "2025-11-06",
+    "doubandate": "2026-11-06",
     "calendarimageurl": ""
   },
   {
@@ -7149,7 +7149,7 @@ var jsonstr = { list:[
     "quote": "看过第三遍，仍然好评。英国人的骄傲倔强和德国人的拘谨刻板，以及双方都有的顽固，民族性的碰撞太鲜明了。狭小的木屋内剑拔弩张的对峙，斗智斗勇，逐渐融化的冰雪和敌意，友谊跨越了隔阂，善良人性战胜了国家战争和政治龃龉，却无法摆脱战争和政治造就的悲剧，令人扼腕。演员都超棒。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1691917124.jpg",
     "douban_id": "6129462",
-    "doubandate": "2025-11-07",
+    "doubandate": "2026-11-07",
     "calendarimageurl": ""
   },
   {
@@ -7172,7 +7172,7 @@ var jsonstr = { list:[
     "quote": "林保怡的演技已杀疯…几乎要盖过影片本身的光芒。尔冬升说希望片子能进内地，我估摸着这题材上了票房也辛酸…不过能拍是福对吧…",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2904961420.jpg",
     "douban_id": "36093612",
-    "doubandate": "2025-11-08",
+    "doubandate": "2026-11-08",
     "calendarimageurl": ""
   },
   {
@@ -7195,7 +7195,7 @@ var jsonstr = { list:[
     "quote": "煽情不错~“看到你眼角闪烁的光芒吗？那是前程的光芒正在消逝的征兆”",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1391764636.jpg",
     "douban_id": "1293921",
-    "doubandate": "2025-11-09",
+    "doubandate": "2026-11-09",
     "calendarimageurl": ""
   },
   {
@@ -7218,7 +7218,7 @@ var jsonstr = { list:[
     "quote": "包装成爱情片的成长片，《疯狂动物城》也讲了类似的影射族裔问题的主题，怎么过了一个十年不到，一大推抨击其涉及现实问题的评论？另外谈一个有意思的郑智象征：四大元素是古希腊人的说法，希腊人的实际郑智生活中，“火”有着“高贵的野蛮人”之意味，比如希罗多德笔下的斯基泰人主祀灶神赫斯提亚崇拜匠神赫淮斯托斯，此二神都与火有关，而平静的“水”则象征商业与文明，从影片中富有都市气息的水城和贫民窟一般的火镇可以看出（2023.6.14 CMG融媒影城）",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2891542432.jpg",
     "douban_id": "35901878",
-    "doubandate": "2025-11-10",
+    "doubandate": "2026-11-10",
     "calendarimageurl": ""
   },
   {
@@ -7241,7 +7241,7 @@ var jsonstr = { list:[
     "quote": "一顿操作猛如虎，结果是个二百五。\n阎王要你三更死，多活两秒也要死。\n虎落平阳被犬欺，落魄凤凰不如鸡。\n杀人之后不补枪，绝对死得硬邦邦。\n遇到危险别冲动，否则后悔也没用。\n人生就像坐马车，该下车时就下车。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2539127687.jpg",
     "douban_id": "26952704",
-    "doubandate": "2025-11-11",
+    "doubandate": "2026-11-11",
     "calendarimageurl": ""
   },
   {
@@ -7264,7 +7264,7 @@ var jsonstr = { list:[
     "quote": "这其实是一个关于反抗的故事，拒绝洗脑，勇于夺回本就属于我们的权利，翻身做主人。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2523632248.jpg",
     "douban_id": "26942645",
-    "doubandate": "2025-11-12",
+    "doubandate": "2026-11-12",
     "calendarimageurl": ""
   },
   {
@@ -7287,7 +7287,7 @@ var jsonstr = { list:[
     "quote": "回到未来三部曲是我心中永恒经典",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2903223244.jpg",
     "douban_id": "1296666",
-    "doubandate": "2025-11-13",
+    "doubandate": "2026-11-13",
     "calendarimageurl": ""
   },
   {
@@ -7310,7 +7310,7 @@ var jsonstr = { list:[
     "quote": "哎呀笑cry~~施虐与受虐、支配与被支配、玩弄与被玩弄、角色与身份、虚构与现实、台上台下、戏里戏外、过去现在、甚至性别，随时翻转，随时洗牌。爱情是政治，权力关系的交替如王座更迭；男女是相生相克的亲密宿敌，打倒了我也踢翻了你，臣服了你也低贱了我。谁是谁的主宰？谁又是谁的玩物？",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2153298824.jpg",
     "douban_id": "19955828",
-    "doubandate": "2025-11-14",
+    "doubandate": "2026-11-14",
     "calendarimageurl": ""
   },
   {
@@ -7333,7 +7333,7 @@ var jsonstr = { list:[
     "quote": "就算剧情漏洞再不合理，有钟基oba就可以撑起一部片。宠物情人为什么不找钟基oba？！散场时，全场啜泣一片，我哭得眼睛都肿了。女友一边抹眼泪一边说，这年头要男人不如养条狗！又乖又听话会撒娇会卖萌谁欺负你就咬死谁忠心耿耿等你等到海枯石烂心里只有你一个人全世界只有你最漂酿老太婆了还是最漂酿！",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2159648145.jpg",
     "douban_id": "6844868",
-    "doubandate": "2025-11-15",
+    "doubandate": "2026-11-15",
     "calendarimageurl": ""
   },
   {
@@ -7356,7 +7356,7 @@ var jsonstr = { list:[
     "quote": "看完身心俱疲",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2501047088.jpg",
     "douban_id": "1292260",
-    "doubandate": "2025-11-16",
+    "doubandate": "2026-11-16",
     "calendarimageurl": ""
   },
   {
@@ -7379,7 +7379,7 @@ var jsonstr = { list:[
     "quote": "“想让一个故事永远不要结束，那就不要让这个故事开始。”“在量子世界中，一个物体并不一定只固定在一个地方。事实上，同一时间，你可以出现在不同地方。”最近好多讲婚外情的作品啊，这部不错，法国人真是，闹不住。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2555536921.jpg",
     "douban_id": "25662977",
-    "doubandate": "2025-11-17",
+    "doubandate": "2026-11-17",
     "calendarimageurl": ""
   },
   {
@@ -7402,7 +7402,7 @@ var jsonstr = { list:[
     "quote": "和平需要一些理想主义，这是普世的",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2903632150.jpg",
     "douban_id": "36744569",
-    "doubandate": "2025-11-18",
+    "doubandate": "2026-11-18",
     "calendarimageurl": ""
   },
   {
@@ -7425,7 +7425,7 @@ var jsonstr = { list:[
     "quote": "真理无惧千夫所指，平庸即恶万众愚痴。",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1865907521.jpg",
     "douban_id": "10748498",
-    "doubandate": "2025-11-19",
+    "doubandate": "2026-11-19",
     "calendarimageurl": ""
   },
   {
@@ -7448,7 +7448,7 @@ var jsonstr = { list:[
     "quote": "看完电影觉得很大一部分电影史是男人把女人送上祭坛为自己换救赎的故事",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2801472973.jpg",
     "douban_id": "1292719",
-    "doubandate": "2025-11-20",
+    "doubandate": "2026-11-20",
     "calendarimageurl": ""
   },
   {
@@ -7471,7 +7471,7 @@ var jsonstr = { list:[
     "quote": "远超预期的一部电影，真的很喜欢。影片的剧本真的很棒相当有感觉，节奏总体算是流畅。但我最喜欢的其实是本片的情调和配乐，配乐真心太棒了。不过本片的译名真心莫名其妙，叫阿瓦隆都要好的多，明明讲的是时光飞逝和家庭疏远的无奈硬生生翻译成恐怖电影了。本片演员的表现也都很自然流畅",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2505000395.jpg",
     "douban_id": "1297875",
-    "doubandate": "2025-11-21",
+    "doubandate": "2026-11-21",
     "calendarimageurl": ""
   },
   {
@@ -7494,7 +7494,7 @@ var jsonstr = { list:[
     "quote": "美国煽情主旋律，cinemascore观众评分竟然A+，真是各国观众都爱看本国煽情主旋律呀",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2912238926.jpg",
     "douban_id": "36061052",
-    "doubandate": "2025-11-22",
+    "doubandate": "2026-11-22",
     "calendarimageurl": ""
   },
   {
@@ -7517,7 +7517,7 @@ var jsonstr = { list:[
     "quote": "干净的女性主义电影，以简约的手法呈现了美国内陆女性在事业、家庭和爱情上的三个片段，减法做得刚刚好。暮光女怎么无声无息就去演了个女同故事啊，好感度up up…（答应我，下次乃一定要演个自己当主角的拉片）",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2424471447.jpg",
     "douban_id": "26341593",
-    "doubandate": "2025-11-23",
+    "doubandate": "2026-11-23",
     "calendarimageurl": ""
   },
   {
@@ -7540,7 +7540,7 @@ var jsonstr = { list:[
     "quote": "莱昂纳尔里奇说得没错 ，拥有了这样一个夜晚之后，人生的其余片刻都显得黯淡无光。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2903112602.jpg",
     "douban_id": "36720554",
-    "doubandate": "2025-11-24",
+    "doubandate": "2026-11-24",
     "calendarimageurl": ""
   },
   {
@@ -7563,7 +7563,7 @@ var jsonstr = { list:[
     "quote": "人的身体的样貌",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2891986829.jpg",
     "douban_id": "35341611",
-    "doubandate": "2025-11-25",
+    "doubandate": "2026-11-25",
     "calendarimageurl": ""
   },
   {
@@ -7586,7 +7586,7 @@ var jsonstr = { list:[
     "quote": "总觉得一件很悲哀的事情。男主结识了上层人物然后从小混混无业游民到白领的飞跃。说明接触的人很重要",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2575135153.jpg",
     "douban_id": "26061679",
-    "doubandate": "2025-11-26",
+    "doubandate": "2026-11-26",
     "calendarimageurl": ""
   },
   {
@@ -7609,7 +7609,7 @@ var jsonstr = { list:[
     "quote": "额，我只能说不是我的菜，但是剧情总的一般吧",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2554599861.jpg",
     "douban_id": "1401915",
-    "doubandate": "2025-11-27",
+    "doubandate": "2026-11-27",
     "calendarimageurl": ""
   },
   {
@@ -7632,7 +7632,7 @@ var jsonstr = { list:[
     "quote": "极富张力，非常犀利的宗教选题，把贝洛奇奥最擅长的政治惊悚和历史传记揉在了一起，情节反转高效，准确，有力，一部最正典的情节剧。贝洛奇奥84岁了，非常希望能有奖拿。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2891701473.jpg",
     "douban_id": "35397882",
-    "doubandate": "2025-11-28",
+    "doubandate": "2026-11-28",
     "calendarimageurl": ""
   },
   {
@@ -7655,7 +7655,7 @@ var jsonstr = { list:[
     "quote": "悲悯基耶+炫酷提克威+冷傲凯特化合成一盏静美烛火，垂直俯视脆弱不堪的人际命途。听说自己误杀四名无辜者后，她的凌厉果敢瞬时分崩离析，嘴唇苍白无助地颤抖。菲莉芭与菲利普，名字都是这般天作，剃同样光头，行同样动作。大全景致天地间，两个剪影决绝相拥。有一种幸福是和你一同做亡命之徒。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p545990003.jpg",
     "douban_id": "1294387",
-    "doubandate": "2025-11-29",
+    "doubandate": "2026-11-29",
     "calendarimageurl": ""
   },
   {
@@ -7678,7 +7678,7 @@ var jsonstr = { list:[
     "quote": "有点拖沓",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p792257137.jpg",
     "douban_id": "1302827",
-    "doubandate": "2025-11-30",
+    "doubandate": "2026-11-30",
     "calendarimageurl": ""
   },
   {
@@ -7701,7 +7701,7 @@ var jsonstr = { list:[
     "quote": "肚里多了一颗胚胎，似乎穿过山洞的未来就不会孤独。胸前多了两块硅胶，仿佛镁光灯下的人生就不再艰难。三个埃斯特班的血液流经血管，女人就是有如病毒消失一样的奇迹。多羡慕只记得爱犬的老人，便不必日日被往事折磨。所有合照都缺了一块，每段记忆都丢了大半，可我还能背下整段台词，讲出多彩的一生。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2167231837.jpg",
     "douban_id": "1291937",
-    "doubandate": "2025-12-01",
+    "doubandate": "2026-12-01",
     "calendarimageurl": ""
   },
   {
@@ -7724,7 +7724,7 @@ var jsonstr = { list:[
     "quote": "豆瓣平分如此之低，怀疑我们看得是否是一部片子？",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2167964789.jpg",
     "douban_id": "6879185",
-    "doubandate": "2025-12-02",
+    "doubandate": "2026-12-02",
     "calendarimageurl": ""
   },
   {
@@ -7747,7 +7747,7 @@ var jsonstr = { list:[
     "quote": "没有在比赛最后的阶段搞出煽情女主角惊现场边，男主角原地满血复活式的桥段，是本片最值得称道的",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p453792998.jpg",
     "douban_id": "1295742",
-    "doubandate": "2025-12-03",
+    "doubandate": "2026-12-03",
     "calendarimageurl": ""
   },
   {
@@ -7770,7 +7770,7 @@ var jsonstr = { list:[
     "quote": "或许当一个导演的地位高到一定程度时大抵上就能“随心所欲不逾矩”了吧。影片前半段我还尝试着理解费里尼的世界，女权主义的兴起还是男性阉割的恐惧，越往后看就发现这根本就没有在阐述一个所谓主题，就是费大师所做的一场春梦而已，梦就连自己都无法理解，疯狂、原始而肆无忌惮。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2205143579.jpg",
     "douban_id": "1296183",
-    "doubandate": "2025-12-04",
+    "doubandate": "2026-12-04",
     "calendarimageurl": ""
   },
   {
@@ -7793,7 +7793,7 @@ var jsonstr = { list:[
     "quote": "非常有感召力的纪录片，而且我觉得恢复土壤和重新思考农业是必由之路。但是正如IMDB一个评论指出，是否真的存在这么简单直接的解决方案？再生农业多少有点回归小农的意思，产量会受到多少影响？还有额外的人力从哪里得到满足？农业的全球化是不是会最终崩解？其实我很想知道温铁军老师对这部纪录片的评价。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2618739668.jpg",
     "douban_id": "35090748",
-    "doubandate": "2025-12-05",
+    "doubandate": "2026-12-05",
     "calendarimageurl": ""
   },
   {
@@ -7816,7 +7816,7 @@ var jsonstr = { list:[
     "quote": "我看的很没劲，不知道是不是当时心态的原因。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2408623752.jpg",
     "douban_id": "1291853",
-    "doubandate": "2025-12-06",
+    "doubandate": "2026-12-06",
     "calendarimageurl": ""
   },
   {
@@ -7839,7 +7839,7 @@ var jsonstr = { list:[
     "quote": "把剧集又重述了一遍，苹果拍东西真的够无聊，功夫都花在片头上了",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2905777334.jpg",
     "douban_id": "36792089",
-    "doubandate": "2025-12-07",
+    "doubandate": "2026-12-07",
     "calendarimageurl": ""
   },
   {
@@ -7862,7 +7862,7 @@ var jsonstr = { list:[
     "quote": "娘的,这就是货真价实的喜剧片",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2399597512.jpg",
     "douban_id": "1296909",
-    "doubandate": "2025-12-08",
+    "doubandate": "2026-12-08",
     "calendarimageurl": ""
   },
   {
@@ -7885,7 +7885,7 @@ var jsonstr = { list:[
     "quote": "结尾并没有那种令人畅快淋漓的感觉，以至于等影院里的人都散场了，我还是固执地看完了那个报纸印刷过程的片尾。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p916259353.jpg",
     "douban_id": "1905786",
-    "doubandate": "2025-12-09",
+    "doubandate": "2026-12-09",
     "calendarimageurl": ""
   },
   {
@@ -7908,7 +7908,7 @@ var jsonstr = { list:[
     "quote": "能够从二战题材中挖掘到不同的材料与视角 越到结尾越是感人 表演都很不错 特别是德军长官的矛盾心理把握得很好 前面稍微有些拖 但后半部分的节奏掌握得就很恰到好处 Colin Farrell的气质的确是演Hart的不二人选 还好不是Edward Norton演的 相差挺多的",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2644482253.jpg",
     "douban_id": "1306444",
-    "doubandate": "2025-12-10",
+    "doubandate": "2026-12-10",
     "calendarimageurl": ""
   },
   {
@@ -7931,7 +7931,7 @@ var jsonstr = { list:[
     "quote": "如果你要選擇一條路，那么就選那條最難走的。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2238295864.jpg",
     "douban_id": "1303017",
-    "doubandate": "2025-12-11",
+    "doubandate": "2026-12-11",
     "calendarimageurl": ""
   },
   {
@@ -7954,7 +7954,7 @@ var jsonstr = { list:[
     "quote": "两个男人都不爱她，男爵花钱买占有欲，亚芒误会她爱钱时瞬间反目成仇当众羞辱她。只有她病重时那个默默看她，给她往钱袋里塞钱，瞒着她亚芒回来却没来看她的事实的男人，才是可以托付的好男人。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p964256918.jpg",
     "douban_id": "1294911",
-    "doubandate": "2025-12-12",
+    "doubandate": "2026-12-12",
     "calendarimageurl": ""
   },
   {
@@ -7977,7 +7977,7 @@ var jsonstr = { list:[
     "quote": "出乎意料不错。胡歌挑战新类型，一人千面过足戏瘾，靳东首长范儿非常绷得住，王凯冰山脸忠犬，琅琊榜的这道前菜也是辛辣可口，剧情跌宕，但反派双商不匹配，高手过招棋逢对手才好看嘛。其实我最喜欢看毒蜂花式虐明台，军校师生的SM日常嘤嘤嘤。（官配上线后追剧热情淡了的不是我一个吧）",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2902434043.jpg",
     "douban_id": "25994712",
-    "doubandate": "2025-12-13",
+    "doubandate": "2026-12-13",
     "calendarimageurl": ""
   },
   {
@@ -8000,7 +8000,7 @@ var jsonstr = { list:[
     "quote": "律政片中的翘楚。星光熠熠的卡司和精彩至极的辩论使得这部三小时的黑白片毫不沉闷，对历史的还原、对法律、战争和伦理的思考都不乏深度和密度。摄影和调度也是高水准——封闭空间内的长镜头和快速推拉。马克西米连·谢尔凭本片加冕影帝，名至实归。（9.0/10）",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2462065580.jpg",
     "douban_id": "1292589",
-    "doubandate": "2025-12-14",
+    "doubandate": "2026-12-14",
     "calendarimageurl": ""
   },
   {
@@ -8023,7 +8023,7 @@ var jsonstr = { list:[
     "quote": "看这种题材为什么要哭。我也不知道自己的泪点在哪里。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2517465302.jpg",
     "douban_id": "4934987",
-    "doubandate": "2025-12-15",
+    "doubandate": "2026-12-15",
     "calendarimageurl": ""
   },
   {
@@ -8046,7 +8046,7 @@ var jsonstr = { list:[
     "quote": "勿被垃圾港译名误导，此乃政治喜剧片的神作，观众如果没有对政治及1961年的历史背景有足够了解的话，是无法品味其中幽默元素的。编写剧本的作者必定是一位重视家庭价值、笃信上帝、坚信自由与正义、与邪恶拒绝妥协的福音派共和党人。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2362942062.jpg",
     "douban_id": "1298241",
-    "doubandate": "2025-12-16",
+    "doubandate": "2026-12-16",
     "calendarimageurl": ""
   },
   {
@@ -8069,7 +8069,7 @@ var jsonstr = { list:[
     "quote": "Sally Hawkins瑰宝演员，确实是段herstory，儿子们管她叫kingfinder那里看得好欣慰，寻找真相本身就是一场美丽冒险。",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2883219067.jpg",
     "douban_id": "35320263",
-    "doubandate": "2025-12-17",
+    "doubandate": "2026-12-17",
     "calendarimageurl": ""
   },
   {
@@ -8092,7 +8092,7 @@ var jsonstr = { list:[
     "quote": "为什么所有有关外星的电影都是他们比人类智慧先进呢，就不能人类更相对高级吗 什么时候能拍个人类去拯救外星人的电影啊",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2214707465.jpg",
     "douban_id": "1298405",
-    "doubandate": "2025-12-18",
+    "doubandate": "2026-12-18",
     "calendarimageurl": ""
   },
   {
@@ -8115,7 +8115,7 @@ var jsonstr = { list:[
     "quote": "#重看#人生倒计时路上的从容优雅，费里尼银幕最佳代言人的相聚；马西娜依旧精灵，马斯楚安尼依旧风流，皱纹和白发没有将他们分开，他们在各自生命里找到了最佳位置；华丽骤减，淡然涌上，不乏感伤，更多对文化速食/电视流行文化的批判，属于他的时代真的快要谢幕了，比遗作更伤感。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2510361710.jpg",
     "douban_id": "1298375",
-    "doubandate": "2025-12-19",
+    "doubandate": "2026-12-19",
     "calendarimageurl": ""
   },
   {
@@ -8138,7 +8138,7 @@ var jsonstr = { list:[
     "quote": "不由自主哭了几次，虽然结局很美好，可他还是最大的牺牲者啊。如果有来生，希望他完成自己的梦想",
     "photo": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p771490367.jpg",
     "douban_id": "1293749",
-    "doubandate": "2025-12-20",
+    "doubandate": "2026-12-20",
     "calendarimageurl": ""
   },
   {
@@ -8161,7 +8161,7 @@ var jsonstr = { list:[
     "quote": "有人在树丛里藏两天就为了看鸟，人们说这叫鸟类学，而不是傻子",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2550534680.jpg",
     "douban_id": "30205168",
-    "doubandate": "2025-12-21",
+    "doubandate": "2026-12-21",
     "calendarimageurl": ""
   },
   {
@@ -8184,7 +8184,7 @@ var jsonstr = { list:[
     "quote": "黑白分明的萌物，让人忍不住想亲吻。如此灵性而优美的生物只该属于浩瀚海洋。作为海洋之王为什么它在人类面前要温驯得像个拼命讨好的孩子？这不该是它的样子。那些害它们从小失去父母、年复一年在水族馆机械表演的人类，咬死都嫌浪费——这辈子都不想再去海洋公园了。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1991335965.jpg",
     "douban_id": "20415226",
-    "doubandate": "2025-12-22",
+    "doubandate": "2026-12-22",
     "calendarimageurl": ""
   },
   {
@@ -8207,7 +8207,7 @@ var jsonstr = { list:[
     "quote": "几个编剧的水准不在一条线上导致每集质量差距明显，然而Jean Smart nailed it in every single shot",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2670490638.jpg",
     "douban_id": "35445834",
-    "doubandate": "2025-12-23",
+    "doubandate": "2026-12-23",
     "calendarimageurl": ""
   },
   {
@@ -8230,7 +8230,7 @@ var jsonstr = { list:[
     "quote": "奥斯卡瞎了吧,去年的最佳动画居然不是他！既有情怀又有细节,不但温馨而且励志！",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1319489055.jpg",
     "douban_id": "3718457",
-    "doubandate": "2025-12-24",
+    "doubandate": "2026-12-24",
     "calendarimageurl": ""
   },
   {
@@ -8253,7 +8253,7 @@ var jsonstr = { list:[
     "quote": "雪地里打滑，看着这一幕就觉得莫名温暖；最后把戒指扔进售票口，那种乏味日常碰见闪闪发光的美好之物的惊喜啊，比当初看到帅气男神还开心；适合圣诞看的电影；",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2881980230.jpg",
     "douban_id": "1295899",
-    "doubandate": "2025-12-25",
+    "doubandate": "2026-12-25",
     "calendarimageurl": ""
   },
   {
@@ -8276,7 +8276,7 @@ var jsonstr = { list:[
     "quote": "独自坐在空荡的CINITY厅，片尾鼓了三次掌。临走时保洁大爷对我说，今天这个厅放了两遍，上一场也有两个观众也是一样。你们都是有文化的年轻人，不像我，我看了也不懂。\n他笑着，很温暖。\n我说，这是位很伟大的音乐家，去年三月离世，这是他临终前最后一场演奏会。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2907966076.jpg",
     "douban_id": "36491177",
-    "doubandate": "2025-12-26",
+    "doubandate": "2026-12-26",
     "calendarimageurl": ""
   },
   {
@@ -8299,7 +8299,7 @@ var jsonstr = { list:[
     "quote": "可怜的小蜘蛛侠 自从被漫威亲妈卖了之后就开始苦逼的童养媳生活 一部里面打三个反派还死了女票 哭瞎了 看看人家复联都是六个打一个 QAQ",
     "photo": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2179858051.jpg",
     "douban_id": "6082518",
-    "doubandate": "2025-12-27",
+    "doubandate": "2026-12-27",
     "calendarimageurl": ""
   },
   {
@@ -8322,7 +8322,7 @@ var jsonstr = { list:[
     "quote": "来，给坚持看完的同学鼓鼓掌～",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2636423304.jpg",
     "douban_id": "1294573",
-    "doubandate": "2025-12-28",
+    "doubandate": "2026-12-28",
     "calendarimageurl": ""
   },
   {
@@ -8345,7 +8345,7 @@ var jsonstr = { list:[
     "quote": "压路机和小提琴这俩玩意做隐喻太好了，既可以代入工人阶级和艺术工作者，又可以完美映衬拥有压路机的外表和小提琴般内心的俄国人。",
     "photo": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2600107278.jpg",
     "douban_id": "1308609",
-    "doubandate": "2025-12-29",
+    "doubandate": "2026-12-29",
     "calendarimageurl": ""
   },
   {
@@ -8368,7 +8368,7 @@ var jsonstr = { list:[
     "quote": "很久没那么优秀的恐怖片了。或许这么些年来，haunted house、驱魔等主题已经被拍烂了。这部影片完全依赖镜头语言，将男权主导社会所施加给女性的恐惧宣泄了出来。女主角的形象在前半段一直是神经质的，而后半段却是孤独的。这种孤独令人反思自身：或许在不知不觉中，自己也已成为了父系社会秩序的巩固者、精神碾压的施虐者。undiegetic音乐像片头的浪潮一样令人窒息心慌...前面剧情少许平缓冗长，越到后面越精彩，结局很开放。想看到更多的讨论。\n补充一下：看到不少人嫌弃女主丑，我想说在外国人的审美中不是只有身材苗条五官小巧的女人可以被认为是hot的。女主在《广告狂人》中的设定也是美人。不是说谁的审美高人一等。我个人认为女性都是有美可被发掘的，只是个人角度不同罢了。",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2624945594.jpg",
     "douban_id": "2364086",
-    "doubandate": "2025-12-30",
+    "doubandate": "2026-12-30",
     "calendarimageurl": ""
   },
   {
@@ -8391,7 +8391,7 @@ var jsonstr = { list:[
     "quote": "有些台词很好，句句是道也很戳心，尤其是：“那些飘着不回家的人，都有自己的难处，”让俺看的泪眼朦胧，真的好虐心啊。可是想想，如果真有奈何的话，又有谁愿意远走他乡，你说是不？",
     "photo": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2302930556.jpg",
     "douban_id": "26311973",
-    "doubandate": "2025-12-31",
+    "doubandate": "2026-12-31",
     "calendarimageurl": ""
   }
 ]}
